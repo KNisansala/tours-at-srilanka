@@ -38,7 +38,7 @@
         <!--  header-section end  -->
 
         <!-- banner-section start -->
-       
+
         <!-- banner-section end -->
 <!--        <section>
             <div class="container1 index-box-4-container">
@@ -425,43 +425,119 @@
                 </div> section-wrapper end 
             </div>
         </section>-->
-          <section class="about-section section-padding about-section-bg about-image">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-6">
-          <div class="content">
-            <h2 class="section-title">about Us</h2>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of the modern.</p>
-            <p>And scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting.</p>
-            <a href="#" class="cmn-button">learn more</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-         <section class="mission-vission-section">
-    <div class="container">
-      <div class="row justify-content-end">
-        <div class="col-lg-6">
-          <div class="content">
-            <h2 class="section-title">Our Mission and Vision</h2>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. The concept lorem Ipsum has been the industry standard dummy text.</p>
-            <ul class="mission-vission-list">
-              <li><i class="fa fa-check-circle"></i>Lorem ipsum nullam tortor consequat amet felis dapibus.</li>
-              <li><i class="fa fa-check-circle"></i>Non ullamcorper nisi duis ut lobortis inceptos sagittis venenatis.</li>
-              <li><i class="fa fa-check-circle"></i>Cubilia quisque velit primis rhoncus augue id consequat semper rutrum.</li>
-              <li><i class="fa fa-check-circle"></i>Donec potenti egestas quis in libero enim aliquam.</li>
-              <li><i class="fa fa-check-circle"></i>venenatis netus ultricies porta eget euismod consequat vivamus.</li>
-              <li><i class="fa fa-check-circle"></i>Auctor aptent purus condimentum curabitur.</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-        
-       
-        
+        <section class="single-banner about-banner">
+            <div class="page-breadcums">
+                <div class="container">
+                    <ul class="page-list">
+                        <li><a href="index.php">Home</a></li>
+                        <li>About us</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="banner-content-area">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-10">
+                            <div class="banner-content text-center">
+                                <h1 class="banner-title">About Us</h1>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's<br/> standard dummy text ever since the 1500s.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- banner-section end -->
+        <section class="about-section section-padding about-section-bg about-image">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="content">
+                            <h2 class="section-title">about Us</h2>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of the modern.</p>
+                            <p>And scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- welcome-section start -->
+        <section class="welcome-section section-padding section-bg">
+            <div class="container paddingtop">
+                <div class="section-header text-center">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <h2 class="section-title">Why We Are Different</h2>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="section-wrapper">
+                    <div class="row mt-mb-15 justify-content-center">
+                        <div class="col-lg-4 col-md-6">
+                            <div class="single-item-style-four">
+                                <div class="single-item-head d-flex align-items-center">
+                                    <div class="icon"><i class="fa fa-eye"></i></div>
+                                    <h5 class="item-title">Vision</h5>
+                                </div>
+                                <div class="content">
+                                    <p>It was on popularised in the 1960s with the release of Letraset sheets containing.</p>
+                                </div>
+                            </div>
+                        </div><!--benefits-item end -->
+                        <div class="col-lg-4 col-md-6">
+                            <div class="single-item-style-four">
+                                <div class="single-item-head d-flex align-items-center">
+                                    <div class="icon"><i class="fa fa-rocket"></i></div>
+                                    <h5 class="item-title">Mission</h5>
+                                </div>
+                                <div class="content">
+                                    <p>It was on popularised in the 1960s with the release of Letraset sheets containing.</p>
+                                </div>
+                            </div>
+                        </div><!--benefits-item end -->
+                        <div class="col-lg-4 col-md-6">
+                            <div class="single-item-style-four">
+                                <div class="single-item-head d-flex align-items-center">
+                                    <div class="icon"><i class="fa fa-handshake-o"></i></div>
+                                    <h5 class="item-title">Value</h5>
+                                </div>
+                                <div class="content">
+                                    <p>It was on popularised in the 1960s with the release of Letraset sheets containing.</p>
+                                </div>
+                            </div>
+                        </div><!--benefits-item end -->
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- welcome-section end -->
+
+<!--        <section class="mission-vission-section">
+            <div class="container">
+                <div class="row justify-content-end">
+                    <div class="col-lg-6">
+                        <div class="content">
+                            <h2 class="section-title">Our Mission and Vision</h2>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. The concept lorem Ipsum has been the industry standard dummy text.</p>
+                            <ul class="mission-vission-list">
+                                <li><i class="fa fa-check-circle"></i>Lorem ipsum nullam tortor consequat amet felis dapibus.</li>
+                                <li><i class="fa fa-check-circle"></i>Non ullamcorper nisi duis ut lobortis inceptos sagittis venenatis.</li>
+                                <li><i class="fa fa-check-circle"></i>Cubilia quisque velit primis rhoncus augue id consequat semper rutrum.</li>
+                                <li><i class="fa fa-check-circle"></i>Donec potenti egestas quis in libero enim aliquam.</li>
+                                <li><i class="fa fa-check-circle"></i>venenatis netus ultricies porta eget euismod consequat vivamus.</li>
+                                <li><i class="fa fa-check-circle"></i>Auctor aptent purus condimentum curabitur.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        -->
+
         <!-- footer-section start -->
         <?php include './footer.php'; ?>
         <!-- footer-section end -->
