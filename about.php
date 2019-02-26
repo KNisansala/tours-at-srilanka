@@ -7,7 +7,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title> Home Page | Tours-at-srilanka</title>
+        <title>About Us || Tours-at-srilanka</title>
         <!-- favicon -->
         <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
 
@@ -38,9 +38,9 @@
         <!--  header-section end  -->
 
         <!-- banner-section start -->
-        <?php include './slider.php'; ?>
+       
         <!-- banner-section end -->
-        <section>
+<!--        <section>
             <div class="container1 index-box-4-container">
                 <ul class="masonry row clearfix destination-gallery">
                     <li class="grid-item col-md-3 col-sm-6 index-box-4">
@@ -120,14 +120,14 @@
                     </li>
 
                 </ul>
-                <!--Masonry Grid End-->
+                Masonry Grid End
             </div>
 
-        </section>
+        </section>-->
         <!-- info-section end -->
 
         <!-- about-section start -->
-        <section class="about-section section-padding">
+<!--        <section class="about-section section-padding">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-6">
@@ -146,8 +146,8 @@
                     </div>
                 </div>
             </div>
-        </section>
-        <section class="course-section section-padding  ">
+        </section>-->
+<!--        <section class="course-section section-padding  ">
             <div class="parallax-img container-fluid-img">
                 <div class="container ">
                     <div class="section-header section-header1 text-center">
@@ -169,11 +169,11 @@
                                         <div class="course-content">
                                             <h5 class="course-title"><a href="#">Tour Package01</a></h5>
                                             <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo </p>
-        <!--                                    <a href="#" class="simple-btn">course details<i class="fa fa-long-arrow-right"></i></a>-->
+                                            <a href="#" class="simple-btn">course details<i class="fa fa-long-arrow-right"></i></a>
                                             <a href="#" class="cmn-button">learn more</a>
                                         </div>
                                     </div>
-                                </div><!-- course-item end -->
+                                </div> course-item end 
                                 <div class="col-lg-12 col-sm-6">
                                     <div class="course-item">
                                         <div class="course-thumb">
@@ -182,11 +182,11 @@
                                         <div class="course-content">
                                             <h5 class="course-title"><a href="#">Tour Package02</a></h5>
                                             <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo </p>
-                                            <!--<a href="#" class="simple-btn">course details<i class="fa fa-long-arrow-right"></i></a>-->
+                                            <a href="#" class="simple-btn">course details<i class="fa fa-long-arrow-right"></i></a>
                                             <a href="#" class="cmn-button">learn more</a>
                                         </div>
                                     </div>
-                                </div><!-- course-item end -->
+                                </div> course-item end 
                                 <div class="col-lg-12 col-sm-6">
                                     <div class="course-item">
                                         <div class="course-thumb">
@@ -195,7 +195,7 @@
                                         <div class="course-content">
                                             <h5 class="course-title"><a href="#">Tour Package03</a></h5>
                                             <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo </p>
-                                            <!--<a href="#" class="simple-btn">course details<i class="fa fa-long-arrow-right"></i></a>-->
+                                            <a href="#" class="simple-btn">course details<i class="fa fa-long-arrow-right"></i></a>
                                             <a href="#" class="cmn-button">learn more</a>
                                         </div>
                                     </div>
@@ -208,7 +208,7 @@
                                         <div class="course-content">
                                             <h5 class="course-title"><a href="#">Tour Package04</a></h5>
                                             <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo </p>
-                                            <!--<a href="#" class="simple-btn">course details<i class="fa fa-long-arrow-right"></i></a>-->
+                                            <a href="#" class="simple-btn">course details<i class="fa fa-long-arrow-right"></i></a>
                                             <a href="#" class="cmn-button">learn more</a>
                                         </div>
                                     </div>
@@ -217,11 +217,11 @@
                         </div>
                     </div>
                 </div></div>
-        </section>
+        </section>-->
         <!-- subjects-section end -->
         <!-- achievement-section start -->
 
-        <section class="coming-events-section section-padding">
+<!--        <section class="coming-events-section section-padding">
 
             <div class="container">
                 <div class="section-header text-center">
@@ -246,7 +246,7 @@
                                     <p>There are many variations of passages of lorem Ipsum majory have suffered in some by injected.</p>
                                 </div>
                             </div>
-                        </div><!-- event-item end -->
+                        </div> event-item end 
                         <div class="col-lg-6">
                             <div class="event-item item-style-three d-flex align-items-center">
                                 <div class="event-left">
@@ -259,7 +259,7 @@
                                     <p>There are many variations of passages of lorem Ipsum majory have suffered in some by injected.</p>
                                 </div>
                             </div>
-                        </div><!-- event-item end -->
+                        </div> event-item end 
                         <div class="col-lg-6">
                             <div class="event-item item-style-three d-flex align-items-center">
                                 <div class="event-left">
@@ -272,7 +272,7 @@
                                     <p>There are many variations of passages of lorem Ipsum majory have suffered in some by injected.</p>
                                 </div>
                             </div>
-                        </div><!-- event-item end -->
+                        </div> event-item end 
                         <div class="col-lg-6">
                             <div class="event-item item-style-three d-flex align-items-center">
                                 <div class="event-left">
@@ -285,17 +285,17 @@
                                     <p>There are many variations of passages of lorem Ipsum majory have suffered in some by injected.</p>
                                 </div>
                             </div>
-                        </div><!-- event-item end -->
+                        </div> event-item end 
                     </div>
                 </div>
             </div>
-        </section>
+        </section>-->
         <!-- achievement-section end -->
 
         <!-- coming-events-section start -->
 
 
-        <section class="teachers-section section-padding">
+<!--        <section class="teachers-section section-padding">
             <div class="parallax-img-destination container-fluid-img-destination"><div class="container">
 
 
@@ -319,7 +319,7 @@
                                         <a href="#" class="cmn-button destination-btn">learn more</a>
                                     </div>
                                 </div>
-                            </div><!-- teacher-single end-->
+                            </div> teacher-single end
                             <div class="col-lg-12 col-sm-6">
                                 <div class="teacher-single text-center">
                                     <div class="teacher-thumb">
@@ -330,7 +330,7 @@
                                         <a href="#" class="cmn-button destination-btn">learn more</a>
                                     </div>
                                 </div>
-                            </div><!-- teacher-single end-->
+                            </div> teacher-single end
                             <div class="col-lg-12 col-sm-6">
                                 <div class="teacher-single text-center">
                                     <div class="teacher-thumb">
@@ -341,7 +341,7 @@
                                         <a href="#" class="cmn-button destination-btn">learn more</a>
                                     </div>
                                 </div>
-                            </div><!-- teacher-single end-->
+                            </div> teacher-single end
                             <div class="col-lg-12 col-sm-6">
                                 <div class="teacher-single text-center">
                                     <div class="teacher-thumb">
@@ -352,16 +352,16 @@
                                         <a href="#" class="cmn-button destination-btn">learn more</a>
                                     </div>
                                 </div>
-                            </div><!-- teacher-single end-->
+                            </div> teacher-single end
                         </div>
                     </div>
 
                 </div>
             </div>
-        </section>
+        </section>-->
 
         <!-- coming-events-section end -->
-        <section class="testimonial-section section-padding">
+<!--        <section class="testimonial-section section-padding">
             <div class="container">
                 <div class="section-header text-center">
                     <div class="row justify-content-center">
@@ -384,7 +384,7 @@
                             <div class="testimonial-conetnt">
                                 <p>Suffered are many variation of passages  lorem availle there on alterati of some form by the injected for users.</p>
                             </div>
-                        </div><!-- testimonial-item end -->
+                        </div> testimonial-item end 
                         <div class="testimonial-item style-two">
                             <div class="testimonial-head d-flex align-items-center">
                                 <div class="thumb"><img src="assets/images/testimonial/2.png" alt="testimonial-image"></div>
@@ -396,7 +396,7 @@
                             <div class="testimonial-conetnt">
                                 <p>Suffered are many variation of passages  lorem availle there on alterati of some form by the injected for users.</p>
                             </div>
-                        </div><!-- testimonial-item end -->
+                        </div> testimonial-item end 
                         <div class="testimonial-item style-two">
                             <div class="testimonial-head d-flex align-items-center">
                                 <div class="thumb"><img src="assets/images/testimonial/3.png" alt="testimonial-image"></div>
@@ -408,7 +408,7 @@
                             <div class="testimonial-conetnt">
                                 <p>Suffered are many variation of passages  lorem availle there on alterati of some form by the injected for users.</p>
                             </div>
-                        </div><!-- testimonial-item end -->
+                        </div> testimonial-item end 
                         <div class="testimonial-item style-two">
                             <div class="testimonial-head d-flex align-items-center">
                                 <div class="thumb"><img src="assets/images/testimonial/1.png" alt="testimonial-image"></div>
@@ -420,11 +420,48 @@
                             <div class="testimonial-conetnt">
                                 <p>Suffered are many variation of passages  lorem availle there on alterati of some form by the injected for users.</p>
                             </div>
-                        </div><!-- testimonial-item end -->
+                        </div> testimonial-item end 
                     </div>
-                </div><!-- section-wrapper end -->
+                </div> section-wrapper end 
             </div>
-        </section>
+        </section>-->
+          <section class="about-section section-padding about-section-bg about-image">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="content">
+            <h2 class="section-title">about Us</h2>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of the modern.</p>
+            <p>And scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting.</p>
+            <a href="#" class="cmn-button">learn more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+         <section class="mission-vission-section">
+    <div class="container">
+      <div class="row justify-content-end">
+        <div class="col-lg-6">
+          <div class="content">
+            <h2 class="section-title">Our Mission and Vision</h2>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. The concept lorem Ipsum has been the industry standard dummy text.</p>
+            <ul class="mission-vission-list">
+              <li><i class="fa fa-check-circle"></i>Lorem ipsum nullam tortor consequat amet felis dapibus.</li>
+              <li><i class="fa fa-check-circle"></i>Non ullamcorper nisi duis ut lobortis inceptos sagittis venenatis.</li>
+              <li><i class="fa fa-check-circle"></i>Cubilia quisque velit primis rhoncus augue id consequat semper rutrum.</li>
+              <li><i class="fa fa-check-circle"></i>Donec potenti egestas quis in libero enim aliquam.</li>
+              <li><i class="fa fa-check-circle"></i>venenatis netus ultricies porta eget euismod consequat vivamus.</li>
+              <li><i class="fa fa-check-circle"></i>Auctor aptent purus condimentum curabitur.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+        
+       
+        
         <!-- footer-section start -->
         <?php include './footer.php'; ?>
         <!-- footer-section end -->

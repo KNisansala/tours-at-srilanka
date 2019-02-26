@@ -182,7 +182,7 @@ select, input, textarea, figure, .title, .thumb, .title a, .absolute, .read-more
 .destination-thumb-3 .text.absolute:hover {
     opacity: 1;
     transition-duration: 500ms;
-    
+
 
 }
 
@@ -209,3 +209,12 @@ select, input, textarea, figure, .title, .thumb, .title a, .absolute, .read-more
     padding-top: 50px;
 }
 
+/*=========About Us=============*/
+.about-image{
+/*    background-image: url("../images/banner/-617693116_190585447790_1543400368_n.jpg");
+    background-position: right;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 165px;
+    padding-bottom: 145px;*/
+}

@@ -44,13 +44,13 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav main-menu ml-auto">
                 <li class="menu_has_children"><a href="#">Home</a>
-                  <ul class="sub-menu">
+<!--                  <ul class="sub-menu">
                     <li><a href="home-one.html">Home One</a></li>
                     <li><a href="home-two.html">Home Two</a></li>
                     <li><a href="home-three.html">Home there</a></li>
-                  </ul>
+                  </ul>-->
                 </li>
-                <li><a href="demo/about-us.html">About Us</a>
+                <li><a href="about.php">About Us</a>
                 <li class="menu_has_children"><a href="#">Tour Package</a>
 
                 </li>
