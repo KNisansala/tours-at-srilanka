@@ -225,3 +225,7 @@ select, input, textarea, figure, .title, .thumb, .title a, .absolute, .read-more
 .section-padding {
     padding-top: 100px;
 }
+
+.page-list li {
+z-index: 9999;
+}

@@ -37,7 +37,7 @@
             <div class="page-breadcums">
                 <div class="container">
                     <ul class="page-list">
-                        <li><a href="home-one.html">Home</a></li>
+                        <li><a href="index.php">Home</a></li>
                         <li>contact us one</li>
                     </ul>
                 </div>
