@@ -49,13 +49,13 @@
                                                 <li><a href="home-three.html">Home there</a></li>
                                               </ul>-->
                         </li>
-                        <li><a href="about.php">About Us</a>
+                        <li class="menu_has_children"><a href="about.php">About Us</a>
                         <li class="menu_has_children"><a href="#">Tour Package</a></li>
                         <li class="menu_has_children"><a href="#">Gallery</a></li>
                         <li class="menu_has_children"><a href="#">Attractions</a></li>
                         <li class="menu_has_children"><a href="#">Activities</a></li>
                         <li class="menu_has_children"><a href="#">Service</a></li>
-                        <li class="menu_has_children"><a href="#">Contact Us</a></li>
+                        <li class="menu_has_children"><a href="contact-us.php">Contact Us</a></li>
                 </div>
             </nav>
         </div>
