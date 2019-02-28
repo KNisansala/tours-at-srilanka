@@ -51,7 +51,7 @@
                         </li>
                         <li class="menu_has_children"><a href="about.php">About Us</a>
                         <li class="menu_has_children"><a href="tour-package.php">Tour Package</a></li>
-                        <li class="menu_has_children"><a href="#">Gallery</a></li>
+                        <li class="menu_has_children"><a href="gallery.php">Gallery</a></li>
                         <li class="menu_has_children"><a href="#">Attractions</a></li>
                         <li class="menu_has_children"><a href="#">Activities</a></li>
                         <li class="menu_has_children"><a href="#">Service</a></li>

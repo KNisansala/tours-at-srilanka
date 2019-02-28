@@ -24,7 +24,6 @@
         <link rel="stylesheet" href="css-1/rev-settings.css" type="text/css">
         <!--<link href="fontawesome/css/all.css" rel="stylesheet" type="text/css"/>-->
         <link href="font-awesome-4.7.0/css/font-awesome.css" rel="stylesheet" type="text/css"/>
-        <link href="font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
     </head>
 
     <body>
@@ -577,7 +576,7 @@
         <script src="rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
         <script src="rs-plugin/js/custom.js" type="text/javascript"></script>
         <script src="rs-plugin/js/on3step.js" type="text/javascript"></script>
-        <script src="js/slider.js" type="text/javascript"></script>
+       
     </body>
 
 </html>
