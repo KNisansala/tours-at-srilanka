@@ -227,5 +227,74 @@ select, input, textarea, figure, .title, .thumb, .title a, .absolute, .read-more
 }
 
 .page-list li {
-z-index: 9999;
+    z-index: 9999;
+}
+
+.service-area.style-two {
+    padding: 95px 0 70px 0;
+}
+.service-area {
+    padding: 95px 0 100px 0;
+    position: relative;
+    z-index: 0;
+}
+.gray-bg {
+    background-color: #f8f8f8;
+}
+
+.single-service-item-two:hover {
+    background-image: -moz-linear-gradient(0deg, #1531a9 0%, #6737f1 100%);
+    background-image: -webkit-linear-gradient(0deg, #1531a9 0%, #6737f1 100%);
+    background-image: -ms-linear-gradient(0deg, #1531a9 0%, #6737f1 100%);
+}
+.single-service-item-two {
+    text-align: center;
+    -webkit-box-shadow: 0px 10px 40px 0px rgba(0, 0, 0, 0.09);
+    box-shadow: 0px 10px 40px 0px rgba(0, 0, 0, 0.09);
+    padding: 52px 30px 50px 30px;
+    margin-bottom: 30px;
+    background-color: #fff;
+}
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    outline: none;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+}
+
+[class^="flaticon-"]::before, [class*=" flaticon-"]::before, [class^="flaticon-"]::after, [class*=" flaticon-"]::after {
+    font-family: Flaticon;
+    font-size: inherit;
+    font-style: normal;
+}
+.flaticon-sketch::before {
+    content: "\f106";
+}
+element {
+}
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    outline: none;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+}
+
+.single-service-item-two .icon {
+    font-size: 50px;
+    line-height: 60px;
+    color: #fb770c;
+    margin-bottom: 18px;
+}
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    outline: none;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+}
+
+.align{
+    text-align: center;
 }
