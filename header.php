@@ -53,7 +53,7 @@
                         <li class="menu_has_children"><a href="tour-package.php">Tour Package</a></li>
                         <li class="menu_has_children"><a href="gallery.php">Gallery</a></li>
                         <li class="menu_has_children"><a href="attraction.php">Attractions</a></li>
-                        <li class="menu_has_children"><a href="#">Activities</a></li>
+                        <li class="menu_has_children"><a href="activities.php">Activities</a></li>
                         <li class="menu_has_children"><a href="#">Service</a></li>
                         <li class="menu_has_children"><a href="contact-us.php">Contact Us</a></li>
                 </div>
