@@ -53,7 +53,7 @@
                         <div class="col-lg-10">
                             <div class="banner-content text-center">
                                 <h1 class="banner-title">Tour Package</h1>
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's<br/> standard dummy text ever since the 1500s.</p>
+                                <p class="text-center">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's<br/> standard dummy text ever since the 1500s.</p>
 
                             </div>
                         </div>
@@ -77,7 +77,7 @@
                                 <div class="course-content">
                                     <h5 class="course-title"><a href="#">International Communication</a></h5>
                                     <p>Many desktop publishing packages and web on page editors now use lorem Ipsum </p>
-                                    <a href="#" class="simple-btn">Tour details<i class="fa fa-long-arrow-right"></i></a>
+                                    <a href="view-tour-packages.php" class="simple-btn">Tour details<i class="fa fa-long-arrow-right"></i></a>
                                 </div>
                                 <div class="course-item-bottom">
                                     <ul class="course-review-list d-flex">

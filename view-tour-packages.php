@@ -7,7 +7,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>Service || Tours-at-srilanka</title>
+        <title>About Us || Tours-at-srilanka</title>
         <!-- favicon -->
         <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
 
@@ -35,12 +35,14 @@
         <!--  header-section start  -->
         <?php include './header.php'; ?>
         <!--  header-section end  -->
-        <section class="single-banner about-banner">
+
+        <!-- banner-section start -->
+        <section class="single-banner course-grid-two-banner">
             <div class="page-breadcums">
                 <div class="container">
                     <ul class="page-list">
                         <li><a href="index.php">Home</a></li>
-                        <li>Service</li>
+                        <li>View Tour Package</li>
                     </ul>
                 </div>
             </div>
@@ -49,89 +51,77 @@
                     <div class="row justify-content-center">
                         <div class="col-lg-10">
                             <div class="banner-content text-center">
-                                <h1 class="banner-title">Service</h1>
+                                <h1 class="banner-title">view Tour Package</h1>
                                 <p class="text-center">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's<br/> standard dummy text ever since the 1500s.</p>
+
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <section class="service-area gray-bg style-two">
-            <div class="container">
+        <!-- banner-section end -->
+
+        <section>
+            <div class="col-md-8 col-sm-12 col-xs-12 back">
+                <?php
+//                        foreach ($tour_dates as $tour_date) {
+//                            dd($tour_date['title']);
+                ?>
+
                 <div class="row">
 
-                    <div class="col-lg-4 col-md-6">
-                        <div class="single-service-item-two"><!-- single service item -->
-                            <div class="icon">
-                                <i class="fa fa-rocket"></i>
-                            </div>
-                            <div class="content">
-                                <h4 class="title align"><a href="#">Modern Design</a></h4>
-                                <p>There are many variations of passages of Lorem Ipsum available but the majority it a have suffered.</p>
-                            </div>
-                        </div><!-- //. single service item -->
-                    </div>
-                    <div class="col-lg-4 col-md-6">
-                        <div class="single-service-item-two"><!-- single service item -->
-                            <div class="icon">
-                                <i class="fa fa-rocket"></i>
-                            </div>
-                            <div class="content">
-                                <h4 class="title align"><a href="#">Modern Design</a></h4>
-                                <p>There are many variations of passages of Lorem Ipsum available but the majority it a have suffered.</p>
-                            </div>
-                        </div><!-- //. single service item -->
-                    </div>
-                    <div class="col-lg-4 col-md-6">
-                        <div class="single-service-item-two"><!-- single service item -->
-                            <div class="icon">
-                                <i class="fa fa-rocket"></i>
-                            </div>
-                            <div class="content">
-                                <h4 class="title align"><a href="#">Modern Design</a></h4>
-                                <p>There are many variations of passages of Lorem Ipsum available but the majority it a have suffered.</p>
-                            </div>
-                        </div><!-- //. single service item -->
-                    </div>
-                    <div class="col-lg-4 col-md-6">
-                        <div class="single-service-item-two"><!-- single service item -->
-                            <div class="icon">
-                                <i class="fa fa-rocket"></i>
-                            </div>
-                            <div class="content">
-                                <h4 class="title align"><a href="#">Modern Design</a></h4>
-                                <p>There are many variations of passages of Lorem Ipsum available but the majority it a have suffered.</p>
-                            </div>
-                        </div><!-- //. single service item -->
-                    </div>
-                    <div class="col-lg-4 col-md-6">
-                        <div class="single-service-item-two"><!-- single service item -->
-                            <div class="icon">
-                                <i class="fa fa-rocket"></i>
-                            </div>
-                            <div class="content">
-                                <h4 class="title align"><a href="#">Modern Design</a></h4>
-                                <p>There are many variations of passages of Lorem Ipsum available but the majority it a have suffered.</p>
-                            </div>
-                        </div><!-- //. single service item -->
-                    </div>
-                    <div class="col-lg-4 col-md-6">
-                        <div class="single-service-item-two"><!-- single service item -->
-                            <div class="icon">
-                                <i class="fa fa-rocket"></i>
-                            </div>
-                            <div class="content">
-                                <h4 class="title align"><a href="#">Modern Design</a></h4>
-                                <p>There are many variations of passages of Lorem Ipsum available but the majority it a have suffered.</p>
-                            </div>
-                        </div><!-- //. single service item -->
-                    </div>
+                    <div class="col-md-12 " data-animation="fadeInUp" data-time="300">
+                        <h2 class="big-heading">
+                            Day <span class="daySty"> 
+                                <?php // echo $tour_date['title']; ?>
+                            </span>
+                        </h2>
+                        <span class ="hearderline"></span>
+                        <p>
 
+                            <?php // echo $tour_date['description']; ?>
+                        </p>
+                    </div>
+                    <div class="col-md-12 col-margin">
+                        <div class="sideimg">
+                            <?php
+//                                        $photos = TourDatePhoto::getTourDatePhotosById($tour_date['id']);
+//                                        foreach ($photos as $key => $photo) {
+//                                            if ($key < 4) {
+                            ?>
+
+
+                            <div class="col-md-3 col-sm-3 col-xs-12  ">
+                                <figure>
+                                    <a class="" href="upload/tour-package/date/gallery/<?php echo $photo['image_name']; ?>" class="" data-fancybox="images" >
+                                        <figcaption>
+                                            <i class="fa fa-search" style="font-size:30px;color:#ffff;"></i>
+                                        </figcaption>
+
+                                        <img src="upload/tour-package/date/gallery/thumb/<?php echo $photo['image_name']; ?>" alt=""/>
+                                    </a>
+                                </figure>
+                            </div>
+                            <?php
+//                                            }
+//                                        }
+                            ?>
+                        </div>
+                    </div>
+                </div>
+                <?php
+//                        }
+                ?>
+                <div class="col-md-12 header-top-right text-center booknow">
+                    <div class="book-tab">
+                        <div class="book-btn1 booknow ">
+                            <a href="booking.php?tour=<?php // echo $TOUR->id;   ?>">Book Now</a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
-
         <!-- footer-section start -->
         <?php include './footer.php'; ?>
         <!-- footer-section end -->
