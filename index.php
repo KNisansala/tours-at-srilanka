@@ -147,7 +147,7 @@
                 </div>
             </div>
         </section>
-        <section class="course-section section-padding  ">
+        <section class="course-section section-padding">
             <div class="parallax-img container-fluid-img">
                 <div class="container ">
                     <div class="section-header section-header1 text-center">

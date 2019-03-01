@@ -76,7 +76,7 @@
                                 <div class="course-content">
                                     <h5 class="course-title"><a href="#">Medicine and Health</a></h5>
                                     <p>Many desktop publishing packages and web on page editors now use lorem Ipsum </p>
-                                    <a href="#" class="simple-btn">Read More<i class="fa fa-long-arrow-right"></i></a>
+                                    <a href="view-activities.php" class="simple-btn">Read More<i class="fa fa-long-arrow-right"></i></a>
                                 </div>
                             </div>
                         </div><!-- course-item end -->
@@ -88,7 +88,7 @@
                                 <div class="course-content">
                                     <h5 class="course-title"><a href="#">Marketing Strategy</a></h5>
                                     <p>Many desktop publishing packages and web on page editors now use lorem Ipsum </p>
-                                    <a href="#" class="simple-btn">Read More<i class="fa fa-long-arrow-right"></i></a>
+                                    <a href="view-activities.php" class="simple-btn">Read More<i class="fa fa-long-arrow-right"></i></a>
                                 </div>
                             </div>
                         </div><!-- course-item end -->
@@ -100,7 +100,7 @@
                                 <div class="course-content">
                                     <h5 class="course-title"><a href="#">Computer Science Engineering</a></h5>
                                     <p>Many desktop publishing packages and web on page editors now use lorem Ipsum </p>
-                                    <a href="#" class="simple-btn">Read More<i class="fa fa-long-arrow-right"></i></a>
+                                    <a href="view-activities.php" class="simple-btn">Read More<i class="fa fa-long-arrow-right"></i></a>
                                 </div>
                             </div>
                         </div><!-- course-item end -->
@@ -112,7 +112,7 @@
                                 <div class="course-content">
                                     <h5 class="course-title"><a href="#">Journalism and Media</a></h5>
                                     <p>Many desktop publishing packages and web on page editors now use lorem Ipsum </p>
-                                    <a href="#" class="simple-btn">Read More<i class="fa fa-long-arrow-right"></i></a>
+                                    <a href="view-activities.php" class="simple-btn">Read More<i class="fa fa-long-arrow-right"></i></a>
                                 </div>
                             </div>
                         </div><!-- course-item end -->
@@ -124,7 +124,7 @@
                                 <div class="course-content">
                                     <h5 class="course-title"><a href="#">International Communication</a></h5>
                                     <p>Many desktop publishing packages and web on page editors now use lorem Ipsum </p>
-                                    <a href="#" class="simple-btn">Read More<i class="fa fa-long-arrow-right"></i></a>
+                                    <a href="view-activities.php" class="simple-btn">Read More<i class="fa fa-long-arrow-right"></i></a>
                                 </div>
                             </div>
                         </div><!-- course-item end -->
@@ -136,7 +136,7 @@
                                 <div class="course-content">
                                     <h5 class="course-title"><a href="#">Principle of Accounting</a></h5>
                                     <p>Many desktop publishing packages and web on page editors now use lorem Ipsum </p>
-                                    <a href="#" class="simple-btn">Read More<i class="fa fa-long-arrow-right"></i></a>
+                                    <a href="view-activities.php" class="simple-btn">Read More<i class="fa fa-long-arrow-right"></i></a>
                                 </div>
                             </div>
                         </div><!-- course-item end -->
@@ -148,7 +148,7 @@
                                 <div class="course-content">
                                     <h5 class="course-title"><a href="#">Medicine and Pharmacy</a></h5>
                                     <p>Many desktop publishing packages and web on page editors now use lorem Ipsum </p>
-                                    <a href="#" class="simple-btn">Read More<i class="fa fa-long-arrow-right"></i></a>
+                                    <a href="view-activities.php" class="simple-btn">Read More<i class="fa fa-long-arrow-right"></i></a>
                                 </div>
                             </div>
                         </div><!-- course-item end -->
@@ -160,7 +160,7 @@
                                 <div class="course-content">
                                     <h5 class="course-title"><a href="#">Cloud Data Management</a></h5>
                                     <p>Many desktop publishing packages and web on page editors now use lorem Ipsum </p>
-                                    <a href="#" class="simple-btn">Read More<i class="fa fa-long-arrow-right"></i></a>
+                                    <a href="view-activities.php" class="simple-btn">Read More<i class="fa fa-long-arrow-right"></i></a>
                                 </div>
                             </div>
                         </div><!-- course-item end -->
@@ -172,7 +172,7 @@
                                 <div class="course-content">
                                     <h5 class="course-title"><a href="#">Product Design and Analysis</a></h5>
                                     <p>Many desktop publishing packages and web on page editors now use lorem Ipsum </p>
-                                    <a href="#" class="simple-btn">Read More<i class="fa fa-long-arrow-right"></i></a>
+                                    <a href="view-activities.php" class="simple-btn">Read More<i class="fa fa-long-arrow-right"></i></a>
                                 </div>
                             </div>
                         </div><!-- course-item end -->
