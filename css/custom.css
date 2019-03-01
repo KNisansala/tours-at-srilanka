@@ -298,3 +298,17 @@ element {
 .align{
     text-align: center;
 }
+/*======Tour Packages=====*/
+.tour-package-content p{
+    /*padding-bottom: 19px;*/
+   
+}
+.btn-position{
+    /*margin-top: 54px;*/
+}
+.comment-box{
+  height: 488px;  
+}
+.tour-1 a{
+    padding-bottom: 5px;
+}

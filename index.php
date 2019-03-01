@@ -1,4 +1,6 @@
-<?php ?>
+<?php
+include_once(dirname(__FILE__) . '/class/include.php');
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -150,6 +152,7 @@
         <section class="course-section section-padding">
             <div class="parallax-img container-fluid-img">
                 <div class="container ">
+
                     <div class="section-header section-header1 text-center">
                         <div class="row justify-content-center">
                             <div class="col-lg-8">
@@ -161,62 +164,46 @@
                     <div >
                         <div class="section-wrapper">
                             <div class="row mt-mb-15 owl-carousel owl-carousel2  owl-theme" >
-                                <div class="col-lg-12 col-sm-6">
-                                    <div class="course-item">
-                                        <div class="course-thumb">
-                                            <a href="#"><img src="images/banner/-609234620_190593906286_1544488580_n.jpg" alt="course-thumb"></a>
-                                        </div>
-                                        <div class="course-content">
-                                            <h5 class="course-title"><a href="#">Tour Package01</a></h5>
-                                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo </p>
-        <!--                                    <a href="#" class="simple-btn">course details<i class="fa fa-long-arrow-right"></i></a>-->
-                                            <a href="#" class="cmn-button">learn more</a>
-                                        </div>
-                                    </div>
-                                </div><!-- course-item end -->
-                                <div class="col-lg-12 col-sm-6">
-                                    <div class="course-item">
-                                        <div class="course-thumb">
-                                            <a href="#"><img src="images/banner/-462665276_190740475630_1544518168_n.jpg" alt="course-thumb"></a>
-                                        </div>
-                                        <div class="course-content">
-                                            <h5 class="course-title"><a href="#">Tour Package02</a></h5>
-                                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo </p>
-                                            <!--<a href="#" class="simple-btn">course details<i class="fa fa-long-arrow-right"></i></a>-->
-                                            <a href="#" class="cmn-button">learn more</a>
-                                        </div>
-                                    </div>
-                                </div><!-- course-item end -->
-                                <div class="col-lg-12 col-sm-6">
-                                    <div class="course-item">
-                                        <div class="course-thumb">
-                                            <a href="#"><img src="images/banner/-29533959_191173606947_1544489383_n.jpg" alt="course-thumb"></a>
-                                        </div>
-                                        <div class="course-content">
-                                            <h5 class="course-title"><a href="#">Tour Package03</a></h5>
-                                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo </p>
-                                            <!--<a href="#" class="simple-btn">course details<i class="fa fa-long-arrow-right"></i></a>-->
-                                            <a href="#" class="cmn-button">learn more</a>
+                                <?php
+                                $TOUR_PACKAGE = TourPackage::all();
+                                foreach ($TOUR_PACKAGE as $key => $info) {
+                                    if ($key < 6) {
+                                   ?>
+                                    <div class="col-lg-12 col-sm-6">
+                                        <div class="course-item">
+                                            <div class="course-thumb">
+                                                <a href="tour-package.php"><img src="upload/tour-package/<?php echo $info ['image_name']; ?>" alt=""></a>
+                                            </div>
+                                            <div class="course-content tour-package-content">
+                                                <h5 class="course-title tour-1">
+                                                    <a href="tour-package.php?id=<?php echo $info['id']; ?>"><?php echo $info['title']; ?></a>
+                                                </h5>
+
+                                                <p>
+                                                    <?php
+                                                    if (strlen($info['short_description']) > 100) {
+                                                        echo substr($info['short_description'], 0, 100) . '...';
+                                                    } else {
+                                                        echo $info['short_description'];
+                                                    }
+                                                    ?>
+                                                </p>
+
+                                                <a href="#" class="cmn-button btn-position">learn more</a>
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="col-lg-12 col-sm-6">
-                                    <div class="course-item">
-                                        <div class="course-thumb">
-                                            <a href="#"><img src="images/banner/-462665276_190740475630_1544518168_n.jpg" alt="course-thumb"></a>
-                                        </div>
-                                        <div class="course-content">
-                                            <h5 class="course-title"><a href="#">Tour Package04</a></h5>
-                                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo </p>
-                                            <!--<a href="#" class="simple-btn">course details<i class="fa fa-long-arrow-right"></i></a>-->
-                                            <a href="#" class="cmn-button">learn more</a>
-                                        </div>
-                                    </div>
-                                </div>
+
+                                    <?php
+                                } 
+                                }
+                                ?>
                             </div>
                         </div>
                     </div>
-                </div></div>
+
+                </div>
+            </div>
         </section>
         <!-- subjects-section end -->
         <!-- achievement-section start -->
@@ -234,58 +221,37 @@
                 </div>
                 <div class="section-wrapper">
                     <div class="row mt-mb-10">
-                        <div class="col-lg-6">
-                            <div class="event-item item-style-three d-flex align-items-center">
-                                <div class="event-left">
-                                    <div class="event-thumb activities">
-                                        <img src="images/activities/1470385824_snorkeling-in-sri-lanka-4.jpg.jpg" alt="event-image">
+                        <?php
+                        $ACTIVITY = Activities::all();
+                        foreach ($ACTIVITY as $key => $info) {
+                            if ($key < 6) {
+                                ?>
+                                <div class="col-lg-6">
+                                    <div class="event-item item-style-three d-flex align-items-center">
+                                        <div class="event-left">
+                                            <div class="event-thumb activities">
+                                                <img src="upload/activity/<?php echo $info['image_name']; ?>" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="event-content">
+                                            <h4 class="event-title"><?php echo $info['title']; ?></h4>
+                                            <p>
+                                                <?php
+                                                if (strlen($info['short_description']) > 150) {
+                                                    echo substr($info['short_description'], 0, 150) . '...';
+                                                } else {
+                                                    echo $info['short_description'];
+                                                }
+                                                ?>
+                                            </p>
+                                        </div>
                                     </div>
                                 </div>
-                                <div class="event-content">
-                                    <h4 class="event-title">Diving</h4>
-                                    <p>There are many variations of passages of lorem Ipsum majory have suffered in some by injected.</p>
-                                </div>
-                            </div>
-                        </div><!-- event-item end -->
-                        <div class="col-lg-6">
-                            <div class="event-item item-style-three d-flex align-items-center">
-                                <div class="event-left">
-                                    <div class="event-thumb activities">
-                                        <img src="images/activities/Jet-Skier.jpg" alt="event-image">
-                                    </div>
-                                </div>
-                                <div class="event-content">
-                                    <h4 class="event-title">Jet Sky</h4>
-                                    <p>There are many variations of passages of lorem Ipsum majory have suffered in some by injected.</p>
-                                </div>
-                            </div>
-                        </div><!-- event-item end -->
-                        <div class="col-lg-6">
-                            <div class="event-item item-style-three d-flex align-items-center">
-                                <div class="event-left">
-                                    <div class="event-thumb activities">
-                                        <img src="images/activities/Kitulgala Water rafting.jpg" alt="event-image">
-                                    </div>
-                                </div>
-                                <div class="event-content">
-                                    <h4 class="event-title">Rafting</h4>
-                                    <p>There are many variations of passages of lorem Ipsum majory have suffered in some by injected.</p>
-                                </div>
-                            </div>
-                        </div><!-- event-item end -->
-                        <div class="col-lg-6">
-                            <div class="event-item item-style-three d-flex align-items-center">
-                                <div class="event-left">
-                                    <div class="event-thumb activities">
-                                        <img src="images/activities/Women-Kite-Surfing-On-Beach-Photos.jpg" alt="event-image">
-                                    </div>
-                                </div>
-                                <div class="event-content">
-                                    <h4 class="event-title">Surfing</h4>
-                                    <p>There are many variations of passages of lorem Ipsum majory have suffered in some by injected.</p>
-                                </div>
-                            </div>
-                        </div><!-- event-item end -->
+
+                                <?php
+                            }
+                        }
+                        ?>
                     </div>
                 </div>
             </div>
@@ -297,62 +263,37 @@
 
         <section class="teachers-section section-padding">
             <div class="parallax-img-destination container-fluid-img-destination"><div class="container">
-
-
                     <div class="section-header section-header1 text-center">
                         <div class="row justify-content-center">
                             <div class="col-lg-8">
-                                <h2 class="section-title">Destinations</h2>
+                                <h2 class="section-title">Attraction</h2>
                                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text</p>
                             </div>
                         </div>
                     </div>
                     <div class="section-wrapper">
                         <div class="row mt-mb-15   owl-carousel owl-carousel2  owl-theme" >
-                            <div class="col-lg-12 col-sm-6">
-                                <div class="teacher-single text-center">
-                                    <div class="teacher-thumb">
-                                        <img src="images/banner/sigiriya-4.jpg" alt="teacher-image">
-                                    </div>
-                                    <div class="teacher-content">
-                                        <h4 class="teacher-name"><a href="#">Sigiriya</a></h4>
-                                        <a href="#" class="cmn-button destination-btn">learn more</a>
-                                    </div>
-                                </div>
-                            </div><!-- teacher-single end-->
-                            <div class="col-lg-12 col-sm-6">
-                                <div class="teacher-single text-center">
-                                    <div class="teacher-thumb">
-                                        <img src="images/banner/36972092396_bd11b0ab96_b.jpg" alt="teacher-image">
-                                    </div>
-                                    <div class="teacher-content">
-                                        <h4 class="teacher-name"><a href="#">Ella</a></h4>
-                                        <a href="#" class="cmn-button destination-btn">learn more</a>
+                            <?php
+                            $ATTRACTION = Attraction::all();
+                            foreach ($ATTRACTION as $info) {
+                                ?>
+                                <div class="col-lg-12 col-sm-6">
+                                    <div class="teacher-single text-center">
+                                        <div class="teacher-thumb">
+                                            <!--<img src="images/banner/sigiriya-4.jpg" alt="teacher-image">-->
+                                            <img src="upload/attraction/<?php echo $info['image_name']; ?>" alt="">
+                                        </div>
+                                        <div class="teacher-content">
+                                            <!--<h4 class="teacher-name"><a href="#">Sigiriya</a></h4>-->
+                                            <h4 class="teacher-name"><a href="attraction.php?id=<?php echo $info['id']; ?>"><?php echo $info['title']; ?></a></h4>
+                                            <a href="#" class="cmn-button destination-btn">learn more</a>
+                                        </div>
                                     </div>
                                 </div>
-                            </div><!-- teacher-single end-->
-                            <div class="col-lg-12 col-sm-6">
-                                <div class="teacher-single text-center">
-                                    <div class="teacher-thumb">
-                                        <img src="images/banner/beach-bbq-dinning.jpg" alt="teacher-image">
-                                    </div>
-                                    <div class="teacher-content">
-                                        <h4 class="teacher-name"><a href="#">Nilaveli</a></h4>
-                                        <a href="#" class="cmn-button destination-btn">learn more</a>
-                                    </div>
-                                </div>
-                            </div><!-- teacher-single end-->
-                            <div class="col-lg-12 col-sm-6">
-                                <div class="teacher-single text-center">
-                                    <div class="teacher-thumb">
-                                        <img src="images/banner/Dondra-Head-Lighthouse.jpg" alt="teacher-image">
-                                    </div>
-                                    <div class="teacher-content">
-                                        <h4 class="teacher-name"><a href="#">Galle</a></h4>
-                                        <a href="#" class="cmn-button destination-btn">learn more</a>
-                                    </div>
-                                </div>
-                            </div><!-- teacher-single end-->
+
+                                <?php
+                            }
+                            ?>
                         </div>
                     </div>
 
@@ -373,54 +314,26 @@
                 </div>
                 <div class="section-wrapper">
                     <div class="owl-carousel1 owl-carousel testmonial-slider">
-                        <div class="testimonial-item style-two">
-                            <div class="testimonial-head d-flex align-items-center">
-                                <div class="thumb"><img src="assets/images/testimonial/1.png" alt="testimonial-image"></div>
-                                <div class="client-details">
-                                    <h4 class="name">Muktasina Islam</h4>
-                                    <span class="designation">USA</span>
+                        <?php
+                        $COMMENT = Comments::all();
+                        foreach ($COMMENT as $info) {
+                            ?>
+                            <div class="testimonial-item style-two comment-box">
+                                <div class="testimonial-head d-flex align-items-center">
+                                    <div class="thumb"><img src="upload/comments/<?php echo $info['image_name']; ?>" alt=""></div>
+                                    <div class="client-details">
+                                        <h4 class="name"><?php echo $info['name']; ?></h4>
+                                        <span class="designation"><?php echo $info['title']; ?></span>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="testimonial-conetnt">
-                                <p>Suffered are many variation of passages  lorem availle there on alterati of some form by the injected for users.</p>
-                            </div>
-                        </div><!-- testimonial-item end -->
-                        <div class="testimonial-item style-two">
-                            <div class="testimonial-head d-flex align-items-center">
-                                <div class="thumb"><img src="assets/images/testimonial/2.png" alt="testimonial-image"></div>
-                                <div class="client-details">
-                                    <h4 class="name">Hasibur Rahman</h4>
-                                    <span class="designation">Australia</span>
+                                <div class="testimonial-conetnt">
+                                    <p><?php echo $info['comment']; ?></p>
                                 </div>
-                            </div>
-                            <div class="testimonial-conetnt">
-                                <p>Suffered are many variation of passages  lorem availle there on alterati of some form by the injected for users.</p>
-                            </div>
-                        </div><!-- testimonial-item end -->
-                        <div class="testimonial-item style-two">
-                            <div class="testimonial-head d-flex align-items-center">
-                                <div class="thumb"><img src="assets/images/testimonial/3.png" alt="testimonial-image"></div>
-                                <div class="client-details">
-                                    <h4 class="name">Sumayea Islam</h4>
-                                    <span class="designation">Arabic</span>
-                                </div>
-                            </div>
-                            <div class="testimonial-conetnt">
-                                <p>Suffered are many variation of passages  lorem availle there on alterati of some form by the injected for users.</p>
-                            </div>
-                        </div><!-- testimonial-item end -->
-                        <div class="testimonial-item style-two">
-                            <div class="testimonial-head d-flex align-items-center">
-                                <div class="thumb"><img src="assets/images/testimonial/1.png" alt="testimonial-image"></div>
-                                <div class="client-details">
-                                    <h4 class="name">Muktasina Islam</h4>
-                                    <span class="designation">Japan</span>
-                                </div>
-                            </div>
-                            <div class="testimonial-conetnt">
-                                <p>Suffered are many variation of passages  lorem availle there on alterati of some form by the injected for users.</p>
-                            </div>
-                        </div><!-- testimonial-item end -->
+                            </div><!-- testimonial-item end -->
+
+                            <?php
+                        }
+                        ?>
                     </div>
                 </div><!-- section-wrapper end -->
             </div>
