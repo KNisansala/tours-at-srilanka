@@ -25,10 +25,10 @@
         <!--<link href="fontawesome/css/all.css" rel="stylesheet" type="text/css"/>-->
         <link href="font-awesome-4.7.0/css/font-awesome.css" rel="stylesheet" type="text/css"/>
         <link href="font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+        <link href="contact-us-form/style.css" rel="stylesheet" type="text/css"/>
     </head>
 
     <body>
-
         <!--  header-section start  -->
         <?php include './header.php'; ?>
         <!--  header-section end  -->
@@ -109,33 +109,49 @@
                                 <div class="row">
                                     <div class="col-md-6">
                                         <div class="frm-group">
-                                            <input type="text" name="name" id="name" placeholder="Your name">
+                                            <input type="text" name="name" id="txtFullName" placeholder="Your name">
+                                            <span id="spanFullName"></span>
                                         </div>
                                     </div>
                                     <div class="col-md-6">
                                         <div class="frm-group">
-                                            <input type="email" name="email" id="email" placeholder="Email address">
+                                            <input type="email" name="email" id="txtEmail" placeholder="Email address">
+                                            <span id="spanEmail"></span>
                                         </div>
                                     </div>
                                     <div class="col-md-6">
                                         <div class="frm-group">
-                                            <input type="tel" name="phone" id="phone" placeholder="Phone number">
+                                            <input type="tel" name="phone" id="txtContact" placeholder="Phone number">
+                                            <span id="spanContact"></span>
                                         </div>
                                     </div>
                                     <div class="col-md-6">
                                         <div class="frm-group">
-                                            <input type="text" name="subject" id="subject" placeholder="Subject">
+                                            <input type="text" name="subject" id="txtSubject" placeholder="Subject">
+                                            <span id="spanSubject"></span>
                                         </div>
                                     </div>
                                     <div class="col-md-12">
                                         <div class="frm-group">
-                                            <textarea name="message" id="message" placeholder="Message"></textarea>
+                                            <textarea name="message" id="txtmessage" placeholder="Message"></textarea>
+                                            <span id="spanmessage"></span>
+                                        </div>
+                                    </div><br>
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" name="captchacode" id="captchacode" placeholder="Security Code">
+                                            <span id="capspan"></span>
                                         </div>
                                     </div>
+                                    <?php
+                                    include ("./contact-us-form/captchacode-widget.php");
+                                    ?>
+                                    <img id="checking"src="contact-us-form/img/checking.gif" alt=""/>
                                     <div class="col-md-12">
                                         <div class="frm-group">
-                                            <button type="submit" class="cmn-button">sen message</button>
+                                            <button type="submit" id="btnSubmit" class="cmn-button">send message</button>
                                         </div>
+                                        <div id="dismessage" align="center" class="msg-success" ></div>
                                     </div>
                                 </div>
                             </form>
@@ -175,7 +191,8 @@
             </span>
         </div>
         <!-- scroll-to-top end -->
-
+        <script src="js/jquery-3.3.1.min.js" type="text/javascript"></script>
+        <script src="contact-us-form/scripts.js" type="text/javascript"></script>
         <!-- jquery js link -->
         <script src="rs-plugin/js/pluginson3step.js" type="text/javascript"></script>
         <!--<script src="js/jquery-3.3.1.min.js"></script>-->
