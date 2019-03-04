@@ -1,4 +1,6 @@
-<?php ?>
+<?php
+include_once(dirname(__FILE__) . '/class/include.php');
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -25,6 +27,7 @@
         <!--<link href="fontawesome/css/all.css" rel="stylesheet" type="text/css"/>-->
         <link href="font-awesome-4.7.0/css/font-awesome.css" rel="stylesheet" type="text/css"/>
         <link href="font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+        <link href="fancybox-master/css/jquery.fancybox.min.css" rel="stylesheet" type="text/css"/>
     </head>
 
     <body>
@@ -51,7 +54,7 @@
                     <div class="row justify-content-center">
                         <div class="col-lg-10">
                             <div class="banner-content text-center">
-                                <h1 class="banner-title">photo gallery</h1>
+                                <h1 class="banner-title">Photo Gallery</h1>
                                 <p class="text-center">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's<br/> standard dummy text ever since the 1500s.</p>
                             </div>
                         </div>
@@ -64,73 +67,26 @@
         <section class="events-gallery-section section-padding">
             <div class="container">
                 <div class="section-wrapper">
-                    <div class="event-gallery-slider owl-carousel grid">
-                        <div class="gallery-single-slide academy">
-                            <div class="event-gallery-thumb">
-                                <img class="gallery-popup" src="images/event-gallery/7.jpg" alt="event-gallery">
+
+                    <div class="row mt-15 mb-40 justify-content-center">
+                        <?php
+                        foreach (PhotoAlbum::all() as $Gallery) {
+                            ?>
+                            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12  ">
+                                <figure>
+                                    <a class="" href="upload/photo-album/<?php echo $Gallery['image_name']; ?>" class="" data-fancybox="images" >
+                                        <figcaption>
+                                            <i class="fa fa-search" style="font-size:30px;color:#ffff;"></i>
+                                        </figcaption>
+
+                                        <img src="upload/photo-album/<?php echo $Gallery['image_name']; ?>" >
+                                    </a>
+                                </figure>
                             </div>
-                            <div class="event-gallery-thumb">
-                                <img src="images/event-gallery/8.jpg" alt="event-gallery">
-                            </div>
-                            <div class="event-gallery-thumb">
-                                <img src="images/event-gallery/10.jpg" alt="event-gallery">
-                            </div>
-                        </div><!-- gallery-single-slide end -->
-                        <div class="gallery-single-slide">
-                            <div class="event-gallery-thumb">
-                                <img src="images/event-gallery/2.jpg" alt="event-gallery">
-                            </div>
-                            <div class="event-gallery-thumb">
-                                <img src="images/event-gallery/5.jpg" alt="event-gallery">
-                            </div>
-                            <div class="event-gallery-thumb">
-                                <img src="images/event-gallery/11.jpg" alt="event-gallery">
-                            </div>
-                        </div><!-- gallery-single-slide end -->
-                        <div class="gallery-single-slide">
-                            <div class="event-gallery-thumb">
-                                <img src="images/event-gallery/3.jpg" alt="event-gallery">
-                            </div>
-                            <div class="event-gallery-thumb">
-                                <img src="images/event-gallery/9.jpg" alt="event-gallery">
-                            </div>
-                            <div class="event-gallery-thumb">
-                                <img src="images/event-gallery/12.jpg" alt="event-gallery">
-                            </div>
-                        </div><!-- gallery-single-slide end -->
-                        <div class="gallery-single-slide">
-                            <div class="event-gallery-thumb">
-                                <img src="images/event-gallery/1.jpg" alt="event-gallery">
-                            </div>
-                            <div class="event-gallery-thumb">
-                                <img src="images/event-gallery/2.jpg" alt="event-gallery">
-                            </div>
-                            <div class="event-gallery-thumb">
-                                <img src="images/event-gallery/4.jpg" alt="event-gallery">
-                            </div>
-                        </div><!-- gallery-single-slide end -->
-                        <div class="gallery-single-slide academy">
-                            <div class="event-gallery-thumb grid-item">
-                                <img src="images/event-gallery/1.jpg" alt="event-gallery">
-                            </div>
-                            <div class="event-gallery-thumb">
-                                <img src="images/event-gallery/4.jpg" alt="event-gallery">
-                            </div>
-                            <div class="event-gallery-thumb">
-                                <img src="images/event-gallery/6.jpg" alt="event-gallery">
-                            </div>
-                        </div><!-- gallery-single-slide end -->
-                        <div class="gallery-single-slide">
-                            <div class="event-gallery-thumb">
-                                <img src="images/event-gallery/9.jpg" alt="event-gallery">
-                            </div>
-                            <div class="event-gallery-thumb grid-item">
-                                <img src="images/event-gallery/11.jpg" alt="event-gallery">
-                            </div>
-                            <div class="event-gallery-thumb">
-                                <img src="images/event-gallery/3.jpg" alt="event-gallery">
-                            </div>
-                        </div><!-- gallery-single-slide end -->
+                            <?php
+                        }
+                        ?>
+
                     </div>
                 </div>
             </div>
@@ -173,6 +129,7 @@
 
         <!-- Magnific popup js -->
         <script src="js/jquery.magnific-popup.min.js"></script>
+        <script src="fancybox-master/js/jquery.fancybox.min.js" type="text/javascript"></script>
     </body>
 
 </html>
