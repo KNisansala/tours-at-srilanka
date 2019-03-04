@@ -1,4 +1,6 @@
-<?php ?>
+<?php
+include_once(dirname(__FILE__) . '/class/include.php');
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -60,73 +62,23 @@
         <section class="service-area gray-bg style-two">
             <div class="container">
                 <div class="row">
-
-                    <div class="col-lg-4 col-md-6">
-                        <div class="single-service-item-two"><!-- single service item -->
-                            <div class="icon">
-                                <i class="fa fa-rocket"></i>
-                            </div>
-                            <div class="content">
-                                <h4 class="title align"><a href="#">Modern Design</a></h4>
-                                <p>There are many variations of passages of Lorem Ipsum available but the majority it a have suffered.</p>
-                            </div>
-                        </div><!-- //. single service item -->
-                    </div>
-                    <div class="col-lg-4 col-md-6">
-                        <div class="single-service-item-two"><!-- single service item -->
-                            <div class="icon">
-                                <i class="fa fa-rocket"></i>
-                            </div>
-                            <div class="content">
-                                <h4 class="title align"><a href="#">Modern Design</a></h4>
-                                <p>There are many variations of passages of Lorem Ipsum available but the majority it a have suffered.</p>
-                            </div>
-                        </div><!-- //. single service item -->
-                    </div>
-                    <div class="col-lg-4 col-md-6">
-                        <div class="single-service-item-two"><!-- single service item -->
-                            <div class="icon">
-                                <i class="fa fa-rocket"></i>
-                            </div>
-                            <div class="content">
-                                <h4 class="title align"><a href="#">Modern Design</a></h4>
-                                <p>There are many variations of passages of Lorem Ipsum available but the majority it a have suffered.</p>
-                            </div>
-                        </div><!-- //. single service item -->
-                    </div>
-                    <div class="col-lg-4 col-md-6">
-                        <div class="single-service-item-two"><!-- single service item -->
-                            <div class="icon">
-                                <i class="fa fa-rocket"></i>
-                            </div>
-                            <div class="content">
-                                <h4 class="title align"><a href="#">Modern Design</a></h4>
-                                <p>There are many variations of passages of Lorem Ipsum available but the majority it a have suffered.</p>
-                            </div>
-                        </div><!-- //. single service item -->
-                    </div>
-                    <div class="col-lg-4 col-md-6">
-                        <div class="single-service-item-two"><!-- single service item -->
-                            <div class="icon">
-                                <i class="fa fa-rocket"></i>
-                            </div>
-                            <div class="content">
-                                <h4 class="title align"><a href="#">Modern Design</a></h4>
-                                <p>There are many variations of passages of Lorem Ipsum available but the majority it a have suffered.</p>
-                            </div>
-                        </div><!-- //. single service item -->
-                    </div>
-                    <div class="col-lg-4 col-md-6">
-                        <div class="single-service-item-two"><!-- single service item -->
-                            <div class="icon">
-                                <i class="fa fa-rocket"></i>
-                            </div>
-                            <div class="content">
-                                <h4 class="title align"><a href="#">Modern Design</a></h4>
-                                <p>There are many variations of passages of Lorem Ipsum available but the majority it a have suffered.</p>
-                            </div>
-                        </div><!-- //. single service item -->
-                    </div>
+                    <?php
+                    foreach (Service::all() as $Services) {
+                        ?>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="single-service-item-two"><!-- single service item -->
+                                <div class="icon">
+                                    <i class="fa fa-rocket"></i>
+                                </div>
+                                <div class="content">
+                                    <h4 class="title align"><?php echo $Services['title']; ?></h4>
+                                    <p><?php echo $Services['short_description']; ?></p>
+                                </div>
+                            </div><!-- //. single service item -->
+                        </div>
+                        <?php
+                    }
+                    ?>
 
                 </div>
             </div>
