@@ -325,3 +325,23 @@ element {
 .owl-dots {
     bottom: 1%;
 }
+.back {
+    background-color: #ffffff;
+    padding-top: 26px;
+    padding-bottom: 17px;
+    margin-top:0px;
+    text-align: left;
+}
+.tourdes p{
+    margin: 15px 13px 15px;
+    font-size: 14px;
+    color: #727272;
+    font-weight: 100;
+    font-family: 'Poppins', sans-serif;
+    text-align: justify;
+
+}
+.sideimg {
+    padding-left: 0px;
+    padding-bottom: 30px;
+}
