@@ -1,4 +1,6 @@
-<?php ?>
+<?php
+include_once(dirname(__FILE__) . '/class/include.php');
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -43,7 +45,7 @@
                 <div class="container">
                     <ul class="page-list">
                         <li><a href="index.php">Home</a></li>
-                        <li>course grid two</li>
+                        <li>Tour Packages</li>
                     </ul>
                 </div>
             </div>
@@ -52,7 +54,7 @@
                     <div class="row justify-content-center">
                         <div class="col-lg-10">
                             <div class="banner-content text-center">
-                                <h1 class="banner-title">Tour Package</h1>
+                                <h1 class="banner-title">Tour Packages</h1>
                                 <p class="text-center">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's<br/> standard dummy text ever since the 1500s.</p>
 
                             </div>
@@ -68,258 +70,53 @@
             <div class="container">
                 <div class="course-grid-wrapper">
                     <div class="row mt-mb-15 course-grid-block">
-                        <div class="col-lg-4 col-sm-6">
-                            <div class="course-item">
-                                <div class="course-thumb">
-                                    <a href="#"><img src="assets/images/courses/10.jpg" alt="course-thumb"></a>
-                                    <span class="course-price">$577</span>
-                                </div>
-                                <div class="course-content">
-                                    <h5 class="course-title"><a href="#">International Communication</a></h5>
-                                    <p>Many desktop publishing packages and web on page editors now use lorem Ipsum </p>
-                                    <a href="view-tour-packages.php" class="simple-btn">Tour details<i class="fa fa-long-arrow-right"></i></a>
-                                </div>
-                                <div class="course-item-bottom">
-                                    <ul class="course-review-list d-flex">
-                                        <li>
-                                            <span class="course-star">
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                            </span>
-                                            <span class="course-rev-average">4.5</span>
-                                            <span class="course-rev-total">(779)</span>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div><!-- course-item end -->
-                        <div class="col-lg-4 col-sm-6">
-                            <div class="course-item">
-                                <div class="course-thumb">
-                                    <a href="#"><img src="assets/images/courses/8.jpg" alt="course-thumb"></a>
-                                    <span class="course-price">$540</span>
-                                </div>
-                                <div class="course-content">
-                                    <h5 class="course-title"><a href="#">Medicine and Health</a></h5>
-                                    <p>Many desktop publishing packages and web on page editors now use lorem Ipsum </p>
-                                    <a href="#" class="simple-btn">Tour details<i class="fa fa-long-arrow-right"></i></a>
-                                </div>
-                                <div class="course-item-bottom">
-                                    <ul class="course-review-list d-flex">
-                                        <li>
-                                            <span class="course-star">
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                            </span>
-                                            <span class="course-rev-average">4.5</span>
-                                            <span class="course-rev-total">(779)</span>
-                                        </li>
-                                    </ul>
+                        <?php
+                        foreach (TourPackage::all() as $TourPackages) {
+                            ?>
+                            <div class="col-lg-4 col-sm-6">
+
+                                <div class="course-item">
+                                    <div class="course-thumb">
+                                        <a href="#"><img src="upload/tour-package/<?php echo $TourPackages['image_name']; ?>"></a>
+                                    </div>
+                                    <div class="course-content">
+                                        <h5 class="course-title"><a href="view-tour-packages.php?id=<?php echo $TourPackages['id']; ?>"><?php echo $TourPackages['title']; ?></a></h5>
+                                        <p>
+
+                                            <?php
+                                            if (strlen($TourPackages['short_description']) > 130) {
+                                                echo substr($TourPackages['short_description'], 0, 130) . '...';
+                                            } else {
+                                                echo $TourPackages['short_description'];
+                                            }
+                                            ?>
+
+                                        </p>
+
+                                    </div>
+                                    <div class="course-item-bottom">
+                                        <!--                                        <ul class="course-review-list d-flex">
+                                                                                    <li>
+                                                                                        <span class="course-star">
+                                                                                            <i class="fa fa-star"></i>
+                                                                                            <i class="fa fa-star"></i>
+                                                                                            <i class="fa fa-star"></i>
+                                                                                            <i class="fa fa-star"></i>
+                                                                                            <i class="fa fa-star"></i>
+                                                                                        </span>
+                                                                                        <span class="course-rev-average">4.5</span>
+                                                                                        <span class="course-rev-total">(779)</span>
+                                                                                    </li>
+                                                                                </ul>-->
+                                        <a href="view-tour-packages.php?id=<?php echo $TourPackages['id']; ?>" class="simple-btn">Tour details<i class="fa fa-long-arrow-right"></i></a>
+                                    </div>
                                 </div>
                             </div>
-                        </div><!-- course-item end -->
-                        <div class="col-lg-4 col-sm-6">
-                            <div class="course-item">
-                                <div class="course-thumb">
-                                    <a href="#"><img src="assets/images/courses/9.jpg" alt="course-thumb"></a>
-                                    <span class="course-price">$470</span>
-                                </div>
-                                <div class="course-content">
-                                    <h5 class="course-title"><a href="#">Computer Science Engineering</a></h5>
-                                    <p>Many desktop publishing packages and web on page editors now use lorem Ipsum </p>
-                                    <a href="#" class="simple-btn">Tour details<i class="fa fa-long-arrow-right"></i></a>
-                                </div>
-                                <div class="course-item-bottom">
-                                    <ul class="course-review-list d-flex">
-                                        <li>
-                                            <span class="course-star">
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                            </span>
-                                            <span class="course-rev-average">4.5</span>
-                                            <span class="course-rev-total">(779)</span>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div><!-- course-item end -->
-                        <div class="col-lg-4 col-sm-6">
-                            <div class="course-item">
-                                <div class="course-thumb">
-                                    <a href="#"><img src="assets/images/courses/11.jpg" alt="course-thumb"></a>
-                                    <span class="course-price">$940</span>
-                                </div>
-                                <div class="course-content">
-                                    <h5 class="course-title"><a href="#">Journalism and Media</a></h5>
-                                    <p>Many desktop publishing packages and web on page editors now use lorem Ipsum </p>
-                                    <a href="#" class="simple-btn">Tour details<i class="fa fa-long-arrow-right"></i></a>
-                                </div>
-                                <div class="course-item-bottom">
-                                    <ul class="course-review-list d-flex">
-                                        <li>
-                                            <span class="course-star">
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                            </span>
-                                            <span class="course-rev-average">4.5</span>
-                                            <span class="course-rev-total">(779)</span>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div><!-- course-item end -->
-                        <div class="col-lg-4 col-sm-6">
-                            <div class="course-item">
-                                <div class="course-thumb">
-                                    <a href="#"><img src="assets/images/courses/5.jpg" alt="course-thumb"></a>
-                                    <span class="course-price">$730</span>
-                                </div>
-                                <div class="course-content">
-                                    <h5 class="course-title"><a href="#">International Communication</a></h5>
-                                    <p>Many desktop publishing packages and web on page editors now use lorem Ipsum </p>
-                                    <a href="#" class="simple-btn">Tour details<i class="fa fa-long-arrow-right"></i></a>
-                                </div>
-                                <div class="course-item-bottom">
-                                    <ul class="course-review-list d-flex">
-                                        <li>
-                                            <span class="course-star">
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                            </span>
-                                            <span class="course-rev-average">4.5</span>
-                                            <span class="course-rev-total">(779)</span>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div><!-- course-item end -->
-                        <div class="col-lg-4 col-sm-6">
-                            <div class="course-item">
-                                <div class="course-thumb">
-                                    <a href="#"><img src="assets/images/courses/12.jpg" alt="course-thumb"></a>
-                                    <span class="course-price">$379</span>
-                                </div>
-                                <div class="course-content">
-                                    <h5 class="course-title"><a href="#">Principle of Accounting</a></h5>
-                                    <p>Many desktop publishing packages and web on page editors now use lorem Ipsum </p>
-                                    <a href="#" class="simple-btn">Tour details<i class="fa fa-long-arrow-right"></i></a>
-                                </div>
-                                <div class="course-item-bottom">
-                                    <ul class="course-review-list d-flex">
-                                        <li>
-                                            <span class="course-star">
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                            </span>
-                                            <span class="course-rev-average">4.5</span>
-                                            <span class="course-rev-total">(779)</span>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div><!-- course-item end -->
-                        <div class="col-lg-4 col-sm-6">
-                            <div class="course-item">
-                                <div class="course-thumb">
-                                    <a href="#"><img src="assets/images/courses/13.jpg" alt="course-thumb"></a>
-                                    <span class="course-price">$830</span>
-                                </div>
-                                <div class="course-content">
-                                    <h5 class="course-title"><a href="#">Medicine and Pharmacy</a></h5>
-                                    <p>Many desktop publishing packages and web on page editors now use lorem Ipsum </p>
-                                    <a href="#" class="simple-btn">Tour details<i class="fa fa-long-arrow-right"></i></a>
-                                </div>
-                                <div class="course-item-bottom">
-                                    <ul class="course-review-list d-flex">
-                                        <li>
-                                            <span class="course-star">
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                            </span>
-                                            <span class="course-rev-average">4.5</span>
-                                            <span class="course-rev-total">(779)</span>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div><!-- course-item end -->
-                        <div class="col-lg-4 col-sm-6">
-                            <div class="course-item">
-                                <div class="course-thumb">
-                                    <a href="#"><img src="assets/images/courses/14.jpg" alt="course-thumb"></a>
-                                    <span class="course-price">$830</span>
-                                </div>
-                                <div class="course-content">
-                                    <h5 class="course-title"><a href="#">Cloud Data Management</a></h5>
-                                    <p>Many desktop publishing packages and web on page editors now use lorem Ipsum </p>
-                                    <a href="#" class="simple-btn">Tour details<i class="fa fa-long-arrow-right"></i></a>
-                                </div>
-                                <div class="course-item-bottom">
-                                    <ul class="course-review-list d-flex">
-                                        <li>
-                                            <span class="course-star">
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                            </span>
-                                            <span class="course-rev-average">4.5</span>
-                                            <span class="course-rev-total">(779)</span>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div><!-- course-item end -->
-                        <div class="col-lg-4 col-sm-6">
-                            <div class="course-item">
-                                <div class="course-thumb">
-                                    <a href="#"><img src="assets/images/courses/15.jpg" alt="course-thumb"></a>
-                                    <span class="course-price">$799</span>
-                                </div>
-                                <div class="course-content">
-                                    <h5 class="course-title"><a href="#">Product Design and Analysis</a></h5>
-                                    <p>Many desktop publishing packages and web on page editors now use lorem Ipsum </p>
-                                    <a href="#" class="simple-btn">Tour details<i class="fa fa-long-arrow-right"></i></a>
-                                </div>
-                                <div class="course-item-bottom">
-                                    <ul class="course-review-list d-flex">
-                                        <li>
-                                            <span class="course-star">
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                            </span>
-                                            <span class="course-rev-average">4.5</span>
-                                            <span class="course-rev-total">(779)</span>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div><!-- course-item end -->
+                            <?php
+                        }
+                        ?>
+                        <!-- course-item end -->
+
                     </div>
                 </div>
             </div>

@@ -36,19 +36,13 @@
     <div class="header-bottom">
         <div class="container">
             <nav class="navbar navbar-expand-lg">
-                <a class="site-logo site-title" href="#"><img src="images/slider/logo.jpg" width ="150"  alt="site-logo"></a>
+                <a class="site-logo site-title" href="./"><img src="images/slider/logo.jpg" width ="150"  alt="site-logo"></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="menu-toggle"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav main-menu ml-auto">
-                        <li class="menu_has_children"><a href="#">Home</a>
-                            <!--                  <ul class="sub-menu">
-                                                <li><a href="home-one.html">Home One</a></li>
-                                                <li><a href="home-two.html">Home Two</a></li>
-                                                <li><a href="home-three.html">Home there</a></li>
-                                              </ul>-->
-                        </li>
+                        <li class="menu_has_children"><a href="./">Home</a></li>
                         <li class="menu_has_children"><a href="about.php">About Us</a>
                         <li class="menu_has_children"><a href="tour-package.php">Tour Package</a></li>
                         <li class="menu_has_children"><a href="gallery.php">Gallery</a></li>
