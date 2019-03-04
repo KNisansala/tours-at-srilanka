@@ -78,26 +78,20 @@ $ATTRACTION = new Attraction($id);
 
                                 <div class="row">
 
-                                    <div class="col-md-12 onStep" data-animation="fadeInUp" data-time="300">
-                                        <div class="owl-carousel" id="projectsBig">
+                                    <div class="col-md-12" >
+                                        <div class="owl-carousel owl-carousel1" id="atrations">
 
                                             <?php
                                             $photos = AttractionPhoto::getAttractionPhotosById($ATTRACTION->id);
                                             foreach ($photos as $photo) {
                                                 ?>
-                                            <img alt="imgservices" class="img-responsive" src="upload/attraction/gallery/thumb/<?php echo $photo['image_name']; ?>">
+                                                <img alt="imgservices" class="img-responsive" src="upload/attraction/gallery/thumb/<?php echo $photo['image_name']; ?>">
                                                 <?php
                                             }
                                             ?>
                                         </div>
                                     </div>
                                 </div>
-
-
-
-
-
-
                             </div>
                             <div class="entry-single-content">
                                 <h3 class="entry-single-title"><?php echo $ATTRACTION->title ?></h3>
@@ -111,71 +105,37 @@ $ATTRACTION = new Attraction($id);
                         <div class="sidebar-area">
 
                             <div class="widget">
-                                <h5 class="widget-title">recent blogs</h5>
+                                <h5 class="widget-title">Other Attractions</h5>
                                 <ul class="small-post-list">
                                     <li class="post-item d-flex align-items-center">
-                                       <?php
-                                       $ATTRACTIONS = Attraction::all();
-                                       foreach ($ATTRACTIONS as $key => $attraction) {
-                                           if ($key < 5) {
-                                               ?>                                                <div class="post-thumb">
-                                                    <a href="#"><img src="upload/attraction/<?php echo $attraction['image_name']; ?>" alt=""></a>
+                                        <?php
+                                        $ATTRACTIONS = Attraction::all();
+                                        foreach ($ATTRACTIONS as $key => $attraction) {
+                                            if ($key < 8) {
+                                                ?>    
+                                                <div class="post-thumb">
+                                                    <a href="view-attraction.php?id=<?php echo $attraction['id']; ?>"><img src="upload/attraction/<?php echo $attraction['image_name']; ?>" alt=""></a>
                                                 </div>
                                                 <div class="post-content">
                                                     <h6 class="post-title"> <?php echo $attraction['title']; ?></h6>
                                                     <span class="post-date">
-                                                       <a href="#">
-                                                           <?php
-                                                           if (strlen($attraction['short_description']) > 50) {
-                                                               echo substr($attraction['short_description'], 0, 50) . '...';
-                                                           } else {
-                                                               echo $attraction['short_description'];
-                                                           }
-                                                           ?>
-                                                       </a>
-                                                      </span>
-                                               </div>
-                                               <?php
-                                           }
-                                       }
-                                       ?>
-                                    </li><!-- post-item end -->
-                                   <!--                                    <li class="post-item d-flex align-items-center">
-                                                                           <div class="post-thumb">
-                                                                               <a href="#"><img src="assets/images/blog/s2.jpg" alt="post-image"></a>
-                                                                           </div>
-                                                                           <div class="post-content">
-                                                                               <span class="post-date">07 December 2018</span>
-                                                                               <h6 class="post-title"><a href="#">Some Good Resources That are Available Students</a></h6>
-                                                                           </div>
-                                                                       </li>
-                                                                       <li class="post-item d-flex align-items-center">
-                                                                           <div class="post-thumb">
-                                                                               <a href="#"><img src="assets/images/blog/s3.jpg" alt="post-image"></a>
-                                                                           </div>
-                                                                           <div class="post-content">
-                                                                               <span class="post-date">07 December 2018</span>
-                                                                               <h6 class="post-title"><a href="#">Some Good Resources That are Available Students</a></h6>
-                                                                           </div>
-                                                                       </li>
-                                                                       <li class="post-item d-flex align-items-center">
-                                                                           <div class="post-thumb">
-                                                                               <a href="#"><img src="assets/images/blog/s4.jpg" alt="post-image"></a>
-                                                                           </div>
-                                                                         <div class="post-content">
-                                                                               <span class="post-date">07 December 2018</span>
-                                                                              <h6 class="post-title"><a href="#">Some Good Resources That are Available Students</a></h6>
-                                                                           </div>
-                                                                       </li>
-                                                                       <li class="post-item d-flex align-items-center">
-                                                                           <div class="post-thumb">
-                                                                               <a href="#"><img src="assets/images/blog/s5.jpg" alt="post-image"></a>
-                                                                           </div>
-                                                                           <div class="post-content">
-                                                                               <span class="post-date">07 December 2018</span>
-                                                                               <h6 class="post-title"><a href="#">Some Good Resources That are Available Students</a></h6>
-                                                                           </div>
-                                                                      </li>-->
+                                                        <a href="view-attraction.php?id=<?php echo $attraction['id']; ?>">
+                                                            <?php
+                                                            if (strlen($attraction['short_description']) > 50) {
+                                                                echo substr($attraction['short_description'], 0, 50) . '...';
+                                                            } else {
+                                                                echo $attraction['short_description'];
+                                                            }
+                                                            ?>
+                                                        </a>
+                                                    </span>
+                                                </div>
+                                                <?php
+                                            }
+                                        }
+                                        ?>
+                                    </li>
+
                                 </ul>
                             </div><!-- widget end -->
                         </div>
