@@ -1,0 +1,52 @@
+
+/* Bootstrap modal end */
+
+/*
+  Owl Carousel
+*/
+
+/* owl */
+.owl-prev {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 40%;
+    left: 10px;
+    display: block !important;
+    border:0px solid black;
+    background: rgba(0,0,0,.8) !important;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+}
+
+.owl-next {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 40%;
+    right: 10px;
+    display: block !important;
+    border:0px solid black;
+    background: rgba(0,0,0,.8) !important;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+}
+.owl-prev i, .owl-next i { font-size: 18pt; color: #fff; padding-top: 3px;}
+.owl-nav {
+    opacity: 0;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+.owl-carousel:hover .owl-nav {
+    opacity: 1;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+/* pagination owl */
+#owl-testimonial .owl-dots {
+    float:right;
+}
+.owl-theme .owl-dots .owl-dot span {
+    border-radius: 0;
+}
