@@ -79,7 +79,7 @@ include_once(dirname(__FILE__) . '/class/include.php');
                                         <a href="view-activities.php?id=<?php echo $AllActivities['id']; ?>"><img src="upload/activity/<?php echo $AllActivities['image_name']; ?>" alt="course-thumb"></a>
                                     </div>
                                     <div class="course-content">
-                                        <h5 class="course-title"><a href="#"><?php echo $AllActivities['title']; ?> </a></h5>
+                                        <h5 class="course-title"><a href="view-activities.php?id=<?php echo $AllActivities['id']; ?>"><?php echo $AllActivities['title']; ?> </a></h5>
                                         <p> 
 
                                             <?php
