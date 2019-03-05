@@ -122,7 +122,7 @@ $visitor_message = '<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//E
                                                 </li>
                                                  <li>
                                                     <font style="font-family: Verdana, Geneva, sans-serif; color:#68696a; font-size:14px; " >
-                                                         Country : ' . $country . '
+                                                         Subject : ' . $subject . '
                                                     </font>
                                                 </li> 
                                                 
@@ -218,6 +218,7 @@ $visitor_message = '<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//E
         </table>
     </body>
 </html>';
+
 $company_message = ' 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -305,7 +306,7 @@ $company_message = '
                                                 
                                                  <li>
                                                     <font style="font-family: Verdana, Geneva, sans-serif; color:#68696a; font-size:14px; " >
-                                                         Country : ' . $country . '
+                                                         Subject : ' . $subject . '
                                                     </font>
                                                 </li>
                                                 

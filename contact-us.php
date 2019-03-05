@@ -1,13 +1,11 @@
 <?php ?>
 <!DOCTYPE html>
 <html lang="en">
-
-
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>Cantact us || Tours-at-srilanka</title>
+        <title>Contact us || Tours-at-srilanka</title>
         <!-- favicon -->
         <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
 
@@ -38,7 +36,7 @@
                 <div class="container">
                     <ul class="page-list">
                         <li><a href="index.php">Home</a></li>
-                        <li>contact us one</li>
+                        <li>Contact us</li>
                     </ul>
                 </div>
             </div>
@@ -47,7 +45,7 @@
                     <div class="row justify-content-center">
                         <div class="col-lg-10">
                             <div class="banner-content text-center">
-                                <h1 class="banner-title">Contact Informations</h1>
+                                <h1 class="banner-title">Contact Us</h1>
                                 <p class="text-center">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's<br/> standard dummy text ever since the 1500s.</p>
                             </div>
                         </div>
@@ -105,35 +103,35 @@
                         <div class="contact-form-area form-area">
                             <h4 class="form-title">Send message</h4>
                             <p>There are alteration in some many variations of passages of lorem Ipsum availle suffer alteration in some form by injected.</p>
-                            <form class="contact-form form-style-one">
+                            <div class="contact-form form-style-one">
                                 <div class="row">
                                     <div class="col-md-6">
                                         <div class="frm-group">
-                                            <input type="text" name="name" id="txtFullName" placeholder="Your name">
+                                            <input type="text" name="txtFullName" id="txtFullName" placeholder="Your name">
                                             <span id="spanFullName"></span>
                                         </div>
                                     </div>
                                     <div class="col-md-6">
                                         <div class="frm-group">
-                                            <input type="email" name="email" id="txtEmail" placeholder="Email address">
+                                            <input type="email" name="txtEmail" id="txtEmail" placeholder="Email address">
                                             <span id="spanEmail"></span>
                                         </div>
                                     </div>
                                     <div class="col-md-6">
                                         <div class="frm-group">
-                                            <input type="tel" name="phone" id="txtContact" placeholder="Phone number">
+                                            <input type="tel" name="txtContact" id="txtContact" placeholder="Phone number">
                                             <span id="spanContact"></span>
                                         </div>
                                     </div>
                                     <div class="col-md-6">
                                         <div class="frm-group">
-                                            <input type="text" name="subject" id="txtSubject" placeholder="Subject">
+                                            <input type="text" name="txtSubject" id="txtSubject" placeholder="Subject">
                                             <span id="spanSubject"></span>
                                         </div>
                                     </div>
                                     <div class="col-md-12">
                                         <div class="frm-group">
-                                            <textarea name="message" id="txtmessage" placeholder="Message"></textarea>
+                                            <textarea name="txtmessage" id="txtmessage" placeholder="Message"></textarea>
                                             <span id="spanmessage"></span>
                                         </div>
                                     </div><br>
@@ -149,12 +147,12 @@
                                     <img id="checking"src="contact-us-form/img/checking.gif" alt=""/>
                                     <div class="col-md-12">
                                         <div class="frm-group">
-                                            <button type="submit" id="btnSubmit" class="cmn-button">send message</button>
+                                            <button type="submit" id="btnSubmit" class="cmn-button con-button">send message</button>
                                         </div>
                                         <div id="dismessage" align="center" class="msg-success" ></div>
                                     </div>
                                 </div>
-                            </form>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -175,7 +173,7 @@
                 </div>
                 <div class="section-wrapper">
                     <div class="event-map">
-                        <div id="map"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3965.280674706201!2d80.48713051427343!3d6.357704595399327!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae3e15337214f73%3A0x2a183b31df3e363a!2sSinharaja+Forest+Gate!5e0!3m2!1sen!2slk!4v1551182024042" width="1100" height="450" frameborder="0" style="border:0" allowfullscreen></iframe></div>
+                        <div id="map" class="map"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3965.280674706201!2d80.48713051427343!3d6.357704595399327!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae3e15337214f73%3A0x2a183b31df3e363a!2sSinharaja+Forest+Gate!5e0!3m2!1sen!2slk!4v1551182024042" width="1100" height="450" frameborder="0" style="border:0" allowfullscreen></iframe></div>
                     </div>
                 </div>
             </div>
@@ -192,7 +190,6 @@
         </div>
         <!-- scroll-to-top end -->
         <script src="js/jquery-3.3.1.min.js" type="text/javascript"></script>
-        <script src="contact-us-form/scripts.js" type="text/javascript"></script>
         <!-- jquery js link -->
         <script src="rs-plugin/js/pluginson3step.js" type="text/javascript"></script>
         <!--<script src="js/jquery-3.3.1.min.js"></script>-->
@@ -221,6 +218,7 @@
         <script src="rs-plugin/js/custom.js" type="text/javascript"></script>
         <script src="rs-plugin/js/on3step.js" type="text/javascript"></script>
         <script src="js/slider.js" type="text/javascript"></script>
+        <script src="contact-us-form/scripts.js" type="text/javascript"></script>
     </body>
 
 </html>

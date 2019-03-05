@@ -2,7 +2,7 @@
 
 //----------------------Company Information---------------------
 
-$comany_name = "Round Tours Sri Lanka";
+$comany_name = "Tour At Sri Lanka";
 $website_name = "www.roundtoursrilanka.lk";
 $comConNumber = "+94 766367605";
 $comEmail = "info@galle.website";
@@ -26,7 +26,7 @@ if ($_SESSION['CAPTCHACODE'] != $_POST['captchacode']) {
 
 $full_lname = $_POST['full_name'];
 $visitor_email = $_POST['email'];
-$country = $_POST['country'];
+$contact = $_POST['contact'];
 $subject = $_POST['subject'];
 $message = $_POST['message'];
 $captchacode = $_POST['captchacode'];
