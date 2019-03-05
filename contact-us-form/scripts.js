@@ -16,18 +16,17 @@ jQuery(document).ready(function () {
 
     jQuery("#txtContact").blur(function () {
         validateEmpty("txtContact", "spanContact");
-       
     });
 
     jQuery("#captchacode").blur(function () {
         validateEmpty("captchacode", "capspan");
     });
-    
-     
 
     jQuery("#btnSubmit").bind('click', function () {
+      
         if (!validate()) {
             return;
+          
         }
 
         jQuery("#checking").show();
@@ -36,7 +35,8 @@ jQuery(document).ready(function () {
 
     jQuery('.input-validater').keypress(function (e) {
         if (e.keyCode == 13) {
-           if (!validate()) {
+
+            if (!validate()) {
                 return;
             }
             jQuery("#checking").show();
@@ -50,6 +50,7 @@ jQuery(document).ready(function () {
 //--------------------------------------------------function to check button click --------------------------------------------------
 
 function validate() {
+    
     if (
             validateEmpty("txtFullName", "spanFullName") &
             ValidateEmail("txtEmail", "spanEmail") &
@@ -71,6 +72,7 @@ function validate() {
 
 
 function sendForm() {
+
     jQuery.ajax({
         url: "contact-us-form/send-email.php",
         cache: false,
@@ -81,11 +83,12 @@ function sendForm() {
             email: jQuery('#txtEmail').val(),
             subject: jQuery('#txtSubject').val(),
             contact: jQuery('#txtContact').val(),
-            message: jQuery('#txtMessage').val(),
+            message: jQuery('#txtmessage').val(),
             captchacode: jQuery('#captchacode').val()
 
         },
         success: function (html) {
+ 
             var status = html.status;
             var msg = html.msg;
 
@@ -116,6 +119,7 @@ function sendForm() {
 
 function validateEmpty(field, validatorspan)
 {
+    
     if (jQuery('#' + field).val().length != 0)
     {
         jQuery('#' + validatorspan).addClass("validated");
