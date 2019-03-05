@@ -50,6 +50,7 @@ if (isset($_GET['id'])) {
                 <div class="container">
                     <ul class="page-list">
                         <li><a href="index.php">Home</a></li>
+                        <li><a href="activities.php">Activities</a></li>
                         <li>Attraction View</li>
                     </ul>
                 </div>
@@ -88,7 +89,7 @@ if (isset($_GET['id'])) {
 
 
                         <div class="entry-single">
-                            
+
                             <div class="entry-single-content">
                                 <h3 class="entry-single-title">
                                     <?php echo $ACTIVITY->title; ?>
