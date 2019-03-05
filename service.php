@@ -66,7 +66,7 @@ include_once(dirname(__FILE__) . '/class/include.php');
                     foreach (Service::all() as $Services) {
                         ?>
                         <div class="col-lg-4 col-md-6">
-                            <div class="single-service-item-two"><!-- single service item -->
+                            <div class="single-service-item-two services"><!-- single service item -->
                                 <div class="icon">
                                     <i class="fa fa-rocket"></i>
                                 </div>
