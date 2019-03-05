@@ -49,6 +49,7 @@ $ATTRACTION = new Attraction($id);
                 <div class="container">
                     <ul class="page-list">
                         <li><a href="index.php">Home</a></li>
+                        <li><a href="attraction.php">Attractions</a></li>
                         <li><?php echo $ATTRACTION->title ?></li>
                     </ul>
                 </div>

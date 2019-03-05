@@ -223,7 +223,7 @@ select, input, textarea, figure, .title, .thumb, .title a, .absolute, .read-more
 }
 
 .section-padding {
-    padding-top: 50px;
+    padding-top: 100px;
 }
 
 .page-list li {
@@ -243,9 +243,10 @@ select, input, textarea, figure, .title, .thumb, .title a, .absolute, .read-more
 }
 
 .single-service-item-two:hover {
-    background-image: -moz-linear-gradient(0deg, #1531a9 0%, #6737f1 100%);
-    background-image: -webkit-linear-gradient(0deg, #1531a9 0%, #6737f1 100%);
-    background-image: -ms-linear-gradient(0deg, #1531a9 0%, #6737f1 100%);
+    -webkit-box-shadow: 0px 0px 8px 6px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 8px 6px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 8px 6px rgba(0,0,0,0.75);
+    border: solid peru 2px;
 }
 .single-service-item-two {
     text-align: center;

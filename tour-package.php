@@ -45,7 +45,7 @@ include_once(dirname(__FILE__) . '/class/include.php');
                 <div class="container">
                     <ul class="page-list">
                         <li><a href="index.php">Home</a></li>
-                        <li>Tour Packages</li>
+                        <li><a href="tour-package.php">Tour Packages</a></li>
                     </ul>
                 </div>
             </div>
@@ -80,7 +80,20 @@ include_once(dirname(__FILE__) . '/class/include.php');
                                         <a href="#"><img src="upload/tour-package/<?php echo $TourPackages['image_name']; ?>"></a>
                                     </div>
                                     <div class="course-content">
-                                        <h5 class="course-title"><a href="view-tour-packages.php?id=<?php echo $TourPackages['id']; ?>"><?php echo $TourPackages['title']; ?></a></h5>
+                                        <h5 class="course-title"><a href="view-tour-packages.php?id=<?php echo $TourPackages['id']; ?>">
+
+                                                <?php
+                                                if (strlen($TourPackages['title']) > 25) {
+                                                    echo substr($TourPackages['title'], 0, 25) . '...';
+                                                } else {
+                                                    echo $TourPackages['title'];
+                                                }
+                                                ?>
+
+
+
+                                            </a>
+                                        </h5>
                                         <p>
 
                                             <?php
