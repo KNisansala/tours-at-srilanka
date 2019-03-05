@@ -156,8 +156,8 @@ include_once(dirname(__FILE__) . '/class/include.php');
                     <div class="section-header section-header1 text-center">
                         <div class="row justify-content-center">
                             <div class="col-lg-8">
-                                <h2 class="section-title">tour packages</h2>
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text</p>
+                                <h2 class="section-title colorl">tour packages</h2>
+                                <p class="colorl">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text</p>
                             </div>
                         </div>
                     </div>
@@ -261,13 +261,13 @@ include_once(dirname(__FILE__) . '/class/include.php');
         <!-- coming-events-section start -->
 
 
-        <section class="teachers-section section-padding">
+        <section class="teachers-section section-padding top">
             <div class="parallax-img-destination container-fluid-img-destination"><div class="container">
                     <div class="section-header section-header1 text-center">
                         <div class="row justify-content-center">
                             <div class="col-lg-8">
-                                <h2 class="section-title">Attraction</h2>
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text</p>
+                                <h2 class="section-title colorl">Attraction</h2>
+                                <p class="colorl">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text</p>
                             </div>
                         </div>
                     </div>
@@ -302,7 +302,7 @@ include_once(dirname(__FILE__) . '/class/include.php');
         </section>
 
         <!-- coming-events-section end -->
-        <section class="testimonial-section section-padding">
+        <section class="testimonial-section section-padding  bot">
             <div class="container">
                 <div class="section-header text-center">
                     <div class="row justify-content-center">
