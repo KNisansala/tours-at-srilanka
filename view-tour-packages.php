@@ -128,7 +128,7 @@ $tour_dates = TourDate::getTourDatesById($id);
                         <div class="col-md-12 header-top-right text-center booknow">
                             <div class="book-tab">
                                 <div class="book-btn1 booknow ">
-                                    <button type="submit" id="btnSubmit" class="cmn-button">Book Now</button>
+                                    <a href="booking.php?id=<?php echo $TOUR->id; ?>">   <button type="submit" id="btnSubmit" class="cmn-button">Book Now</button></a>
                                 </div>
                             </div>
                         </div>
