@@ -449,14 +449,13 @@ include_once(dirname(__FILE__) . '/class/include.php');
             </div>
         </section>
         <!-- banner-section end -->
-        <section class="about-section section-padding about-section-bg about-image">
+        <section class="about-section section-padding about-section-bg about-image aban">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-6">
                         <div class="content">
                             <h2 class="section-title">about Us</h2>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of the modern.</p>
-                            <p>And scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting.</p>
+                            <p>We have more than ten years well experienced Guides and Tour Drivers. Also our best reward ever can be gained is your highest satisfaction with smile. Our first and most important priority is our customers and we are ready to serve high elegant and superb service. Our passion is to arrange tour and holiday arrangement with large diversity that spread around the country.</p>
                         </div>
                     </div>
                 </div>
@@ -470,7 +469,7 @@ include_once(dirname(__FILE__) . '/class/include.php');
                 <div class="section-header text-center">
                     <div class="row justify-content-center">
                         <div class="col-lg-8">
-                            <h2 class="section-title">Why We Are Different</h2>
+                            <h2 class="section-title">This is our Company important</h2>
                             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text</p>
                         </div>
                     </div>
@@ -484,7 +483,7 @@ include_once(dirname(__FILE__) . '/class/include.php');
                                     <h5 class="item-title">Vision</h5>
                                 </div>
                                 <div class="content">
-                                    <p>It was on popularised in the 1960s with the release of Letraset sheets containing.</p>
+                                    <p>To assist the travelers, gain the most out of their coverage and give a customer service with a smile</p>
                                 </div>
                             </div>
                         </div><!--benefits-item end -->
@@ -495,7 +494,8 @@ include_once(dirname(__FILE__) . '/class/include.php');
                                     <h5 class="item-title">Mission</h5>
                                 </div>
                                 <div class="content">
-                                    <p>It was on popularised in the 1960s with the release of Letraset sheets containing.</p>
+                                    <p>Being a knowledgeable and experienced would help ascertaining travelers believes, Keep them totally satisfied.we strive to do our best, and are committed to ensuring a dream travel to all our guests.
+</p>
                                 </div>
                             </div>
                         </div><!--benefits-item end -->
@@ -506,7 +506,7 @@ include_once(dirname(__FILE__) . '/class/include.php');
                                     <h5 class="item-title">Value</h5>
                                 </div>
                                 <div class="content">
-                                    <p>It was on popularised in the 1960s with the release of Letraset sheets containing.</p>
+                                    <p>get a happy comment for our service in a guests.and get a good name  for tour services</p>
                                 </div>
                             </div>
                         </div><!--benefits-item end -->
