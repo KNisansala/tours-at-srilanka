@@ -136,7 +136,7 @@ include_once(dirname(__FILE__) . '/class/include.php');
                         <div class="content">
                             <h2 class="section-title">welcome</h2>
                             <p> We have more than ten years well experienced Guides and Tour Drivers. Also our best reward ever can be gained is your highest satisfaction with smile. Our first and most important priority is our customers and we are ready to serve high elegant and superb service. Our passion is to arrange tour and holiday arrangement with large diversity that spread around the country.</p>
-                            <a href="about.php" class="cmn-button">learn more</a>
+                            <a href="about.php" class="cmn-button">read more</a>
                         </div>
                     </div>
                     <div class="col-lg-6">
@@ -188,7 +188,7 @@ include_once(dirname(__FILE__) . '/class/include.php');
                                                         ?>
                                                     </p>
 
-                                                    <a href="#" class="cmn-button btn-position">learn more</a>
+                                                    <a href="#" class="cmn-button btn-position">read more</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -275,7 +275,8 @@ include_once(dirname(__FILE__) . '/class/include.php');
                         <div class="row mt-mb-15   owl-carousel owl-carousel2  owl-theme" >
                             <?php
                             $ATTRACTION = Attraction::all();
-                            foreach ($ATTRACTION as $info) {
+                            foreach ($ATTRACTION as $key => $info) {
+                                if ($key < 6) {
                                 ?>
                                 <div class="col-lg-12 col-sm-6">
                                     <div class="teacher-single text-center">
@@ -286,12 +287,13 @@ include_once(dirname(__FILE__) . '/class/include.php');
                                         <div class="teacher-content">
                                             <!--<h4 class="teacher-name"><a href="#">Sigiriya</a></h4>-->
                                             <h4 class="teacher-name"><a href="attraction.php?id=<?php echo $info['id']; ?>"><?php echo $info['title']; ?></a></h4>
-                                            <a href="#" class="cmn-button destination-btn">learn more</a>
+                                            <a href="#" class="cmn-button destination-btn">read more</a>
                                         </div>
                                     </div>
                                 </div>
 
                                 <?php
+                                }
                             }
                             ?>
                         </div>

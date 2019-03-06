@@ -347,7 +347,7 @@ element {
     padding-bottom: 30px;
 }
 .services{
-    height: 420px;
+    height: 458px;
 }
 
 .colorl{
@@ -368,7 +368,7 @@ element {
 .short-links-list .widget-links-list {
 
     width: 100%;
-
+}
 
 .services-shadow:hover{
     -webkit-box-shadow: 2px -5px 33px 0px rgba(158,153,158,1);
@@ -384,6 +384,7 @@ box-shadow: 2px -5px 33px 0px rgba(158,153,158,1);
     text-align: justify;
     padding: 1px 35px 0px 30px;
 }
+
 .icon img{
     
 }
@@ -391,3 +392,42 @@ box-shadow: 2px -5px 33px 0px rgba(158,153,158,1);
 .aban{
     padding-top: 200px;
 }
+
+.tour-images img{
+  margin-top: -23px;  
+}
+/*.tour-images a{
+    margin-top: -65px;
+}*/
+
+/*.tour-images href{
+   margin-top: -34px;  
+}*/
+
+.widget-title{
+    margin-top: 71px;
+}
+.widget-title:first-child{
+    margin-top: 0px;
+}
+.post-title{
+    padding-top: 29px;
+}
+.post-thumb img{
+    padding-top: 20px;
+}
+.company-widget{
+    margin-top: 60px;
+}
+.b, strong{
+    font-weight: bold;
+}
+
+.back-img{
+ margin-top: 57px;
+ margin-bottom: 50px;
+}
+
+
+
+
