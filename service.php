@@ -9,7 +9,7 @@ include_once(dirname(__FILE__) . '/class/include.php');
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>Service || Tours-at-srilanka</title>
+        <title>Services || Tours-at-srilanka</title>
         <!-- favicon -->
         <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
 
@@ -51,7 +51,7 @@ include_once(dirname(__FILE__) . '/class/include.php');
                     <div class="row justify-content-center">
                         <div class="col-lg-10">
                             <div class="banner-content text-center">
-                                <h1 class="banner-title">Service</h1>
+                                <h1 class="banner-title">Services</h1>
                                 <p class="text-center">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's<br/> standard dummy text ever since the 1500s.</p>
                             </div>
                         </div>
@@ -66,9 +66,11 @@ include_once(dirname(__FILE__) . '/class/include.php');
                     foreach (Service::all() as $Services) {
                         ?>
                         <div class="col-lg-4 col-md-6">
-                            <div class="single-service-item-two services"><!-- single service item -->
+                            <div class="single-service-item-two services services-shadow"><!-- single service item -->
                                 <div class="icon">
-                                    <i class="fa fa-rocket"></i>
+                                    <!--<i class="fa fa-rocket"></i>-->
+                                    
+                                    <img src="upload/service/<?php echo $Services['image_name']; ?>">
                                 </div>
                                 <div class="content">
                                     <h4 class="title align"><?php echo $Services['title']; ?></h4>
