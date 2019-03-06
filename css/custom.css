@@ -189,7 +189,7 @@ select, input, textarea, figure, .title, .thumb, .title a, .absolute, .read-more
 /*======Activities==========*/
 .parallax-img {
     background-image: url("../images/slider/jet.jpg");
-    height: 860px;
+    height: auto;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -198,16 +198,16 @@ select, input, textarea, figure, .title, .thumb, .title a, .absolute, .read-more
 }
 .parallax-img-destination{
     background-image: url("../images/slider/Slider_AEP5.jpg");
-    height: 830px;
+    height: auto;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;  
 }
-.section-header.section-header1 {
-    padding-top: 100px;
-}
+/*.section-header.section-header1 {
+    padding-top: 100px;*/
+/*}*/
 
 /*=========About Us=============*/
 .about-image{
@@ -223,7 +223,9 @@ select, input, textarea, figure, .title, .thumb, .title a, .absolute, .read-more
 }
 
 .section-padding {
-    padding-top: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
 }
 
 .page-list li {
@@ -354,4 +356,16 @@ element {
 
 .bot{
     padding-bottom: 100px;
+}
+
+.ptobo{
+    padding-top: 100px;
+
+    padding-bottom: 100px;
+}
+
+.short-links-list .widget-links-list {
+
+    width: 100%;
+
 }

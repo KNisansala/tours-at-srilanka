@@ -5,8 +5,8 @@
             <div class="row align-items-center">
                 <div class="col-lg-8 col-md-7">
                     <ul class="header-company-contact">
-                        <li><i class="fa fa-phone"></i>01 245 845 4225</li>
-                        <li><i class="fa fa-envelope"></i>info@yoursitename.com</li>
+                        <li><i class="fa fa-phone"></i>0094 778310500</li>
+                        <li><i class="fa fa-envelope"></i>info@toursatsrilanka.com</li>
                     </ul>
                 </div>
                 <div class="col-lg-4 col-md-5">

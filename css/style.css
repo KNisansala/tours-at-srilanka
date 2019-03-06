@@ -160,7 +160,7 @@ button {
 }
 .section-padding {
     /*padding-top: 100px;*/
-    padding-bottom: 70px;
+    padding-bottom: 100px;
 }
 .section-overlay {
     position: relative;
@@ -1339,7 +1339,7 @@ div[class*="single-item-style"] .content p {
 }
 .owl-dots {
     position: absolute;
-    bottom: -15%;
+    bottom: -5%;
     left: 50%;
     transform: translateX(-50%);
     -webkit-transform: translateX(-50%);
