@@ -5,7 +5,7 @@
             <div class="row justify-content-between">
                 <div class="col-lg-3 col-md-6">
                     <div class="widget company-widget">
-                        <img src="images/slider/logo.jpg" alt="" width="200"/><br><br><br>
+                        <img src="images/slider/logo-new-00.png" alt="" width="220"/><br><br><br>
                         <!--<a href="#" class="site-logo"><img src="images/slider/logo.jpg" width="275" alt="logo"></a>-->
                         <p>We have more than ten years well experienced Guides and Tour Drivers. Also our best reward ever can be gained is your highest satisfaction with smile. Our first and most important priority is our customers and we are ready to serve high elegant and superb service.</p>
 

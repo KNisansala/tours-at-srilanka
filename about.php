@@ -436,12 +436,12 @@ include_once(dirname(__FILE__) . '/class/include.php');
                 </div>
             </div>
             <div class="banner-content-area">
-                <div class="container">
+                <div class="container ">
                     <div class="row justify-content-center">
                         <div class="col-lg-10">
                             <div class="banner-content text-center">
                                 <h1 class="banner-title">About Us</h1>
-                                <p class="text-center">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's<br/> standard dummy text ever since the 1500s.</p>
+                                <p class="text-center">Our achivement Will tell you about our tour services.</p>
                             </div>
                         </div>
                     </div>
@@ -449,8 +449,12 @@ include_once(dirname(__FILE__) . '/class/include.php');
             </div>
         </section>
         <!-- banner-section end -->
+
         <section class="about-section section-padding about-section-bg about-image aban">
             <div class="container">
+
+        <section class="about-section section-padding about-section-bg about-image">
+            <div class="container back-img">
                 <div class="row">
                     <div class="col-lg-6">
                         <div class="content">
@@ -483,7 +487,11 @@ include_once(dirname(__FILE__) . '/class/include.php');
                                     <h5 class="item-title">Vision</h5>
                                 </div>
                                 <div class="content">
+
                                     <p>To assist the travelers, gain the most out of their coverage and give a customer service with a smile</p>
+
+                                    <p>To assist the travelers, gain the most out of their coverage and give a customer service with a smile.</p>
+
                                 </div>
                             </div>
                         </div><!--benefits-item end -->
@@ -494,9 +502,12 @@ include_once(dirname(__FILE__) . '/class/include.php');
                                     <h5 class="item-title">Mission</h5>
                                 </div>
                                 <div class="content">
+
                                     <p>Being a knowledgeable and experienced would help ascertaining travelers believes, Keep them totally satisfied.we strive to do our best, and are committed to ensuring a dream travel to all our guests.
 </p>
-                                </div>
+
+                                    <p>Being a knowledgeable and experienced would help ascertaining travelers believes, Keep them totally satisfied.we strive to do our best, and are committed to ensuring a dream travel to all our guests.</p>
+                               </div>
                             </div>
                         </div><!--benefits-item end -->
                         <div class="col-lg-4 col-md-6">
@@ -506,7 +517,11 @@ include_once(dirname(__FILE__) . '/class/include.php');
                                     <h5 class="item-title">Value</h5>
                                 </div>
                                 <div class="content">
+
                                     <p>get a happy comment for our service in a guests.and get a good name  for tour services</p>
+
+                                    <p>get a happy comment for our service in a guests.and get a good name  for tour services.</p>
+
                                 </div>
                             </div>
                         </div><!--benefits-item end -->

@@ -249,7 +249,7 @@ body {
 }
 .header-top {
     background-color: #001d4a;
-    padding: 12px 0;
+    padding: 0px;
 }
 .header-company-contact {
     display: -webkit-box;
@@ -278,7 +278,7 @@ body {
     -o-border-radius: 50%;
 }
 .header-company-contact li+li {
-    margin-left: 27px;
+    margin-left: 22px 18px;
 }
 .header-user-login-regis {
     display: -webkit-box;
@@ -1956,7 +1956,7 @@ div[class*="single-item-style"] .content p {
 .about-section-bg {
     padding-top: 165px;
     padding-bottom: 145px;
-    background-image: url(../images/about/2.jpg);
+    background-image: url(../images/about/about-bg.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;

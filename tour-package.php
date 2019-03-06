@@ -55,7 +55,7 @@ include_once(dirname(__FILE__) . '/class/include.php');
                         <div class="col-lg-10">
                             <div class="banner-content text-center">
                                 <h1 class="banner-title">Tour Packages</h1>
-                                <p class="text-center">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's<br/> standard dummy text ever since the 1500s.</p>
+                                <p class="text-center">We are committed to understanding your idea of a perfect holiday – what you love to do, where you would like to stay and how much you want to travel around the island. </p>
 
                             </div>
                         </div>

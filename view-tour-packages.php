@@ -101,7 +101,7 @@ $tour_dates = TourDate::getTourDatesById($id);
                                         ?>
 
 
-                                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12  ">
+                                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 tour-images ">
                                             <figure>
                                                 <a class="" href="upload/tour-package/date/gallery/<?php echo $photo['image_name']; ?>" class="" data-fancybox="images" >
                                                     <figcaption>
