@@ -26,13 +26,16 @@ if ($_SESSION['CAPTCHACODE'] != $_POST['captchacode']) {
 
 $full_lname = $_POST['full_name'];
 $visitor_email = $_POST['email'];
-$contact = $_POST['contact'];
-$subject = $_POST['subject'];
-$message = $_POST['message'];
+$package = $_POST['package'];
+$no_of_travelers = $_POST['no_of_travelers'];
+$no_of_night = $_POST['no_of_night'];
+$start_on = $_POST['start_on'];
+$no_of_rooms = $_POST['no_of_rooms'];
+$accommodation = $_POST['accommodation'];
 $captchacode = $_POST['captchacode'];
 
 
-//$subject = 'New Website Enquiry - Booking';
+$subject = 'New Website Enquiry - Booking Tour Package';
 
 
 date_default_timezone_set('Asia/Colombo');
