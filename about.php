@@ -1,4 +1,6 @@
-<?php ?>
+<?php
+include_once(dirname(__FILE__) . '/class/include.php');
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -576,7 +578,7 @@
         <script src="rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
         <script src="rs-plugin/js/custom.js" type="text/javascript"></script>
         <script src="rs-plugin/js/on3step.js" type="text/javascript"></script>
-       
+
     </body>
 
 </html>

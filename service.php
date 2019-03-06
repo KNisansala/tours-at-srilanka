@@ -42,7 +42,7 @@ include_once(dirname(__FILE__) . '/class/include.php');
                 <div class="container">
                     <ul class="page-list">
                         <li><a href="index.php">Home</a></li>
-                        <li>Service</li>
+                        <li>Services</li>
                     </ul>
                 </div>
             </div>

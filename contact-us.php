@@ -1,4 +1,6 @@
-<?php ?>
+<?php
+include_once(dirname(__FILE__) . '/class/include.php');
+?>
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -67,7 +69,7 @@
                                 </div>
                                 <div class="content">
                                     <span class="title">Phone Number</span>
-                                    <p>+0123 4567 9876</p>
+                                    <p>0094 778310500</p>
                                 </div>
                             </div><!-- company-info-item end -->
                             <div class="company-info-item d-flex align-items-center">
@@ -76,25 +78,17 @@
                                 </div>
                                 <div class="content">
                                     <span class="title">Email Address</span>
-                                    <p>example@gmail.com</p>
+                                    <p>info@toursatsrilanka.com</p>
                                 </div>
                             </div><!-- company-info-item end -->
-                            <div class="company-info-item d-flex align-items-center">
-                                <div class="icon">
-                                    <i class="fa fa-phone"></i>
-                                </div>
-                                <div class="content">
-                                    <span class="title">Fax address</span>
-                                    <p>+0123 4567 9876</p>
-                                </div>
-                            </div><!-- company-info-item end -->
+
                             <div class="company-info-item d-flex align-items-center">
                                 <div class="icon">
                                     <i class="fa fa-map-marker"></i>
                                 </div>
                                 <div class="content">
                                     <span class="title">location</span>
-                                    <p>123 Business Avenue, NYC</p>
+                                    <p>32, Yaddehimulla Rd,Unawatuna.</p>
                                 </div>
                             </div><!-- company-info-item end -->
                         </div>

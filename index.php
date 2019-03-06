@@ -129,15 +129,14 @@ include_once(dirname(__FILE__) . '/class/include.php');
         <!-- info-section end -->
 
         <!-- about-section start -->
-        <section class="about-section section-padding">
-            <div class="container">
+        <section class="about-section ">
+            <div class="container ptobo">
                 <div class="row">
                     <div class="col-lg-6">
                         <div class="content">
                             <h2 class="section-title">welcome</h2>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of the modern.</p>
-                            <p>And scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting.</p>
-                            <a href="#" class="cmn-button">learn more</a>
+                            <p> We have more than ten years well experienced Guides and Tour Drivers. Also our best reward ever can be gained is your highest satisfaction with smile. Our first and most important priority is our customers and we are ready to serve high elegant and superb service. Our passion is to arrange tour and holiday arrangement with large diversity that spread around the country.</p>
+                            <a href="about.php" class="cmn-button">learn more</a>
                         </div>
                     </div>
                     <div class="col-lg-6">
@@ -151,7 +150,7 @@ include_once(dirname(__FILE__) . '/class/include.php');
         </section>
         <section class="course-section section-padding">
             <div class="parallax-img container-fluid-img">
-                <div class="container ">
+                <div class="container ptobo">
 
                     <div class="section-header section-header1 text-center">
                         <div class="row justify-content-center">
@@ -168,34 +167,34 @@ include_once(dirname(__FILE__) . '/class/include.php');
                                 $TOUR_PACKAGE = TourPackage::all();
                                 foreach ($TOUR_PACKAGE as $key => $info) {
                                     if ($key < 6) {
-                                   ?>
-                                    <div class="col-lg-12 col-sm-6">
-                                        <div class="course-item">
-                                            <div class="course-thumb">
-                                                <a href="tour-package.php"><img src="upload/tour-package/<?php echo $info ['image_name']; ?>" alt=""></a>
-                                            </div>
-                                            <div class="course-content tour-package-content">
-                                                <h5 class="course-title tour-1">
-                                                    <a href="tour-package.php?id=<?php echo $info['id']; ?>"><?php echo $info['title']; ?></a>
-                                                </h5>
+                                        ?>
+                                        <div class="col-lg-12 col-sm-6">
+                                            <div class="course-item">
+                                                <div class="course-thumb">
+                                                    <a href="tour-package.php"><img src="upload/tour-package/<?php echo $info ['image_name']; ?>" alt=""></a>
+                                                </div>
+                                                <div class="course-content tour-package-content">
+                                                    <h5 class="course-title tour-1">
+                                                        <a href="tour-package.php?id=<?php echo $info['id']; ?>"><?php echo $info['title']; ?></a>
+                                                    </h5>
 
-                                                <p>
-                                                    <?php
-                                                    if (strlen($info['short_description']) > 100) {
-                                                        echo substr($info['short_description'], 0, 100) . '...';
-                                                    } else {
-                                                        echo $info['short_description'];
-                                                    }
-                                                    ?>
-                                                </p>
+                                                    <p>
+                                                        <?php
+                                                        if (strlen($info['short_description']) > 100) {
+                                                            echo substr($info['short_description'], 0, 100) . '...';
+                                                        } else {
+                                                            echo $info['short_description'];
+                                                        }
+                                                        ?>
+                                                    </p>
 
-                                                <a href="#" class="cmn-button btn-position">learn more</a>
+                                                    <a href="#" class="cmn-button btn-position">learn more</a>
+                                                </div>
                                             </div>
                                         </div>
-                                    </div>
 
-                                    <?php
-                                } 
+                                        <?php
+                                    }
                                 }
                                 ?>
                             </div>
@@ -262,7 +261,8 @@ include_once(dirname(__FILE__) . '/class/include.php');
 
 
         <section class="teachers-section section-padding top">
-            <div class="parallax-img-destination container-fluid-img-destination"><div class="container">
+            <div class="parallax-img-destination container-fluid-img-destination">
+                <div class="container ptobo">
                     <div class="section-header section-header1 text-center">
                         <div class="row justify-content-center">
                             <div class="col-lg-8">
