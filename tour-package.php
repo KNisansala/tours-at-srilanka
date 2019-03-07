@@ -26,6 +26,7 @@ include_once(dirname(__FILE__) . '/class/include.php');
         <!--<link href="fontawesome/css/all.css" rel="stylesheet" type="text/css"/>-->
         <link href="font-awesome-4.7.0/css/font-awesome.css" rel="stylesheet" type="text/css"/>
         <link href="font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+       
     </head>
 
     <body>
@@ -54,7 +55,7 @@ include_once(dirname(__FILE__) . '/class/include.php');
                         <div class="col-lg-10">
                             <div class="banner-content text-center">
                                 <h1 class="banner-title">Tour Packages</h1>
-                                <p class="text-center">We are committed to understanding your idea of a perfect holiday – what you love to do, where you would like to stay and how much you want to travel around the island. </p>
+                                <p class="text-center">Tour At Sri Lanka packages make your dream holiday come true. we offer beautiful and remarkable places and more to pamper tourists from all over the world. </p>
 
                             </div>
                         </div>

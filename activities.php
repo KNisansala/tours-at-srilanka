@@ -53,7 +53,7 @@ include_once(dirname(__FILE__) . '/class/include.php');
                         <div class="col-lg-10">
                             <div class="banner-content text-center">
                                 <h1 class="banner-title">Activities</h1>
-                                <p>This is our enjoyable activities for you.</p>
+                                <p>  Get back to nature with adventure travel in Sri Lanka.We've selected our favourite places for adventure tourism,including the best tours and trips that you can experience on your own holiday.</p>
 
                             </div>
                         </div>

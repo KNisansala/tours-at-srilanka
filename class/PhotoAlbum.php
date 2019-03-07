@@ -95,10 +95,8 @@ class PhotoAlbum {
 
     public function delete() {
 
-        $this->deletePhotos();
-
-        unlink(Helper::getSitePath() . "upload/photo-album/" . $this->image_name);
-
+       $this->deletePhotos();
+      
         $query = 'DELETE FROM `photo_album` WHERE id="' . $this->id . '"';
 
         $db = new Database();
@@ -108,19 +106,19 @@ class PhotoAlbum {
 
     public function deletePhotos() {
 
-        $ALBUM_PHOTOS = new AlbumPhoto(NULL);
-
-        $allPhotos =  $ALBUM_PHOTOS->getAlbumPhotosById($this->id);
-
-        foreach ($allPhotos as $photo) {
-
-            $IMG =  $ALBUM_PHOTOS->image_name = $photo["image_name"];
-            unlink(Helper::getSitePath() . "upload/photo-album/gallery/" . $IMG);
-            unlink(Helper::getSitePath() . "upload/photo-album/gallery/thumb/" . $IMG);
-
-             $ALBUM_PHOTOS->id = $photo["id"];
-             $ALBUM_PHOTOS->delete();
-        }
+//        $ALBUM_PHOTOS = new AlbumPhoto(NULL);
+//
+//        $allPhotos =  $ALBUM_PHOTOS->getAlbumPhotosById($this->id);
+//
+//        foreach ($allPhotos as $photo) {
+//
+//            $IMG =  $ALBUM_PHOTOS->image_name = $photo["image_name"];
+//            unlink(Helper::getSitePath() . "upload/photo-album/gallery/" . $IMG);
+//            unlink(Helper::getSitePath() . "upload/photo-album/gallery/thumb/" . $IMG);
+//
+//             $ALBUM_PHOTOS->id = $photo["id"];
+//             $ALBUM_PHOTOS->delete();
+//        }
     }
     
      public function arrange($key, $img) {
