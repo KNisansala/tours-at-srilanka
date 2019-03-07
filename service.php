@@ -51,7 +51,7 @@ include_once(dirname(__FILE__) . '/class/include.php');
                         <div class="col-lg-10">
                             <div class="banner-content text-center">
                                 <h1 class="banner-title">Services</h1>
-                                <p class="text-center">That is the importnt item for you in our company.this is a our good services.</p>
+                                <p class="text-center">That is the importnt item for you in our company. This is a our good services.</p>
                             </div>
                         </div>
                     </div>

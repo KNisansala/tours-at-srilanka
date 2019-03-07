@@ -47,7 +47,7 @@ include_once(dirname(__FILE__) . '/class/include.php');
                         <div class="col-lg-10">
                             <div class="banner-content text-center">
                                 <h1 class="banner-title">Contact Us</h1>
-                                <p class="text-center">That is the importnt item for you in our company.this is a our good services.</p>
+                                <p class="text-center">That is the importnt item for you in our company. This is a our good services.</p>
                             </div>
                         </div>
                     </div>
@@ -66,7 +66,7 @@ include_once(dirname(__FILE__) . '/class/include.php');
                                 <div class="icon">
                                     <i class="fa fa-phone"></i>
                                 </div>
-                                <div class="content">
+                                <div class="content box-details">
                                     <span class="title">Phone Number</span>
                                     <p>0094 778310500</p>
                                 </div>
@@ -75,7 +75,7 @@ include_once(dirname(__FILE__) . '/class/include.php');
                                 <div class="icon">
                                     <i class="fa fa-envelope"></i>
                                 </div>
-                                <div class="content">
+                                <div class="content box-details">
                                     <span class="title">Email Address</span>
                                     <p>info@toursatsrilanka.com</p>
                                 </div>
@@ -85,9 +85,9 @@ include_once(dirname(__FILE__) . '/class/include.php');
                                 <div class="icon">
                                     <i class="fa fa-map-marker"></i>
                                 </div>
-                                <div class="content">
+                                <div class="content box-details">
                                     <span class="title">location</span>
-                                    <p>32, Yaddehimulla Rd,Unawatuna.</p>
+                                    <p>32,Yaddehimulla Rd,Unawatuna.</p>
                                 </div>
                             </div><!-- company-info-item end -->
                         </div>
@@ -95,8 +95,7 @@ include_once(dirname(__FILE__) . '/class/include.php');
                     <div class="col-lg-8">
                         <div class="contact-form-area form-area">
                             <h4 class="form-title">Send message</h4>
-                            <p>There are alteration in some many variations of passages of lorem Ipsum availle suffer alteration in some form by injected.</p>
-                            <div class="contact-form form-style-one">
+                           <div class="contact-form form-style-one">
                                 <div class="row">
                                     <div class="col-md-6">
                                         <div class="frm-group">
@@ -160,8 +159,7 @@ include_once(dirname(__FILE__) . '/class/include.php');
                     <div class="row justify-content-center">
                         <div class="col-lg-8">
                             <h2 class="section-title">Find Us on Google Maps</h2>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text</p>
-                        </div>
+                       </div>
                     </div>
                 </div>
                 <div class="section-wrapper">

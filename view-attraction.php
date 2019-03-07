@@ -59,7 +59,7 @@ $ATTRACTION = new Attraction($id);
                         <div class="col-lg-10">
                             <div class="banner-content text-center">
                                 <h1 class="banner-title"><?php echo $ATTRACTION->title ?></h1>
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's<br/> standard dummy text ever since the 1500s.</p>
+                                <p>Get a good experience have an unforgettable journey to the  in Sri Lanka.</p>
                             </div>
                         </div>
                     </div>

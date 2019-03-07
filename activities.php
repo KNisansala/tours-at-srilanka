@@ -44,7 +44,7 @@ include_once(dirname(__FILE__) . '/class/include.php');
                 <div class="container">
                     <ul class="page-list">
                         <li><a href="index.php">Home</a></li>
-                        <li><a href="activities.php">Activities</a></li>
+                        <li>Activities</li>
                     </ul>
                 </div>
             </div>

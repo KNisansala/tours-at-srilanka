@@ -261,6 +261,7 @@ body {
 .header-company-contact li {
     color: #ffffff;
     padding: 5px 0;
+    margin-right: 15px;
 }
 .header-company-contact li i {
     font-size: 12px;

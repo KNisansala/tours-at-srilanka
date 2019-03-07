@@ -51,7 +51,7 @@ $tour_dates = TourDate::getTourDatesById($id);
                 <div class="container">
                     <ul class="page-list">
                         <li><a href="index.php">Home</a></li>
-                        <li><a href="tour-package.php">Tour Packages</a></li>
+                        <li>Tour Packages</li>
                         <li><?php echo $TOUR->title ?></li>
                     </ul>
                 </div>
@@ -62,7 +62,7 @@ $tour_dates = TourDate::getTourDatesById($id);
                         <div class="col-lg-10">
                             <div class="banner-content text-center">
                                 <h1 class="banner-title"><?php echo $TOUR->title ?></h1>
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's<br/> standard dummy text ever since the 1500s.</p>
+                                <p>We are committed to understanding your idea of a perfect holiday – what you love to do, where you would like to stay and how much you want to travel around the island. </p>
                             </div>
                         </div>
                     </div>
@@ -128,7 +128,7 @@ $tour_dates = TourDate::getTourDatesById($id);
                         <div class="col-md-12 header-top-right text-center booknow">
                             <div class="book-tab">
                                 <div class="book-btn1 booknow ">
-                                    <a href="booking.php?id=<?php echo $TOUR->id; ?>">   <button type="submit" id="btnSubmit" class="cmn-button">Book Now</button></a>
+                                    <a href="booking.php?id=<?php echo $TOUR->id; ?>">   <button type="submit" id="btnSubmit" class="cmn-button">Inquiry Now</button></a>
                                 </div>
                             </div>
                         </div>

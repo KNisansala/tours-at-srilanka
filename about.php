@@ -95,7 +95,7 @@ include_once(dirname(__FILE__) . '/class/include.php');
                         <div class="section-wrapper">
                             <div class="row mt-mb-15 justify-content-center">
                                 <div class="col-lg-4 col-md-6">
-                                    <div class="single-item-style-four">
+                                    <div class="single-item-style-four item-0">
                                         <div class="single-item-head d-flex align-items-center">
                                             <div class="icon"><i class="fa fa-eye"></i></div>
                                             <h5 class="item-title">Vision</h5>
@@ -107,7 +107,7 @@ include_once(dirname(__FILE__) . '/class/include.php');
                                     </div>
                                 </div><!--benefits-item end -->
                                 <div class="col-lg-4 col-md-6">
-                                    <div class="single-item-style-four">
+                                    <div class="single-item-style-four item-0">
                                         <div class="single-item-head d-flex align-items-center">
                                             <div class="icon"><i class="fa fa-rocket"></i></div>
                                             <h5 class="item-title">Mission</h5>
@@ -120,7 +120,7 @@ include_once(dirname(__FILE__) . '/class/include.php');
                                     </div>
                                 </div><!--benefits-item end -->
                                 <div class="col-lg-4 col-md-6">
-                                    <div class="single-item-style-four">
+                                    <div class="single-item-style-four item-0">
                                         <div class="single-item-head d-flex align-items-center">
                                             <div class="icon"><i class="fa fa-handshake-o"></i></div>
                                             <h5 class="item-title">Value</h5>
