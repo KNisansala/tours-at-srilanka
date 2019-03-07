@@ -54,7 +54,7 @@ include_once(dirname(__FILE__) . '/class/include.php');
                         <div class="col-lg-10">
                             <div class="banner-content text-center">
                                 <h1 class="banner-title">Photo Gallery</h1>
-                                <p class="text-center">Discover Paradise with our Tailor Made Private Sri Lanka Tours.</p>
+                                <p class="text-center">Galleries with captions</p>
                             </div>
                         </div>
                     </div>

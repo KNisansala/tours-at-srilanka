@@ -45,7 +45,8 @@ $TOUR = new TourPackage($tour);
                 <div class="container">
                     <ul class="page-list">
                         <li><a href="index.php">Home</a></li>
-                        <li>Booking</li>
+                        <li><a href="tour-package.php">Tour Packages</a></li>
+                        <li>Inquiry</li>
                     </ul>
                 </div>
             </div>
@@ -54,8 +55,8 @@ $TOUR = new TourPackage($tour);
                     <div class="row justify-content-center">
                         <div class="col-lg-10">
                             <div class="banner-content text-center">
-                                <h1 class="banner-title">Booking</h1>
-                                <p class="text-center">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's<br/> standard dummy text ever since the 1500s.</p>
+                                <h1 class="banner-title">Inquiry</h1>
+                                <p class="text-center">Thank you for contacting us. We will respond to your inquiry as soon as we can.</p>
                             </div>
                         </div>
                     </div>
@@ -73,7 +74,7 @@ $TOUR = new TourPackage($tour);
                     </div>
                     <div class="col-lg-12">
                         <div class="contact-form-area form-area">
-                            <h4 class="form-title">Booking Form</h4>
+                            <h4 class="form-title">Inquiry Now</h4>
                             <p>There are alteration in some many variations of passages of lorem Ipsum availle suffer alteration in some form by injected.</p>
                             <div class="contact-form form-style-one">
                                 <div class="row">
