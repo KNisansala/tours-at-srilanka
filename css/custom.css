@@ -116,8 +116,8 @@ ul li, ol li{
 .gray-bg, .choose-us, .df-button, .blog-grid-2 .blog-thumb .text, .destination-thumb2 .text{
     background: #edf1f2;
 }
-.th-bg, .df-button:hover,   .tagcloud a:hover,  .destination-thumb2 figure a::after, .blog-thumb figure::after, .destination-thumb-3 figure, .widget-contact .social li a:hover{
-    background: linear-gradient(#15a2e0, #fb0000);
+.th-bg, .tagcloud a:hover,  .destination-thumb2 figure a::after, .blog-thumb figure::after, .destination-thumb-3 figure, .widget-contact .social li a:hover{
+    background: linear-gradient(#ff8900, #021dff);
 }
 .df-button:hover{
     box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.04);
@@ -425,6 +425,14 @@ box-shadow: 2px -5px 33px 0px rgba(158,153,158,1);
 .welcome-content p {
     padding: 1px 35px 0px 0px;
 }
-
+.df-button{
+    background-color: #ec4e20;
+    border-radius: 3px;
+    border: 1px solid;
+    border-color: #ec4e20;
+}
+.df-button:hover{
+    background-color: #ec4e20;
+}
 
 
