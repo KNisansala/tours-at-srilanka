@@ -382,7 +382,7 @@ select:focus {
 .main-menu li a {
     text-transform: uppercase;
     font-weight: 500;
-    padding: 35px 18px;
+    padding: 22px 18px;
     display: inline-block;
     font-size: 15px;
 }
