@@ -168,7 +168,7 @@ include_once(dirname(__FILE__) . '/class/include.php');
                                 foreach ($TOUR_PACKAGE as $key => $info) {
                                     if ($key < 6) {
                                         ?>
-                                        <div class="col-lg-12 col-sm-6">
+                                        <div class="col-lg-12 col-sm-12">
                                             <div class="course-item">
                                                 <div class="course-thumb">
                                                     <a href="tour-package.php"><img src="upload/tour-package/<?php echo $info ['image_name']; ?>" alt=""></a>
@@ -225,7 +225,7 @@ include_once(dirname(__FILE__) . '/class/include.php');
                         foreach ($ACTIVITY as $key => $info) {
                             if ($key < 6) {
                                 ?>
-                                <div class="col-lg-6">
+                                <div class="col-lg-6 col-sm-12">
                                     <div class="event-item item-style-three d-flex align-items-center">
                                         <div class="event-left">
                                             <div class="event-thumb activities">
@@ -278,7 +278,7 @@ include_once(dirname(__FILE__) . '/class/include.php');
                             foreach ($ATTRACTION as $key => $info) {
                                 if ($key < 6) {
                                 ?>
-                                <div class="col-lg-12 col-sm-6">
+                                <div class="col-lg-12 col-sm-12">
                                     <div class="teacher-single text-center">
                                         <div class="teacher-thumb">
                                             <!--<img src="images/banner/sigiriya-4.jpg" alt="teacher-image">-->

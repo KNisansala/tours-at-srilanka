@@ -3,13 +3,13 @@
     <div class="header-top">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-lg-8 col-md-7">
+                <div class="col-lg-8 col-md-9 col-sm-9">
                     <ul class="header-company-contact">
                         <li><i class="fa fa-phone"></i>0094 778310500</li>
                         <li><i class="fa fa-envelope"></i>info@toursatsrilanka.com</li>
                     </ul>
                 </div>
-                <div class="col-lg-4 col-md-5">
+                <div class="col-lg-4 col-md-3 col-sm-3">
                     <ul class="header-user-login-regis">
                         <!--<li><a href="login-account.html">Log in</a></li>-->
 
