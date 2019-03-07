@@ -160,6 +160,12 @@
     .about-section {
         margin-top: 140px;
     }
+    .company-widget {
+        margin-top: 0px;
+    }
+    .fotterLogo{
+        margin-top: -48px;
+    }
 }
 @media (max-width: 767px) {
     .header-company-contact,
@@ -423,9 +429,23 @@
     .owl-carousel2.owl-dots {
         bottom: 20%;
     }
-
-
+    .company-widget.img{
+        margin-top: -50px;        
+    }
+    .page-list {
+        margin-left: 64px;
+    }
+    .widget-title:first-child {
+        margin-top: 23px;
+    }
+    .tour-images img {
+        margin-left: 16px;
+    }
+    .widget-title:first-child {
+        padding-top: 22px;
+    }
 }
+
 @media (max-width: 440px) {
     .event-left, .event-item.item-style-two .event-left, 
     .event-item.item-style-three .event-left

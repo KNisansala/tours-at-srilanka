@@ -17,8 +17,7 @@ $ATTRACTION = new Attraction($id);
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>View Attraction|| Tours-at-srilanka</title>
         <!-- favicon -->
-        <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
-
+        <link rel="shortcut icon" href="logo/logo.png" type="image/x-icon">
         <link href="css/fontawesome.min.css" rel="stylesheet" type="text/css"/>
         <link href="css/flaticon.css" rel="stylesheet" type="text/css"/>
         <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>

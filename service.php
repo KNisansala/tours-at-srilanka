@@ -11,8 +11,7 @@ include_once(dirname(__FILE__) . '/class/include.php');
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>Services || Tours-at-srilanka</title>
         <!-- favicon -->
-        <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
-
+        <link rel="shortcut icon" href="logo/logo.png" type="image/x-icon">
         <link href="css/fontawesome.min.css" rel="stylesheet" type="text/css"/>
         <link href="css/flaticon.css" rel="stylesheet" type="text/css"/>
         <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
@@ -69,7 +68,7 @@ include_once(dirname(__FILE__) . '/class/include.php');
                             <div class="single-service-item-two services services-shadow"><!-- single service item -->
                                 <div class="icon">
                                     <!--<i class="fa fa-rocket"></i>-->
-                                    
+
                                     <img src="upload/service/<?php echo $Services['image_name']; ?>">
                                 </div>
                                 <div class="content">
