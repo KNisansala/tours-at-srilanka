@@ -11,8 +11,7 @@ include_once(dirname(__FILE__) . '/class/include.php');
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title> Home Page | Tours-at-srilanka</title>
         <!-- favicon -->
-        <link rel="shortcut icon" href="logo/logo.png" type="image/x-icon">
-
+        <link rel="shortcut icon" href="images/logo/logo.png" type="image/x-icon">
         <link href="css/fontawesome.min.css" rel="stylesheet" type="text/css"/>
         <link href="css/flaticon.css" rel="stylesheet" type="text/css"/>
         <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
@@ -277,22 +276,22 @@ include_once(dirname(__FILE__) . '/class/include.php');
                             $ATTRACTION = Attraction::all();
                             foreach ($ATTRACTION as $key => $info) {
                                 if ($key < 6) {
-                                ?>
-                                <div class="col-lg-12 col-sm-12">
-                                    <div class="teacher-single text-center">
-                                        <div class="teacher-thumb">
-                                            <!--<img src="images/banner/sigiriya-4.jpg" alt="teacher-image">-->
-                                            <img src="upload/attraction/<?php echo $info['image_name']; ?>" alt="">
-                                        </div>
-                                        <div class="teacher-content">
-                                            <!--<h4 class="teacher-name"><a href="#">Sigiriya</a></h4>-->
-                                            <h4 class="teacher-name"><a href="attraction.php?id=<?php echo $info['id']; ?>"><?php echo $info['title']; ?></a></h4>
-                                            <a href="#" class="cmn-button destination-btn">read more</a>
+                                    ?>
+                                    <div class="col-lg-12 col-sm-12">
+                                        <div class="teacher-single text-center">
+                                            <div class="teacher-thumb">
+                                                <!--<img src="images/banner/sigiriya-4.jpg" alt="teacher-image">-->
+                                                <img src="upload/attraction/<?php echo $info['image_name']; ?>" alt="">
+                                            </div>
+                                            <div class="teacher-content">
+                                                <!--<h4 class="teacher-name"><a href="#">Sigiriya</a></h4>-->
+                                                <h4 class="teacher-name"><a href="attraction.php?id=<?php echo $info['id']; ?>"><?php echo $info['title']; ?></a></h4>
+                                                <a href="#" class="cmn-button destination-btn">read more</a>
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
 
-                                <?php
+                                    <?php
                                 }
                             }
                             ?>

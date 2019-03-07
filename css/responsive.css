@@ -164,8 +164,16 @@
         margin-top: 0px;
     }
     .fotterLogo{
-        margin-top: -48px;
+        margin-top: 0px;
     }
+    .about-section-bg {
+        background-image: none;
+    }
+    .aboutus{
+        margin-top: -1px;
+    }
+
+
 }
 @media (max-width: 767px) {
     .header-company-contact,

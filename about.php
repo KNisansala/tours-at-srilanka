@@ -11,8 +11,7 @@ include_once(dirname(__FILE__) . '/class/include.php');
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>About Us || Tours-at-srilanka</title>
         <!-- favicon -->
-        <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
-
+        <link rel="shortcut icon" href="images/logo/logo.png" type="image/x-icon">
         <link href="css/fontawesome.min.css" rel="stylesheet" type="text/css"/>
         <link href="css/flaticon.css" rel="stylesheet" type="text/css"/>
         <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
@@ -63,10 +62,10 @@ include_once(dirname(__FILE__) . '/class/include.php');
         </section>
         <!-- banner-section end -->
 
-        <section class="about-section section-padding about-section-bg about-image aban">
+        <section class="about-section section-padding about-section-bg about-image aban aboutus">
             <div class="container">
 
-                <section class="about-section section-padding  about-image">
+                <section class="section-padding  about-image">
                     <div class="container back-img">
                         <div class="row">
                             <div class="col-lg-6">
