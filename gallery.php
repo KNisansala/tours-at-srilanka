@@ -54,7 +54,7 @@ include_once(dirname(__FILE__) . '/class/include.php');
                         <div class="col-lg-10">
                             <div class="banner-content text-center">
                                 <h1 class="banner-title">Photo Gallery</h1>
-                                <p class="text-center">Galleries with captions</p>
+                                <p class="text-center">Remember that happiness is a way of travel</p>
                             </div>
                         </div>
                     </div>

@@ -11,7 +11,8 @@ if (isset($_POST['create'])) {
     $PHOTO_ALBUM->description = $_POST['description'];
 
     $dir_dest = '../../upload/photo-album/';
-
+    $dir_dest_thumb = '../../upload/photo-album/thumb';
+    $img = Helper::randamId();
     $handle = new Upload($_FILES['image']);
 
     $imgName = null;
@@ -20,11 +21,24 @@ if (isset($_POST['create'])) {
         $handle->image_resize = true;
         $handle->file_new_name_ext = 'jpg';
         $handle->image_ratio_crop = 'C';
-        $handle->file_new_name_body = Helper::randamId();
+        $handle->file_new_name_body = $img;
         $handle->image_x = 900;
         $handle->image_y = 500;
 
         $handle->Process($dir_dest);
+
+        if ($handle->processed) {
+            $info = getimagesize($handle->file_dst_pathname);
+            $imgName = $handle->file_dst_name;
+        }
+        $handle->image_resize = true;
+        $handle->file_new_name_ext = 'jpg';
+        $handle->image_ratio_crop = 'C';
+        $handle->file_new_name_body = $img;
+        $handle->image_x = 350;
+        $handle->image_y = 195;
+
+        $handle->Process($dir_dest_thumb);
 
         if ($handle->processed) {
             $info = getimagesize($handle->file_dst_pathname);
@@ -66,6 +80,7 @@ if (isset($_POST['update'])) {
     $dir_dest = '../../upload/photo-album/';
 
     $handle = new Upload($_FILES['image']);
+    $dir_dest_thumb = '../../upload/photo-album/thumb';
 
     $imgName = null;
 
@@ -80,6 +95,22 @@ if (isset($_POST['update'])) {
         $handle->image_y = 500;
 
         $handle->Process($dir_dest);
+
+        if ($handle->processed) {
+            $info = getimagesize($handle->file_dst_pathname);
+            $imgName = $handle->file_dst_name;
+        }
+
+        $handle->image_resize = true;
+        $handle->file_new_name_body = TRUE;
+        $handle->file_overwrite = TRUE;
+        $handle->file_new_name_ext = FALSE;
+        $handle->image_ratio_crop = 'C';
+        $handle->file_new_name_body = $_POST ["oldImageName"];
+        $handle->image_x = 350;
+        $handle->image_y = 195;
+
+        $handle->Process($dir_dest_thumb);
 
         if ($handle->processed) {
             $info = getimagesize($handle->file_dst_pathname);

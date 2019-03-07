@@ -315,7 +315,7 @@ include_once(dirname(__FILE__) . '/class/include.php');
                     <div class="row justify-content-center">
                         <div class="col-lg-8">
                             <h2 class="section-title">customer testimonial</h2>
-                            <p>Take only memories and share your experiences with Tour At Sri Lanka </p>
+                            <p>Take only memories and share your experiences with Tour At Sri Lanka. </p>
                         </div>
                     </div>
                 </div>

@@ -53,7 +53,7 @@ include_once(dirname(__FILE__) . '/class/include.php');
                         <div class="col-lg-10">
                             <div class="banner-content text-center">
                                 <h1 class="banner-title">About Us</h1>
-                                <p class="text-center">Our achievement will tell you about our tour services.</p>
+                                <p class="text-center">Tour At Sri Lanaka specialize in tailoring holidays that offer a mix of Sri Lanka’s diverse attractions, from the adventure of exploring the great outdoors to reveling in the island’s cultural diversity and fabled history..</p>
                             </div>
                         </div>
                     </div>
@@ -87,7 +87,7 @@ include_once(dirname(__FILE__) . '/class/include.php');
                             <div class="row justify-content-center">
                                 <div class="col-lg-8">
                                     <h2 class="section-title">This is our Company important</h2>
-                                    <p>Experience the real Sri Lanka with Tours at Sri Lanka</p>
+                                    <p>Understand to achieve anything requires faith and belief in yourself.</p>
                                 </div>
                             </div>
                         </div>

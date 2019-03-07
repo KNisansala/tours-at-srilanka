@@ -452,6 +452,13 @@
     .widget-title:first-child {
         padding-top: 22px;
     }
+    .footer-section .widget {
+        margin-bottom: 0px;
+    }
+    .item-0 {
+        height: 450px;
+    }
+
 }
 
 @media (max-width: 440px) {

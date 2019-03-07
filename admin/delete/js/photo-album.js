@@ -5,7 +5,7 @@ $(document).ready(function () {
 
         swal({
             title: "Are you sure?",
-            text: "You will not be able to recover this imaginary file!",
+            text: "You will not be able to recover this image file!",
             type: "warning",
             showCancelButton: true,
             confirmButtonColor: "#DD6B55",
@@ -18,12 +18,12 @@ $(document).ready(function () {
                 type: "POST",
                 data: {id: id, option: 'delete'},
                 dataType: "JSON",
+
                 success: function (jsonStr) {
                     if (jsonStr.status) {
-
                         swal({
                             title: "Deleted!",
-                            text: "Your imaginary file has been deleted.",
+                            text: "Your Image file has been deleted.",
                             type: 'success',
                             timer: 2000,
                             showConfirmButton: false
