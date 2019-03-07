@@ -81,7 +81,7 @@ $tour_dates = TourDate::getTourDatesById($id);
 //                            dd($tour_date['title']);
                             ?>
 
-                            <div class="row mt-15 mb-40 justify-content-center">
+                            <div class="row mt-15 mb-40 justify-content-center day-section">
 
                                 <div class="col-lg-12 tourdes">
 

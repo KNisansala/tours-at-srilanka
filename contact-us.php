@@ -87,7 +87,7 @@ include_once(dirname(__FILE__) . '/class/include.php');
                                 </div>
                                 <div class="content box-details">
                                     <span class="title">location</span>
-                                    <p>32,Yaddehimulla Rd,Unawatuna.</p>
+                                    <p>32, Yaddehimulla Rd,Unawatuna.</p>
                                 </div>
                             </div><!-- company-info-item end -->
                         </div>
@@ -164,7 +164,7 @@ include_once(dirname(__FILE__) . '/class/include.php');
                 </div>
                 <div class="section-wrapper">
                     <div class="event-map">
-                        <div id="map" class="map"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3965.280674706201!2d80.48713051427343!3d6.357704595399327!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae3e15337214f73%3A0x2a183b31df3e363a!2sSinharaja+Forest+Gate!5e0!3m2!1sen!2slk!4v1551182024042" width="1100" height="450" frameborder="0" style="border:0" allowfullscreen></iframe></div>
+                        <div id="map" class="map"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3967.8883094613197!2d80.24534641465931!3d6.010071230586419!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae172ee117b1765%3A0x388e5d903f5b1021!2s32+Yaddehimulla+Rd%2C+Unawatuna!5e0!3m2!1sen!2slk!4v1551945046743" width="96%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe></div>
                     </div>
                 </div>
             </div>

@@ -53,7 +53,7 @@ include_once(dirname(__FILE__) . '/class/include.php');
                         <div class="col-lg-10">
                             <div class="banner-content text-center">
                                 <h1 class="banner-title">Activities</h1>
-                                <p>This is our enjoible activities for you.</p>
+                                <p>This is our enjoyable activities for you.</p>
 
                             </div>
                         </div>

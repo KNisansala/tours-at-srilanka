@@ -52,14 +52,14 @@ include_once(dirname(__FILE__) . '/class/include.php');
                                 <img src="images/slider/taxi.jpg" class="image1 "alt="">
 
                                 <div class="destination-title">
-                                    <h3 class="title"><a href="#" class="title-1">Services</a></h3>
+                                    <h3 class="title"><a href="service.php" class="title-1">Services</a></h3>
                                 </div>
                             </figure>
                             <div class="text absolute middle1">
 
                                 <p>We are providing special services to help arrange your holiday, arrange accommodation and airport transport to suit the holiday budget.</p>
 
-                                <a href="#" class="df-button gray-bg">Read More</a>
+                                <a href="service.php" class="df-button gray-bg">Read More</a>
                             </div>
 
                         </div>
@@ -72,12 +72,12 @@ include_once(dirname(__FILE__) . '/class/include.php');
                             <figure>
                                 <img src="images/slider/galle.jpg" alt="">
                                 <div class="destination-title">
-                                    <h3 class="title"><a href="#"class="title-1" >One Day Tours</a></h3>
+                                    <h3 class="title"><a href="view-tour-packages.php?id=1"class="title-1" >One Day Tours</a></h3>
                                 </div>
                             </figure>
                             <div class="text absolute middle1">
                                 <p>When you have already landed to Sri Lanka a little ago, and you are on your plan, but you need to have one-day excursion for a selected site, we offer some of destinations to be pick a one by you.</p> 
-                                <a href="#" class="df-button gray-bg">Read More</a>
+                                <a href="view-tour-packages.php?id=1" class="df-button gray-bg">Read More</a>
                             </div>
 
                         </div>
@@ -90,12 +90,12 @@ include_once(dirname(__FILE__) . '/class/include.php');
                             <figure>
                                 <img src="images/slider/sigiriya.jpg" alt="">
                                 <div class="destination-title">
-                                    <h3 class="title"><a href="#" class="title-1">Round Tours</a></h3>
+                                    <h3 class="title"><a href="tour-package.php" class="title-1">Round Tours</a></h3>
                                 </div>
                             </figure>
                             <div class="text absolute middle1">
                                 <p>When you are planning to have next visit to Sri Lanka, we offer some packages to you. Family Tour, Honeymoon Tour, Half on the Beach tour or Mini tour. Just select a one and let us know, then we arrange your tour.</p> 
-                                <a href="#" class="df-button gray-bg">Read More</a>
+                                <a href="tour-package.php" class="df-button gray-bg">Read More</a>
                             </div>
 
                         </div>
@@ -108,12 +108,12 @@ include_once(dirname(__FILE__) . '/class/include.php');
                             <figure>
                                 <img src="images/slider/airport.jpg" alt="">
                                 <div class="destination-title">
-                                    <h3 class="title"><a href="#" class="title-1">Airport Transfer</a></h3>
+                                    <h3 class="title"><a href="service.php" class="title-1">Airport Transfer</a></h3>
                                 </div>
                             </figure>
                             <div class="text absolute middle1">
                                 <p>We are gifted to make special tour offers to our clients because maximum value from your holiday budget. We give on these benefits to our clients, so that everyone enjoying a holiday in Sri Lanka.</p> 
-                                <a href="#" class="df-button gray-bg">Read More</a>
+                                <a href="service.php" class="df-button gray-bg">Read More</a>
                             </div>
 
                         </div>
@@ -132,7 +132,7 @@ include_once(dirname(__FILE__) . '/class/include.php');
             <div class="container ptobo">
                 <div class="row">
                     <div class="col-lg-6">
-                        <div class="content">
+                        <div class="content welcome-content">
                             <h2 class="section-title">welcome</h2>
                             <p> We have more than ten years well experienced Guides and Tour Drivers. Also our best reward ever can be gained is your highest satisfaction with smile. Our first and most important priority is our customers and we are ready to serve high elegant and superb service. Our passion is to arrange tour and holiday arrangement with large diversity that spread around the country.</p>
                             <a href="about.php" class="cmn-button button-0">read more</a>
@@ -174,7 +174,7 @@ include_once(dirname(__FILE__) . '/class/include.php');
                                                 </div>
                                                 <div class="course-content tour-package-content">
                                                     <h5 class="course-title tour-1">
-                                                        <a href="tour-package.php?id=<?php echo $info['id']; ?>"><?php echo $info['title']; ?></a>
+                                                        <a href="view-tour-package.php?id=<?php echo $info['id']; ?>"><?php echo $info['title']; ?></a>
                                                     </h5>
 
                                                     <p>
@@ -186,8 +186,9 @@ include_once(dirname(__FILE__) . '/class/include.php');
                                                         }
                                                         ?>
                                                     </p>
-
-                                                    <a href="#" class="cmn-button btn-position button-0">read more</a>
+                                                    <div class="text-center">
+                                                        <a href="view-tour-packages.php?id=<?php echo $info['id']; ?>" class="cmn-button btn-position button-0">read more</a>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
@@ -232,7 +233,7 @@ include_once(dirname(__FILE__) . '/class/include.php');
                                             </div>
                                         </div>
                                         <div class="event-content">
-                                            <h4 class="event-title"><?php echo $info['title']; ?></h4>
+                                            <a href="view-activities.php?id=<?php echo $info['id']; ?>"><h4 class="event-title"><?php echo $info['title']; ?></h4></a>
                                             <p>
                                                 <?php
                                                 if (strlen($info['short_description']) > 150) {
@@ -285,8 +286,13 @@ include_once(dirname(__FILE__) . '/class/include.php');
                                             </div>
                                             <div class="teacher-content">
                                                 <!--<h4 class="teacher-name"><a href="#">Sigiriya</a></h4>-->
+
                                                 <h4 class="teacher-name"><a href="attraction.php?id=<?php echo $info['id']; ?>"><?php echo $info['title']; ?></a></h4>
                                                 <a href="#" class="cmn-button destination-btn">read more</a>
+
+                                                <h4 class="teacher-name"><a href="view-attraction.php?id=<?php echo $info['id']; ?>"><?php echo $info['title']; ?></a></h4>
+                                                <a href="view-attraction.php?id=<?php echo $info['id']; ?>" class="cmn-button destination-btn">read more</a>
+
                                             </div>
                                         </div>
                                     </div>

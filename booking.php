@@ -75,7 +75,7 @@ $TOUR = new TourPackage($tour);
                     <div class="col-lg-12">
                         <div class="contact-form-area form-area">
                             <h4 class="form-title">Inquiry Now</h4>
-                            <p>There are alteration in some many variations of passages of lorem Ipsum availle suffer alteration in some form by injected.</p>
+                            
                             <div class="contact-form form-style-one">
                                 <div class="row">
                                     <div class="col-md-6">

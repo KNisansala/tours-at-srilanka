@@ -50,7 +50,7 @@ if (isset($_GET['id'])) {
                     <ul class="page-list">
                         <li><a href="index.php">Home</a></li>
                         <li><a href="activities.php">Activities</a></li>
-                        <li>Attraction View</li>
+                        <li><?php echo $ACTIVITY->title ?></li>
                     </ul>
                 </div>
             </div>
@@ -59,8 +59,8 @@ if (isset($_GET['id'])) {
                     <div class="row justify-content-center">
                         <div class="col-lg-10">
                             <div class="banner-content text-center">
-                                <h1 class="banner-title">Attraction View</h1>
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's<br/> standard dummy text ever since the 1500s.</p>
+                                <h1 class="banner-title"><?php echo $ACTIVITY->title ?></h1>
+                                <p>This is our enjoyable activities for you.</p>
                             </div>
                         </div>
                     </div>

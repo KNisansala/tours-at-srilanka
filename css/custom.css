@@ -408,21 +408,23 @@ box-shadow: 2px -5px 33px 0px rgba(158,153,158,1);
  margin-bottom: 50px;
 }
 .button-0{
-    margin-left: 59px;
+    /*margin-left: 59px;*/
 }
 .box-details p{
     margin-left: -30px;
 }
-.tourdes{
-  margin-top: 71px;  
-}
-.tourdes:first-child{
-    margin-top: 0px;
-}
 .item-0{
     height: 365px;
 }
-
+.day-section {
+    margin-top: 50px;
+}
+.day-section:first-child {
+    margin-top: 0px;
+}
+.welcome-content p {
+    padding: 1px 35px 0px 0px;
+}
 
 
 
