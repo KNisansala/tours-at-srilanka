@@ -136,7 +136,7 @@ include_once(dirname(__FILE__) . '/class/include.php');
                         <div class="content">
                             <h2 class="section-title">welcome</h2>
                             <p> We have more than ten years well experienced Guides and Tour Drivers. Also our best reward ever can be gained is your highest satisfaction with smile. Our first and most important priority is our customers and we are ready to serve high elegant and superb service. Our passion is to arrange tour and holiday arrangement with large diversity that spread around the country.</p>
-                            <a href="about.php" class="cmn-button">read more</a>
+                            <a href="about.php" class="cmn-button button-0">read more</a>
                         </div>
                     </div>
                     <div class="col-lg-6">
@@ -156,7 +156,7 @@ include_once(dirname(__FILE__) . '/class/include.php');
                         <div class="row justify-content-center">
                             <div class="col-lg-8">
                                 <h2 class="section-title colorl">tour packages</h2>
-                                <p class="colorl">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text</p>
+                                <p class="colorl">We are committed to understanding your idea of a perfect holiday – what you love to do, where you would like to stay and how much you want to travel around the island.</p>
                             </div>
                         </div>
                     </div>
@@ -188,7 +188,7 @@ include_once(dirname(__FILE__) . '/class/include.php');
                                                         ?>
                                                     </p>
 
-                                                    <a href="#" class="cmn-button btn-position">read more</a>
+                                                    <a href="#" class="cmn-button btn-position button-0">read more</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -214,7 +214,7 @@ include_once(dirname(__FILE__) . '/class/include.php');
                     <div class="row justify-content-center">
                         <div class="col-lg-8">
                             <h2 class="section-title">Activities</h2>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text</p>
+                            <p>This is our enjoible activities for you.</p>
                         </div>
                     </div>
                 </div>
@@ -267,7 +267,7 @@ include_once(dirname(__FILE__) . '/class/include.php');
                         <div class="row justify-content-center">
                             <div class="col-lg-8">
                                 <h2 class="section-title colorl">Attraction</h2>
-                                <p class="colorl">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text</p>
+                                <p class="colorl">Get a good experience have an unforgettable journey to the  in Sri Lanka.</p>
                             </div>
                         </div>
                     </div>
@@ -310,7 +310,7 @@ include_once(dirname(__FILE__) . '/class/include.php');
                     <div class="row justify-content-center">
                         <div class="col-lg-8">
                             <h2 class="section-title">customer testimonial</h2>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text</p>
+                            <p>We have many reasons to prove why our customers belive us.</p>
                         </div>
                     </div>
                 </div>
