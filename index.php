@@ -155,7 +155,7 @@ include_once(dirname(__FILE__) . '/class/include.php');
                         <div class="row justify-content-center">
                             <div class="col-lg-8">
                                 <h2 class="section-title colorl">tour packages</h2>
-                                <p class="colorl">We are committed to understanding your idea of a perfect holiday – what you love to do, where you would like to stay and how much you want to travel around the island.</p>
+                                <p class="colorl">Tour At Sri Lanka packages make your dream holiday come true. we offer beautiful and remarkable places and more to pamper tourists from all over the world.</p>
                             </div>
                         </div>
                     </div>
@@ -214,7 +214,9 @@ include_once(dirname(__FILE__) . '/class/include.php');
                     <div class="row justify-content-center">
                         <div class="col-lg-8">
                             <h2 class="section-title">Activities</h2>
-                            <p>This is our enjoible activities for you.</p>
+                            <p> 
+                                Get back to nature with adventure travel in Sri Lanka.We've selected our favourite places for adventure tourism,including the best tours and trips that you can experience on your own holiday.
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -267,7 +269,8 @@ include_once(dirname(__FILE__) . '/class/include.php');
                         <div class="row justify-content-center">
                             <div class="col-lg-8">
                                 <h2 class="section-title colorl">Attraction</h2>
-                                <p class="colorl">Get a good experience have an unforgettable journey to the  in Sri Lanka.</p>
+                                <p class="colorl">
+                                Find travel ideas for planning your holiday to Sri Lanka. Discover things to see and do, places to stay and more Travel makes one modest, you see what a tiny place you occupy in the world.</p>
                             </div>
                         </div>
                     </div>
@@ -289,9 +292,6 @@ include_once(dirname(__FILE__) . '/class/include.php');
 
                                                 <h4 class="teacher-name"><a href="attraction.php?id=<?php echo $info['id']; ?>"><?php echo $info['title']; ?></a></h4>
                                                 <a href="#" class="cmn-button destination-btn">read more</a>
-
-                                                <h4 class="teacher-name"><a href="view-attraction.php?id=<?php echo $info['id']; ?>"><?php echo $info['title']; ?></a></h4>
-                                                <a href="view-attraction.php?id=<?php echo $info['id']; ?>" class="cmn-button destination-btn">read more</a>
 
                                             </div>
                                         </div>
@@ -315,7 +315,7 @@ include_once(dirname(__FILE__) . '/class/include.php');
                     <div class="row justify-content-center">
                         <div class="col-lg-8">
                             <h2 class="section-title">customer testimonial</h2>
-                            <p>We have many reasons to prove why our customers belive us.</p>
+                            <p>Take only memories and share your experiences with Tour At Sri Lanka </p>
                         </div>
                     </div>
                 </div>
