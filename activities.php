@@ -11,8 +11,7 @@ include_once(dirname(__FILE__) . '/class/include.php');
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>Activities || Tours-at-srilanka</title>
         <!-- favicon -->
-        <link rel="shortcut icon" href="logo/logo.png" type="image/x-icon">
-
+        <link rel="shortcut icon" href="images/logo/logo.png" type="image/x-icon">
         <link href="css/fontawesome.min.css" rel="stylesheet" type="text/css"/>
         <link href="css/flaticon.css" rel="stylesheet" type="text/css"/>
         <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
