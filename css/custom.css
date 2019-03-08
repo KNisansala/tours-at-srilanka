@@ -443,7 +443,7 @@ element {
 
 .tptpad{
     padding-top: 6px;
-
+}
 /*.guestcomment{
     padding-top: 97px;
 }*/
@@ -466,9 +466,20 @@ element {
 .guest-img img{
    width: 138px;
 }
+.guest-img {
+    width: 169px;
+}
 .teacher-grid-style-three .teacher-thumb img{
-    height: 137px;
-    width: 137px;
+    height: 184px;
+    width: 176px;
 
+}
+.input-validatar1{
+    width: 101%;
+}
+.profileUpload1{
+    padding-left: 0px;
+    padding-bottom: 17px;
+    width: 101%;
 }
 
