@@ -2,11 +2,11 @@
 
 //----------------------Company Information---------------------
 
-$comany_name = "Tour At Sri Lanka";
-$website_name = "www.touratsrilanka.lk";
+$comany_name = "Tours @ Sri Lanka";
+$website_name = "www.toursatsrilanka.lk";
 $comConNumber = "+94 766367605";
-$comEmail = "info@islandwide.website";
-$from = 'info@islandwide.website';
+$comEmail = "info@toursatsrilanka.com";
+$from = 'info@toursatsrilanka.com';
 
 
 //----------------------CAPTCHACODE---------------------
