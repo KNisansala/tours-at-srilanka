@@ -4,7 +4,7 @@
 
 $comany_name = "Tours @ Sri Lanka";
 $website_name = "www.toursatsrilanka.lk";
-$comConNumber = "+94 766367605";
+$comConNumber = "+94 778310500";
 $comEmail = "info@toursatsrilanka.com";
 $from = 'info@toursatsrilanka.com';
 

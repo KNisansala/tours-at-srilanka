@@ -35,7 +35,7 @@
                                 foreach (TourPackage::all() as $key => $TourPackages) {
                                     if ($key < 6) {
                                         ?>
-                                        <li><a href="#"><i class="fa fa-angle-right"></i>
+                                        <li><a href="view-tour-packages.php?id=<?php echo $TourPackages['id']; ?>"><i class="fa fa-angle-right"></i>
                                                 <?php
                                                 if (strlen($TourPackages['title']) > 18) {
                                                     echo substr($TourPackages['title'], 0, 18) . '...';
