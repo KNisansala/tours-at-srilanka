@@ -342,6 +342,7 @@ include_once(dirname(__FILE__) . '/class/include.php');
                         }
                         ?>
                     </div>
+                    <a href="guest-comment.php" class="cmn-button destination-btn guest-btn">add your comment</a>
                 </div><!-- section-wrapper end -->
             </div>
         </section>

@@ -78,7 +78,7 @@ include_once(dirname(__FILE__) . '/class/include.php');
                                             <i class="fa fa-search" style="font-size:30px;color:#ffff;"></i>
                                         </figcaption>
 
-                                        <img src="upload/photo-album/<?php echo $Gallery['image_name']; ?>" >
+                                        <img src="upload/photo-album/thumb/<?php echo $Gallery['image_name']; ?>" >
                                     </a>
                                 </figure>
                             </div>

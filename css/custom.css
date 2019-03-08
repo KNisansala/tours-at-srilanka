@@ -365,13 +365,13 @@ element {
 
 .services-shadow:hover{
     -webkit-box-shadow: 2px -5px 33px 0px rgba(158,153,158,1);
--moz-box-shadow: 2px -5px 33px 0px rgba(158,153,158,1);
-box-shadow: 2px -5px 33px 0px rgba(158,153,158,1);
+    -moz-box-shadow: 2px -5px 33px 0px rgba(158,153,158,1);
+    box-shadow: 2px -5px 33px 0px rgba(158,153,158,1);
 
 }
 .services-shadow{
     padding: 0px 0px 50px 0px;
-    
+
 }
 .content p{
     text-align: justify;
@@ -379,11 +379,11 @@ box-shadow: 2px -5px 33px 0px rgba(158,153,158,1);
 }
 
 .icon img{
-    
+
 }
 
 .tour-images img{
-  margin-top: -23px;  
+    margin-top: -23px;  
 }
 
 /*.widget-title{
@@ -404,8 +404,8 @@ box-shadow: 2px -5px 33px 0px rgba(158,153,158,1);
 }
 
 .back-img{
- margin-top: 57px;
- margin-bottom: 50px;
+    margin-top: 57px;
+    margin-bottom: 50px;
 }
 .button-0{
     /*margin-left: 59px;*/
@@ -434,7 +434,35 @@ box-shadow: 2px -5px 33px 0px rgba(158,153,158,1);
 .df-button:hover{
     background-color: #ec4e20;
 }
+
 .tptpad{
     padding-top: 6px;
+
+/*.guestcomment{
+    padding-top: 97px;
+}*/
+.form-0{
+    margin-top: 69px;
+}
+.section1{
+    margin-top: 79px;
+}
+.section1 h2{
+    padding-top: 59px;
+}
+.guest-btn{
+    margin-left: 440px;
+    margin-top: 65px; 
+}
+.content-0{
+    padding-bottom: 107px;
+}
+.guest-img img{
+   width: 138px;
+}
+.teacher-grid-style-three .teacher-thumb img{
+    height: 137px;
+    width: 137px;
+
 }
 
