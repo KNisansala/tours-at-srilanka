@@ -117,7 +117,7 @@ ul li, ol li{
     background: #edf1f2;
 }
 .th-bg, .tagcloud a:hover,  .destination-thumb2 figure a::after, .blog-thumb figure::after, .destination-thumb-3 figure, .widget-contact .social li a:hover{
-    background: linear-gradient(#ff8900, #021dff);
+    background: #76b8f9
 }
 .df-button:hover{
     box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.04);
