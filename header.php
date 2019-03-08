@@ -43,13 +43,13 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav main-menu ml-auto">
                         <li class="menu_has_children"><a href="./">Home</a></li>
-                        <li class="menu_has_children"><a href="about.php">About Us</a>
-                        <li class="menu_has_children"><a href="tour-package.php">Tour Package</a></li>
+                        <li class="menu_has_children"><a href="about.php">About</a>
+                        <li class="menu_has_children"><a href="tour-package.php">Packages</a></li>
                         <li class="menu_has_children"><a href="gallery.php">Gallery</a></li>
                         <li class="menu_has_children"><a href="attraction.php">Attractions</a></li>
                         <li class="menu_has_children"><a href="activities.php">Activities</a></li>
                         <li class="menu_has_children"><a href="service.php">Service</a></li>
-                        <li class="menu_has_children"><a href="contact-us.php">Contact Us</a></li>
+                        <li class="menu_has_children"><a href="contact-us.php">Contact</a></li>
                     </ul>
                 </div>
             </nav>
