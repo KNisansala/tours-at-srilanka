@@ -533,7 +533,15 @@
     .tab-area-style-one .nav-tabs {
         justify-content: center !important;
     }
+
 }
 
 
-
+@media (max-width: 360px) {
+    .course-grid-section {
+        padding-top: 5px;
+    }
+    .rfons{
+        font-size: 18px;
+    }
+}
