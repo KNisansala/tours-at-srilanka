@@ -50,6 +50,7 @@
                         <li class="menu_has_children"><a href="activities.php">Activities</a></li>
                         <li class="menu_has_children"><a href="service.php">Service</a></li>
                         <li class="menu_has_children"><a href="contact-us.php">Contact Us</a></li>
+                    </ul>
                 </div>
             </nav>
         </div>

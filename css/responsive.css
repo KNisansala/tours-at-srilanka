@@ -458,6 +458,16 @@
     .item-0 {
         height: 450px;
     }
+    .teacher-thumb {
+        text-align: center;
+        padding: 20px;
+    }
+    .teacher-thumb img {
+        border-radius: 50%;
+    }
+    .teacher-designation, .teacher-name {
+        /*text-align: center;*/
+    }
 
 }
 

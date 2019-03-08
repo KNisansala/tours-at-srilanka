@@ -136,7 +136,7 @@ include_once(dirname(__FILE__) . '/class/include.php');
                                     <?php
                                     include ("./contact-us-form/captchacode-widget.php");
                                     ?>
-                                    <img id="checking"src="contact-us-form/img/checking.gif" alt=""/>
+                                    <img id="checking" src="contact-us-form/img/checking.gif" alt=""/>
                                     <div class="col-md-12">
                                         <div class="frm-group">
                                             <button type="submit" id="btnSubmit" class="cmn-button con-button">send message</button>
