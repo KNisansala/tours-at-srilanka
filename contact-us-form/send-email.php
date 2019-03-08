@@ -32,7 +32,7 @@ $message = $_POST['message'];
 $captchacode = $_POST['captchacode'];
 
 
-//$subject = 'New Website Enquiry - Booking';
+$email_subject = 'Contact Us Message - Tours @ Sri Lanka';
 
 
 date_default_timezone_set('Asia/Colombo');
@@ -58,8 +58,8 @@ $headers2 .= "Content-Type: text/html; charset=ISO-8859-1\r\n";
 // Sending mail
 
 if (
-        mail($comEmail, $subject, $company_message, $headers) &&
-        mail($visitor_email, $subject, $visitor_message, $headers2)) {
+        mail($comEmail, $email_subject, $company_message, $headers) &&
+        mail($visitor_email, $email_subject, $visitor_message, $headers2)) {
 
     $response['status'] = 'correct';
     $response['msg'] = "Your message has been sent successfully";

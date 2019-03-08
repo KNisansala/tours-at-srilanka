@@ -35,7 +35,7 @@ $accommodation = $_POST['accommodation'];
 $captchacode = $_POST['captchacode'];
 
 
-$subject = 'New Website Enquiry - Booking Tour Package';
+$subject = 'Tour Package  Inquiry - Tours @ Sri Lanka';
 
 
 date_default_timezone_set('Asia/Colombo');
