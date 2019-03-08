@@ -34,7 +34,7 @@
 }
 /*------2nd slider------*/
 .index-box-4-container{
-    margin-top: -140px;
+    margin-top: -70px;
     position: relative;
 }
 .container1{
@@ -356,6 +356,12 @@ element {
     padding-top: 100px;
 
     padding-bottom: 100px;
+}
+
+.ptobo2{
+    padding-top: 40px;
+
+    padding-bottom: 40px;
 }
 
 .short-links-list .widget-links-list {
