@@ -129,7 +129,7 @@ include_once(dirname(__FILE__) . '/class/include.php');
 
         <!-- about-section start -->
         <section class="about-section ">
-            <div class="container ptobo">
+            <div class="container ptobo2">
                 <div class="row">
                     <div class="col-lg-6">
                         <div class="content welcome-content">
@@ -147,7 +147,7 @@ include_once(dirname(__FILE__) . '/class/include.php');
                 </div>
             </div>
         </section>
-        <section class="course-section section-padding">
+        <section class="course-section section-padding pt">
             <div class="parallax-img container-fluid-img">
                 <div class="container ptobo">
 
