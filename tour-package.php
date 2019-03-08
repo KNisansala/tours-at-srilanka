@@ -66,7 +66,7 @@ include_once(dirname(__FILE__) . '/class/include.php');
         <!-- banner-section end -->
 
         <!-- course-grid-section start -->
-        <section class="course-grid-section section-bg">
+        <section class="course-grid-section section-bg tptpad">
             <div class="container">
                 <div class="course-grid-wrapper">
                     <div class="row mt-mb-15 course-grid-block">
@@ -80,7 +80,7 @@ include_once(dirname(__FILE__) . '/class/include.php');
                                         <a href="#"><img src="upload/tour-package/<?php echo $TourPackages['image_name']; ?>"></a>
                                     </div>
                                     <div class="course-content">
-                                        <h5 class="course-title"><a href="view-tour-packages.php?id=<?php echo $TourPackages['id']; ?>">
+                                        <h5 class="course-title"><a class="rfons" href="view-tour-packages.php?id=<?php echo $TourPackages['id']; ?>">
 
                                                 <?php
                                                 if (strlen($TourPackages['title']) > 25) {
@@ -97,8 +97,8 @@ include_once(dirname(__FILE__) . '/class/include.php');
                                         <p>
 
                                             <?php
-                                            if (strlen($TourPackages['short_description']) > 130) {
-                                                echo substr($TourPackages['short_description'], 0, 130) . '...';
+                                            if (strlen($TourPackages['short_description']) > 105) {
+                                                echo substr($TourPackages['short_description'], 0, 105) . '...';
                                             } else {
                                                 echo $TourPackages['short_description'];
                                             }

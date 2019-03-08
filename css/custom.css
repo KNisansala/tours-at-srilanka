@@ -434,5 +434,7 @@ box-shadow: 2px -5px 33px 0px rgba(158,153,158,1);
 .df-button:hover{
     background-color: #ec4e20;
 }
-
+.tptpad{
+    padding-top: 6px;
+}
 
