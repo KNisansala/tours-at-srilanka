@@ -1933,7 +1933,8 @@ div[class*="single-item-style"] .content p {
     -moz-transform: translateY(0);
     -ms-transform: translateY(0);
     -o-transform: translateY(0);
-    padding: 213px 0;
+    padding: 125px 0;
+    /*padding: 213px 0;*/
 }
 /* single-banner css end */
 

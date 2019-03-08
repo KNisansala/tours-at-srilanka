@@ -45,7 +45,7 @@ $visitor_message = '<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//E
                                 </table></td>
                         </tr>
                         <tr>
-                            <td align="center">
+                           <td align="center">
                                 <img src="' . $site_link . '/contact-us-form/img/sli6.gif" alt="" width="598" height="323" border="0"/>
                             </td>
                         </tr>
@@ -56,7 +56,7 @@ $visitor_message = '<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//E
                                         <td width="2%">&nbsp;</td>
                                         <td width="96%" align="center" style="border-bottom:1px solid #000000" height="50">
                                             <font style="font-family: Verdana, Geneva, sans-serif; color:#1400FF; font-size:18px; " >
-                                                   <h4>Website Enquiry - ' . $comany_name . '</h4>
+                                                   <h4> Contact Us  Message- ' . $comany_name . '</h4>
                                             </font>
                                         </td>
                                         <td width="2%">&nbsp;</td>
@@ -153,9 +153,7 @@ $visitor_message = '<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//E
                         <tr>
                             <td>&nbsp;</td>
                         </tr>
-                        <tr>
-                            <td><img src="' . $site_link . '/PROMO-GREEN2_02/img/PROMO-GREEN2_07.jpg" width="598" height="7" style="display:block" border="0" alt=""/></td>
-                        </tr>
+                       
                         <tr>
                             <td>&nbsp;</td>
                         </tr>
@@ -238,7 +236,7 @@ $company_message = '
                                         <td width="2%">&nbsp;</td>
                                         <td width="96%" align="center" style="border-bottom:1px solid #000000" height="50">
                                             <font style="font-family: Verdana, Geneva, sans-serif; color:#1400FF; font-size:18px; " >
-                                                   <h4>Website Enquiry - ' . $comany_name . '</h4>
+                                                   <h4> ' . $subject . '</h4>
                                             </font>
                                         </td>
                                         <td width="2%">&nbsp;</td>
@@ -302,12 +300,6 @@ $company_message = '
                                                     </font>
                                                 </li>
                                                 
-                                                 <li>
-                                                    <font style="font-family: Verdana, Geneva, sans-serif; color:#68696a; font-size:14px; " >
-                                                         Subject : ' . $subject . '
-                                                    </font>
-                                                </li>
-                                                
 
                                             </ul>
                                         </td>
@@ -337,9 +329,7 @@ $company_message = '
                         <tr>
                             <td>&nbsp;</td>
                         </tr>
-                        <tr>
-                            <td><img src="' . $site_link . '/contact-us-form/img/PROMO-GREEN2_07.jpg" width="598" height="7" style="display:block" border="0" alt=""/></td>
-                        </tr>
+                        
                         <tr>
                             <td>&nbsp;</td>
                         </tr>

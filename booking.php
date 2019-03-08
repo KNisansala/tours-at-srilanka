@@ -99,7 +99,7 @@ $TOUR = new TourPackage($tour);
                                                 <?php
                                                 foreach (TourPackage::all() as $tour_package) {
                                                     ?>
-                                                    <option  value='<?php echo $tour_package['id']; ?>' <?php
+                                                    <option  value='<?php echo $tour_package['title']; ?>' <?php
                                                     if ($tour_package['id'] === $tour) {
                                                         echo 'selected="TRUE"';
                                                     };
