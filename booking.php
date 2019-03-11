@@ -13,6 +13,8 @@ $TOUR = new TourPackage($tour);
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Thank you for contacting us. We will respond to your inquiry as soon as we can.">
+        <meta name="keywords" content="booking in sri lanka,Booking with tour at sri lanka">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>Booking || Tours-at-srilanka</title>
         <!-- favicon -->
@@ -75,7 +77,7 @@ $TOUR = new TourPackage($tour);
                     <div class="col-lg-12">
                         <div class="contact-form-area form-area">
                             <h4 class="form-title">Inquiry Now</h4>
-                            
+
                             <div class="contact-form form-style-one">
                                 <div class="row">
                                     <div class="col-md-6">

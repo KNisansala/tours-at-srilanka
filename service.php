@@ -8,6 +8,8 @@ include_once(dirname(__FILE__) . '/class/include.php');
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <meta name="description" content="Always begin with us and we can better serve to you">
+        <meta name="keywords" content="Tours at Sri Lanka services, services in tour at sri lanka">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>Services || Tours-at-srilanka</title>
         <!-- favicon -->

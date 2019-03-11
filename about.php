@@ -8,7 +8,9 @@ include_once(dirname(__FILE__) . '/class/include.php');
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="description" content="We have more than ten years well experienced Guides and Tour Drivers. Also our best reward ever can be gained is your highest satisfaction with smile. Our first and most important priority is our customers and we are ready to serve high elegant and superb service. Our passion is to arrange tour and holiday arrangement with large diversity that spread around the country.">
+        <meta name="keywords" content="Tour At Sri Lanka,About Tour At Sri Lanka,Tour @ Sri Lanka">
+             <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>About Us || Tours-at-srilanka</title>
         <!-- favicon -->
         <link rel="shortcut icon" href="images/logo/logo.png" type="image/x-icon">
