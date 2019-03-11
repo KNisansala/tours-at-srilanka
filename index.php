@@ -8,6 +8,8 @@ include_once(dirname(__FILE__) . '/class/include.php');
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="We have more than ten years well experienced Guides and Tour Drivers. Also our best reward ever can be gained is your highest satisfaction with smile. Our first and most important priority is our customers and we are ready to serve high elegant and superb service. Our passion is to arrange tour and holiday arrangement with large diversity that spread around the country.">
+        <meta name="keywords" content="Tour At Sri Lanka,Tour @ Sri Lanka ,Travel sri lanka,Tour With Sri Lanka,Hike Sri lanka,Most popular Attractios,Excellent Tour Packages in Sri Lanka,Tour At Sri Lanka Tour Packages,Activities,One Day Tours">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title> Home Page | Tours-at-srilanka</title>
         <!-- favicon -->
@@ -270,7 +272,7 @@ include_once(dirname(__FILE__) . '/class/include.php');
                             <div class="col-lg-8">
                                 <h2 class="section-title colorl">Attraction</h2>
                                 <p class="colorl">
-                                Find travel ideas for planning your holiday to Sri Lanka. Discover things to see and do, places to stay and more Travel makes one modest, you see what a tiny place you occupy in the world.</p>
+                                    Find travel ideas for planning your holiday to Sri Lanka. Discover things to see and do, places to stay and more Travel makes one modest, you see what a tiny place you occupy in the world.</p>
                             </div>
                         </div>
                     </div>
