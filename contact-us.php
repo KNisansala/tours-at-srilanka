@@ -6,6 +6,8 @@ include_once(dirname(__FILE__) . '/class/include.php');
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <meta name="description" content="That is the importnt item for you in our company. This is a our good services.">
+        <meta name="keywords" content="Tour at Sri Lanka,Contact us with tour at sri lanka,tour at sri lanka contacts ">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>Contact us || Tours-at-srilanka</title>
         <!-- favicon -->
