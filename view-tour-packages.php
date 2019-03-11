@@ -18,8 +18,7 @@ $tour_dates = TourDate::getTourDatesById($id);
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
          <meta name="description" content="Tour At Sri Lanka is the best Way for the gusts who looking extraordinary travel experience with perfectly match their desires">
-        <meta name="keywords" content="Tour At Sri Lanka Tour Packages, Tour Packages<?php foreach (TourPackage::all() as $AllTour) { ?><?php echo ",";
-    echo $AllTour['title']; ?> <?php } ?>. ">
+        <meta name="keywords" content="Tour At Sri Lanka Tour Packages, Tour Packages<?php foreach (Attraction::all() as $Attr) { echo "," . $Attr['title']; } ?> ">
         <title>View Attractions || Tours-at-srilanka</title>
         <!-- favicon -->
         <link rel="shortcut icon" href="images/logo/logo.png" type="image/x-icon">
