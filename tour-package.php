@@ -9,6 +9,8 @@ include_once(dirname(__FILE__) . '/class/include.php');
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
+         <meta name="description" content="Tour at Sri Lanka is the best Way for the gusts who looking extraordinary travel experience with perfectly match their desires">
+        <meta name="keywords" content="Tour At Sri Lanka Tour Packages, Tour Packages<?php foreach (TourPackage::all() as $AllTour) { ?><?php echo ","; echo $AllTour['title']; ?> <?php } ?>. ">
         <title>Tour Package || Tours-at-srilanka</title>
         <!-- favicon -->
         <link rel="shortcut icon" href="images/logo/logo.png" type="image/x-icon">

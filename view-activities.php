@@ -15,6 +15,8 @@ if (isset($_GET['id'])) {
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="description" content="Scuba diving is one of fastest growing sports in the world. Sri Lanka is a paradise for scuba divings lovers. The bio diversity of Sri Lanka will leave you wondering what more our Emerald Island has to offer">
+        <meta name="keywords" content="Tour At Sri Lanka activities,activities<?php foreach (Activities::all() as $AllActi) { ?><?php  echo ",";      echo $AllActi['title'];    ?> <?php } ?>. ">
         <title>View-Activities || Tours-at-srilanka</title>
         <!-- favicon -->
         <link rel="shortcut icon" href="images/logo/logo.png" type="image/x-icon">

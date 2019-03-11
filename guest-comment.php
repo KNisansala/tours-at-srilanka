@@ -11,7 +11,7 @@ if (!isset($_SESSION)) {
         <meta charset="UTF-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         <meta name="description" content="This trip was easily the trip of a lifetime for our family of four, and it will be quite some time before we stop talking about it!!  We have a done a lot of travel with our children alongside us">
-        <meta name="keywords" content="Round Tours Sri Lanka Gust Comment,Gust Comment in Round Tour Sri Lanka,Gust Comment">
+        <meta name="keywords" content="Tours at Sri Lanka Gust Comment,Gust Comment in  Tour at Sri Lanka,Gust Comment">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Guest Comment||Tours-at-srilanka</title>
         <!-- Google Fonts Includes -->

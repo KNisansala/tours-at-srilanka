@@ -8,6 +8,8 @@ include_once(dirname(__FILE__) . '/class/include.php');
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Get back to nature with adventure travel in Sri Lanka.We've selected our favourite places for adventure tourism,including the best tours and trips that you can experience on your own holiday.">
+        <meta name="keywords" content="Tour at Sri lanka activities,Activities in sri lanka,activities with tour at sri lanka">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>Activities || Tours-at-srilanka</title>
         <!-- favicon -->
