@@ -105,8 +105,6 @@ include_once(dirname(__FILE__) . '/class/include.php');
             </span>
         </div>
         <!-- scroll-to-top end -->
-
-
         <script src="js/jquery-3.3.1.min.js"></script>
         <!-- bootstrap js link -->
         <script src="js/bootstrap.bundle.js"></script>
@@ -127,10 +125,16 @@ include_once(dirname(__FILE__) . '/class/include.php');
         <script src="js/goolg-map-activate.js"></script>
         <!-- main js link -->
         <script src="js/main.js"></script>
-
         <!-- Magnific popup js -->
         <script src="js/jquery.magnific-popup.min.js"></script>
         <script src="fancybox-master/js/jquery.fancybox.min.js" type="text/javascript"></script>
+        <script async src="https://www.jscache.com/wejs?wtype=selfserveprop&amp;uniq=649&amp;locationId=13147684&amp;lang=en_US&amp;rating=true&amp;nreviews=4&amp;writereviewlink=true&amp;popIdx=true&amp;iswide=true&amp;border=true&amp;display_version=2" data-loadtrk onload="this.loadtrk = true"></script>
+        <script type="text/javascript">
+            function googleTranslateElementInit() {
+                new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE, autoDisplay: false}, 'google_translate_element');
+            }
+        </script>
+        <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit" type="text/javascript"></script>
     </body>
 
 </html>

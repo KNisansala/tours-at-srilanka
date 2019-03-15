@@ -16,7 +16,9 @@ if (isset($_GET['id'])) {
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <meta name="description" content="Scuba diving is one of fastest growing sports in the world. Sri Lanka is a paradise for scuba divings lovers. The bio diversity of Sri Lanka will leave you wondering what more our Emerald Island has to offer">
-        <meta name="keywords" content="Tour At Sri Lanka activities,activities<?php foreach (Activities::all() as $Activi) { echo "," . $Activi['title']; } ?> ">
+        <meta name="keywords" content="Tour At Sri Lanka activities,activities<?php foreach (Activities::all() as $Activi) {
+    echo "," . $Activi['title'];
+} ?> ">
         <title>View-Activities || Tours-at-srilanka</title>
         <!-- favicon -->
         <link rel="shortcut icon" href="images/logo/logo.png" type="image/x-icon">
@@ -43,7 +45,7 @@ if (isset($_GET['id'])) {
         <!-- preloader end -->
 
         <!--  header-section start  -->
-        <?php include './header.php'; ?>
+<?php include './header.php'; ?>
         <!--  header-section end  -->
 
         <section class="single-banner about-banner">
@@ -96,7 +98,7 @@ if (isset($_GET['id'])) {
                                     <?php echo $ACTIVITY->title; ?>
                                 </h3>
                                 <p>
-                                    <?php echo $ACTIVITY->description; ?>
+<?php echo $ACTIVITY->description; ?>
                                 </p>
                             </div>
                         </div>
@@ -118,7 +120,7 @@ if (isset($_GET['id'])) {
                                                 <div class="post-content">
                                                     <h6 class="post-title">
                                                         <a href="view-activities.php?id=<?php echo $AllActivities['id']; ?>">    
-                                                            <?php echo $AllActivities['title']; ?>
+        <?php echo $AllActivities['title']; ?>
                                                         </a>
                                                     </h6>
                                                     <p> 
@@ -150,7 +152,7 @@ if (isset($_GET['id'])) {
         </section>
         <!-- blog-grid-section end -->
         <!-- footer-section start -->
-        <?php include './footer.php'; ?>
+<?php include './footer.php'; ?>
         <!-- footer-section end -->
 
         <!-- scroll-to-top start -->
@@ -189,7 +191,13 @@ if (isset($_GET['id'])) {
         <script src="rs-plugin/js/custom.js" type="text/javascript"></script>
         <script src="rs-plugin/js/on3step.js" type="text/javascript"></script>
         <script src="js/custome.js" type="text/javascript"></script>
-
+        <script async src="https://www.jscache.com/wejs?wtype=selfserveprop&amp;uniq=649&amp;locationId=13147684&amp;lang=en_US&amp;rating=true&amp;nreviews=4&amp;writereviewlink=true&amp;popIdx=true&amp;iswide=true&amp;border=true&amp;display_version=2" data-loadtrk onload="this.loadtrk = true"></script>
+        <script type="text/javascript">
+            function googleTranslateElementInit() {
+                new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE, autoDisplay: false}, 'google_translate_element');
+            }
+        </script>
+        <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit" type="text/javascript"></script>
     </body>
 
 </html>

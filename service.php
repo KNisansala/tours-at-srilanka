@@ -9,7 +9,9 @@ include_once(dirname(__FILE__) . '/class/include.php');
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="Always begin with us and we can better serve to you">
-        <meta name="keywords" content="Tours at Sri Lanka services, services in tour at sri lanka,<?php foreach (Service::all() as $ser) { echo "," . $ser['title']; } ?> ">
+        <meta name="keywords" content="Tours at Sri Lanka services, services in tour at sri lanka,<?php foreach (Service::all() as $ser) {
+    echo "," . $ser['title'];
+} ?> ">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>Services || Tours-at-srilanka</title>
         <!-- favicon -->
@@ -36,7 +38,7 @@ include_once(dirname(__FILE__) . '/class/include.php');
         <!-- preloader end -->
 
         <!--  header-section start  -->
-        <?php include './header.php'; ?>
+<?php include './header.php'; ?>
         <!--  header-section end  -->
         <section class="single-banner about-banner">
             <div class="page-breadcums">
@@ -88,7 +90,7 @@ include_once(dirname(__FILE__) . '/class/include.php');
         </section>
 
         <!-- footer-section start -->
-        <?php include './footer.php'; ?>
+<?php include './footer.php'; ?>
         <!-- footer-section end -->
 
         <!-- scroll-to-top start -->
@@ -126,6 +128,13 @@ include_once(dirname(__FILE__) . '/class/include.php');
         <script src="rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
         <script src="rs-plugin/js/custom.js" type="text/javascript"></script>
         <script src="rs-plugin/js/on3step.js" type="text/javascript"></script>
+        <script async src="https://www.jscache.com/wejs?wtype=selfserveprop&amp;uniq=649&amp;locationId=13147684&amp;lang=en_US&amp;rating=true&amp;nreviews=4&amp;writereviewlink=true&amp;popIdx=true&amp;iswide=true&amp;border=true&amp;display_version=2" data-loadtrk onload="this.loadtrk = true"></script>
+        <script type="text/javascript">
+            function googleTranslateElementInit() {
+                new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE, autoDisplay: false}, 'google_translate_element');
+            }
+        </script>
+        <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit" type="text/javascript"></script>
 
     </body>
 
