@@ -17,8 +17,10 @@ $tour_dates = TourDate::getTourDatesById($id);
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
-         <meta name="description" content="Tour At Sri Lanka is the best Way for the gusts who looking extraordinary travel experience with perfectly match their desires">
-        <meta name="keywords" content="Tour At Sri Lanka Tour Packages, Tour Packages<?php foreach (Attraction::all() as $Attr) { echo "," . $Attr['title']; } ?> ">
+        <meta name="description" content="Tour At Sri Lanka is the best Way for the gusts who looking extraordinary travel experience with perfectly match their desires">
+        <meta name="keywords" content="Tour At Sri Lanka Tour Packages, Tour Packages<?php foreach (Attraction::all() as $Attr) {
+    echo "," . $Attr['title'];
+} ?> ">
         <title>View Attractions || Tours-at-srilanka</title>
         <!-- favicon -->
         <link rel="shortcut icon" href="images/logo/logo.png" type="image/x-icon">
@@ -45,7 +47,7 @@ $tour_dates = TourDate::getTourDatesById($id);
         <!-- preloader end -->
 
         <!--  header-section start  -->
-        <?php include './header.php'; ?>
+<?php include './header.php'; ?>
         <!--  header-section end  -->
 
         <section class="single-banner about-banner">
@@ -91,7 +93,7 @@ $tour_dates = TourDate::getTourDatesById($id);
 
                                     <span class ="hearderline"></span>
                                     <p>
-                                        <?php echo $tour_date['description']; ?>
+    <?php echo $tour_date['description']; ?>
                                     </p>
                                 </div>
 
@@ -187,7 +189,7 @@ $tour_dates = TourDate::getTourDatesById($id);
         <!-- blog-grid-section end -->
 
         <!-- footer-section start -->
-        <?php include './footer.php'; ?>
+<?php include './footer.php'; ?>
         <!-- footer-section end -->
 
         <!-- scroll-to-top start -->
@@ -225,8 +227,13 @@ $tour_dates = TourDate::getTourDatesById($id);
         <script src="rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
         <script src="fancybox-master/js/jquery.fancybox.min.js" type="text/javascript"></script>
         <script src="rs-plugin/js/custom.js" type="text/javascript"></script>
-
-
+        <script async src="https://www.jscache.com/wejs?wtype=selfserveprop&amp;uniq=649&amp;locationId=13147684&amp;lang=en_US&amp;rating=true&amp;nreviews=4&amp;writereviewlink=true&amp;popIdx=true&amp;iswide=true&amp;border=true&amp;display_version=2" data-loadtrk onload="this.loadtrk = true"></script>
+        <script type="text/javascript">
+            function googleTranslateElementInit() {
+                new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE, autoDisplay: false}, 'google_translate_element');
+            }
+        </script>
+        <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit" type="text/javascript"></script>
     </body>
 
 </html>

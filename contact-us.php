@@ -6,12 +6,12 @@ include_once(dirname(__FILE__) . '/class/include.php');
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-         <meta name="description" content="That is the importnt item for you in our company. This is a our good services.">
+        <meta name="description" content="That is the importnt item for you in our company. This is a our good services.">
         <meta name="keywords" content="Tour at Sri Lanka,Contact us with tour at sri lanka,tour at sri lanka contacts ">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>Contact us || Tours-at-srilanka</title>
         <!-- favicon -->
-         <link rel="shortcut icon" href="images/logo/logo.png" type="image/x-icon">
+        <link rel="shortcut icon" href="images/logo/logo.png" type="image/x-icon">
         <link href="css/fontawesome.min.css" rel="stylesheet" type="text/css"/>
         <link href="css/flaticon.css" rel="stylesheet" type="text/css"/>
         <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
@@ -87,7 +87,7 @@ include_once(dirname(__FILE__) . '/class/include.php');
                                 <div class="icon">
                                     <i class="fa fa-map-marker"></i>
                                 </div>
-                                <div class="content box-details">
+                                <div class="content address box-details">
                                     <span class="title">location</span>
                                     <p>32, Yaddehimulla Rd,Unawatuna.</p>
                                 </div>
@@ -97,7 +97,7 @@ include_once(dirname(__FILE__) . '/class/include.php');
                     <div class="col-lg-8">
                         <div class="contact-form-area form-area">
                             <h4 class="form-title">Send message</h4>
-                           <div class="contact-form form-style-one">
+                            <div class="contact-form form-style-one">
                                 <div class="row">
                                     <div class="col-md-6">
                                         <div class="frm-group">
@@ -161,7 +161,7 @@ include_once(dirname(__FILE__) . '/class/include.php');
                     <div class="row justify-content-center">
                         <div class="col-lg-8">
                             <h2 class="section-title">Find Us on Google Maps</h2>
-                       </div>
+                        </div>
                     </div>
                 </div>
                 <div class="section-wrapper">
@@ -212,6 +212,13 @@ include_once(dirname(__FILE__) . '/class/include.php');
         <script src="rs-plugin/js/on3step.js" type="text/javascript"></script>
         <script src="js/slider.js" type="text/javascript"></script>
         <script src="contact-us-form/scripts.js" type="text/javascript"></script>
+        <script async src="https://www.jscache.com/wejs?wtype=selfserveprop&amp;uniq=649&amp;locationId=13147684&amp;lang=en_US&amp;rating=true&amp;nreviews=4&amp;writereviewlink=true&amp;popIdx=true&amp;iswide=true&amp;border=true&amp;display_version=2" data-loadtrk onload="this.loadtrk = true"></script>
+        <script type="text/javascript">
+            function googleTranslateElementInit() {
+                new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE, autoDisplay: false}, 'google_translate_element');
+            }
+        </script>
+        <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit" type="text/javascript"></script>
     </body>
 
 </html>

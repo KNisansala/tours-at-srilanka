@@ -464,7 +464,7 @@ element {
     padding-bottom: 107px;
 }
 .guest-img img{
-   width: 138px;
+    width: 138px;
 }
 .guest-img {
     width: 169px;
@@ -481,5 +481,8 @@ element {
     padding-left: 0px;
     padding-bottom: 17px;
     width: 101%;
+}
+.address p{
+    text-align: left;
 }
 

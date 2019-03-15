@@ -10,7 +10,7 @@ include_once(dirname(__FILE__) . '/class/include.php');
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="We have more than ten years well experienced Guides and Tour Drivers. Also our best reward ever can be gained is your highest satisfaction with smile. Our first and most important priority is our customers and we are ready to serve high elegant and superb service. Our passion is to arrange tour and holiday arrangement with large diversity that spread around the country.">
         <meta name="keywords" content="Tour At Sri Lanka,About Tour At Sri Lanka,Tour @ Sri Lanka">
-             <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>About Us || Tours-at-srilanka</title>
         <!-- favicon -->
         <link rel="shortcut icon" href="images/logo/logo.png" type="image/x-icon">
@@ -82,104 +82,111 @@ include_once(dirname(__FILE__) . '/class/include.php');
             </div>
         </section>
 
-                <!-- welcome-section start -->
-                <section class="welcome-section section-padding section-bg">
-                    <div class="container paddingtop">
-                        <div class="section-header text-center">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-8">
-                                    <h2 class="section-title">This is our Company important</h2>
-                                    <p>Understand to achieve anything requires faith and belief in yourself.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="section-wrapper">
-                            <div class="row mt-mb-15 justify-content-center">
-                                <div class="col-lg-4 col-md-6">
-                                    <div class="single-item-style-four item-0">
-                                        <div class="single-item-head d-flex align-items-center">
-                                            <div class="icon"><i class="fa fa-eye"></i></div>
-                                            <h5 class="item-title">Vision</h5>
-                                        </div>
-                                        <div class="content">
-
-                                            <p>To assist the travelers, gain the most out of their coverage and give a customer service with a smile</p>
-                                        </div>
-                                    </div>
-                                </div><!--benefits-item end -->
-                                <div class="col-lg-4 col-md-6">
-                                    <div class="single-item-style-four item-0">
-                                        <div class="single-item-head d-flex align-items-center">
-                                            <div class="icon"><i class="fa fa-rocket"></i></div>
-                                            <h5 class="item-title">Mission</h5>
-                                        </div>
-                                        <div class="content">
-
-                                            <p>Being a knowledgeable and experienced would help ascertaining travelers believes, Keep them totally satisfied.we strive to do our best, and are committed to ensuring a dream travel to all our guests.
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div><!--benefits-item end -->
-                                <div class="col-lg-4 col-md-6">
-                                    <div class="single-item-style-four item-0">
-                                        <div class="single-item-head d-flex align-items-center">
-                                            <div class="icon"><i class="fa fa-handshake-o"></i></div>
-                                            <h5 class="item-title">Value</h5>
-                                        </div>
-                                        <div class="content">
-
-                                            <p>get a happy comment for our service in a guests.and get a good name  for tour services</p>
-                                        </div>
-                                    </div>
-                                </div><!--benefits-item end -->
-                            </div>
+        <!-- welcome-section start -->
+        <section class="welcome-section section-padding section-bg">
+            <div class="container paddingtop">
+                <div class="section-header text-center">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <h2 class="section-title">This is our Company important</h2>
+                            <p>Understand to achieve anything requires faith and belief in yourself.</p>
                         </div>
                     </div>
-                </section>
-                <!-- welcome-section end -->
-
-                
-
-                <!-- footer-section start -->
-                <?php include './footer.php'; ?>
-                <!-- footer-section end -->
-
-                <!-- scroll-to-top start -->
-                <div class="scroll-to-top">
-                    <span class="scroll-icon">
-                        <i class="fa fa-rocket" aria-hidden="true"></i>
-                    </span>
                 </div>
-                <!-- scroll-to-top end -->
+                <div class="section-wrapper">
+                    <div class="row mt-mb-15 justify-content-center">
+                        <div class="col-lg-4 col-md-6">
+                            <div class="single-item-style-four item-0">
+                                <div class="single-item-head d-flex align-items-center">
+                                    <div class="icon"><i class="fa fa-eye"></i></div>
+                                    <h5 class="item-title">Vision</h5>
+                                </div>
+                                <div class="content">
 
-                <!-- jquery js link -->
-                <script src="rs-plugin/js/pluginson3step.js" type="text/javascript"></script>
-                <!--<script src="js/jquery-3.3.1.min.js"></script>-->
-                <!-- bootstrap js link -->
-                <script src="rs-plugin/js/plugin-set.js" type="text/javascript"></script>
-                <script src="js/bootstrap.bundle.js"></script>
-                <script src="js/bootstrap.min.js"></script>
-                <!-- owl carousel js link -->
-                <script src="js/owl.carousel.min.js"></script>
-                <!-- lightcase js link -->
-                <script src="js/lightcase.js"></script>
-                <!-- waypoints js link -->
-                <script src="js/jquery.waypoints.min.js"></script>
-                <!-- countup js link -->
-                <script src="js/jquery.countup.min.js"></script>
-                <!-- circle-progress js link -->
-                <script src="js/circle-progress.min.js"></script>
-                <!-- countdown js link -->
-                <script src="js/jquery.countdown.js"></script>
-                <!-- goolg-map-activate js link -->
-                <script src="js/goolg-map-activate.js"></script>
-                <!-- main js link -->
-                <script src="js/main.js"></script>
-                <script src="rs-plugin/js/jquery.themepunch.tools.min.js"></script>
-                <script src="rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
-                <script src="rs-plugin/js/custom.js" type="text/javascript"></script>
-                <script src="rs-plugin/js/on3step.js" type="text/javascript"></script>
+                                    <p>To assist the travelers, gain the most out of their coverage and give a customer service with a smile</p>
+                                </div>
+                            </div>
+                        </div><!--benefits-item end -->
+                        <div class="col-lg-4 col-md-6">
+                            <div class="single-item-style-four item-0">
+                                <div class="single-item-head d-flex align-items-center">
+                                    <div class="icon"><i class="fa fa-rocket"></i></div>
+                                    <h5 class="item-title">Mission</h5>
+                                </div>
+                                <div class="content">
 
-                </body>
+                                    <p>Being a knowledgeable and experienced would help ascertaining travelers believes, Keep them totally satisfied.we strive to do our best, and are committed to ensuring a dream travel to all our guests.
+                                    </p>
+                                </div>
+                            </div>
+                        </div><!--benefits-item end -->
+                        <div class="col-lg-4 col-md-6">
+                            <div class="single-item-style-four item-0">
+                                <div class="single-item-head d-flex align-items-center">
+                                    <div class="icon"><i class="fa fa-handshake-o"></i></div>
+                                    <h5 class="item-title">Value</h5>
+                                </div>
+                                <div class="content">
 
-                </html>
+                                    <p>get a happy comment for our service in a guests.and get a good name  for tour services</p>
+                                </div>
+                            </div>
+                        </div><!--benefits-item end -->
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- welcome-section end -->
+
+
+
+        <!-- footer-section start -->
+        <?php include './footer.php'; ?>
+        <!-- footer-section end -->
+
+        <!-- scroll-to-top start -->
+        <div class="scroll-to-top">
+            <span class="scroll-icon">
+                <i class="fa fa-rocket" aria-hidden="true"></i>
+            </span>
+        </div>
+        <!-- scroll-to-top end -->
+
+        <!-- jquery js link -->
+        <script src="rs-plugin/js/pluginson3step.js" type="text/javascript"></script>
+        <!--<script src="js/jquery-3.3.1.min.js"></script>-->
+        <!-- bootstrap js link -->
+        <script src="rs-plugin/js/plugin-set.js" type="text/javascript"></script>
+        <script src="js/bootstrap.bundle.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <!-- owl carousel js link -->
+        <script src="js/owl.carousel.min.js"></script>
+        <!-- lightcase js link -->
+        <script src="js/lightcase.js"></script>
+        <!-- waypoints js link -->
+        <script src="js/jquery.waypoints.min.js"></script>
+        <!-- countup js link -->
+        <script src="js/jquery.countup.min.js"></script>
+        <!-- circle-progress js link -->
+        <script src="js/circle-progress.min.js"></script>
+        <!-- countdown js link -->
+        <script src="js/jquery.countdown.js"></script>
+        <!-- goolg-map-activate js link -->
+        <script src="js/goolg-map-activate.js"></script>
+        <!-- main js link -->
+        <script src="js/main.js"></script>
+        <script src="rs-plugin/js/jquery.themepunch.tools.min.js"></script>
+        <script src="rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+        <script src="rs-plugin/js/custom.js" type="text/javascript"></script>
+        <script src="rs-plugin/js/on3step.js" type="text/javascript"></script>
+        <script async src="https://www.jscache.com/wejs?wtype=selfserveprop&amp;uniq=649&amp;locationId=13147684&amp;lang=en_US&amp;rating=true&amp;nreviews=4&amp;writereviewlink=true&amp;popIdx=true&amp;iswide=true&amp;border=true&amp;display_version=2" data-loadtrk onload="this.loadtrk = true"></script>
+        <script type="text/javascript">
+            function googleTranslateElementInit() {
+                new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE, autoDisplay: false}, 'google_translate_element');
+            }
+        </script>
+        <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit" type="text/javascript"></script>
+
+    </body>
+
+</html>

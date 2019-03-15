@@ -172,7 +172,21 @@
     .aboutus{
         margin-top: -1px;
     }
+    /*    .Gtrans {
+        margin-left: -70px;
+        margin-right: 70px;
+    }*/
 
+    .header-company-contact li {
+        margin-right: 2px;
+    }
+    .Gtrans {
+        margin-left: -135px;
+        margin-right: -45px;
+    }
+    .goog-te-gadget-simple .goog-te-menu-value span {
+        font-size: 14px;
+    }
 
 }
 @media (max-width: 767px) {
@@ -468,6 +482,10 @@
     .teacher-designation, .teacher-name {
         /*text-align: center;*/
     }
+    .Gtrans {
+        margin-left: 99px;
+        margin-right: -24px;
+    }
 
 }
 
@@ -538,6 +556,10 @@
     .banner-content-area .select-option-box-area {
         display: none;
     }
+    .Gtrans {
+    margin-left: 132px;
+    margin-right: -24px;
+}
 }
 @media (max-width: 320px) {
     .tab-area-style-one .nav-tabs {
@@ -546,7 +568,12 @@
 
 }
 
-
+@media(max-width:375px){
+    .Gtrans {
+        margin-left: 114px;
+        margin-right: -24px;
+    }
+}
 @media (max-width: 360px) {
     .course-grid-section {
         padding-top: 5px;

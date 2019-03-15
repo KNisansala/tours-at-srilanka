@@ -3,19 +3,27 @@
     <div class="header-top">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-lg-8 col-md-9 col-sm-9">
+                <div class="col-lg-8 col-md-9 col-sm-8">
                     <ul class="header-company-contact">
                         <li><i class="fa fa-phone"></i>0094 778310500</li>
                         <li><i class="fa fa-envelope"></i>info@toursatsrilanka.com</li>
                     </ul>
                 </div>
-                <div class="col-lg-4 col-md-3 col-sm-3">
+                <div class="col-lg-2 col-md-3 col-sm-2 Gtrans ">
+                    <div class="googleTranslater">
+
+                        <li class="row translater"> 
+                            <div id="google_translate_element"></div>
+                        </li>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-3 col-sm-3 ">
                     <ul class="header-user-login-regis">
                         <!--<li><a href="login-account.html">Log in</a></li>-->
 
                         <!--<li><a href="create-account.html">Register</a></li>-->
-                        <li><a href="#"><i class="fa fa-tripadvisor"></i></a></li>
-                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="https://www.tripadvisor.com.ph/13833116" target="_blank"><i class="fa fa-tripadvisor"></i></a></li>
+                        <li><a href="https://www.facebook.com/toursatsrilanka" target="_blank"><i class="fa fa-facebook"></i></a></li>
                         <li><a href="#"><i class="fa fa-instagram"></i></a></li>
                         <li><a href="#"><i class="fa fa-vk"></i></a></li>
                         <li>
