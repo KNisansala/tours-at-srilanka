@@ -166,7 +166,7 @@ include_once(dirname(__FILE__) . '/class/include.php');
                 </div>
                 <div class="section-wrapper">
                     <div class="event-map">
-                        <div id="map" class="map"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3967.8883094613197!2d80.24534641465931!3d6.010071230586419!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae172ee117b1765%3A0x388e5d903f5b1021!2s32+Yaddehimulla+Rd%2C+Unawatuna!5e0!3m2!1sen!2slk!4v1551945046743" width="96%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe></div>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15871.465365346072!2d80.2485248!3d6.0130835!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x88dcf5a640a39e74!2sTours+at+Sri+Lanka+-+Unawatuna!5e0!3m2!1sen!2slk!4v1552896579420" width="96%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
                     </div>
                 </div>
             </div>
