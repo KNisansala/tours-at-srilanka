@@ -17,7 +17,7 @@ $visitor_message = '<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//E
                                         <td width="40"></td>
                                         <td width="144">
                                             <a href= "' . $site_link . '" target="_blank"> '
-        . '<img src="' . $site_link . '/booking-form/img/logo.jpg" border="0" alt=""/>
+        . '<img src="http://drive.google.com/uc?export=view&id=16ORBdnAxaO8_jD4_ANCjgOKH6wqc0_Dt" border="0" alt=""/>
                                             </a>
                                         </td>
                                         <td width="393">
@@ -46,7 +46,7 @@ $visitor_message = '<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//E
                         </tr>
                         <tr>
                             <td align="center">
-                                <img src="' . $site_link . '/booking-form/img/sli6.gif" alt="" width="598" height="323" border="0"/>
+                                <img src="http://drive.google.com/uc?export=view&id=1Ds_9Frh4-qpiDWTwXL4v6pISxRDSupAH" alt="" width="598" height="323" border="0"/>
                             </td>
                         </tr>
                         <tr>
